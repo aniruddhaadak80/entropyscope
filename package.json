@@ -1,0 +1,36 @@
+{
+  "name": "entropyscope",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simulate the future of work — before it happens. A forecasting sandbox with agent-swarm workforce timelines, prediction-market calibration, and time-machine scenario forks.",
+  "workspaces": [
+    "apps/web",
+    "packages/core",
+    "packages/ui",
+    "packages/sdk",
+    "packages/config",
+    "packages/seed"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --filter=web",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:unit": "turbo run test",
+    "e2e": "turbo run e2e",
+    "seed": "bun run packages/seed/seed.ts",
+    "generate": "bun run scripts/generate.ts",
+    "loc": "bun run scripts/loc-count.mjs",
+    "ci": "bun run typecheck && bun run lint && bun run test && bun run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.2",
+    "bun": "^1.3.14",
+    "@biomejs/biome": "^1.9.4",
+    "vitest": "^3.0.0",
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.7.0"
+  },
+  "packageManager": "bun@1.3.14"
+}

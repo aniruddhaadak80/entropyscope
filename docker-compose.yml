@@ -1,0 +1,34 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    depends_on:
+      - agent-service
+    volumes:
+      - ./apps/web:/app/apps/web
+      - ./packages:/app/packages
+
+  agent-service:
+    build:
+      context: ./services/agents
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    command: ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+
+  go-relay:
+    build:
+      context: ./services/relay
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+
+volumes:
+  node_modules:

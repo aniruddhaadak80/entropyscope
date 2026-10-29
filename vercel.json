@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "bun run build",
+  "devCommand": "bun run dev",
+  "installCommand": "bun install",
+  "regions": ["iad1", "bom1"],
+  "crons": [],
+  "github": {
+    "autoDeploy": true,
+    "silent": false
+  }
+}

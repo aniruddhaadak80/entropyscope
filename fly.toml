@@ -1,0 +1,30 @@
+app = "entropyscope"
+primary_region = "bom"
+
+[build]
+  buildpacks = ["https://github.com/heroku/heroku-buildpack-nodejs"]
+
+[env]
+  NODE_ENV = "production"
+
+[[services]]
+  internal_port = 3000
+  http_checks = []
+  force_https = true
+
+  [[services.ports]]
+    port = 80
+
+  [[services.tcp_checks]]
+    interval = 10s
+    timeout = 2s
+
+[[statics]]
+  guest_path = "/app/apps/web/public"
+  url_prefix = "/"
+
+[metrics]
+  port = 9090
+
+[deploy]
+  release_command = "bun run seed"

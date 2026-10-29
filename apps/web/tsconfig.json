@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "incremental": true,
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@repo/core": [
+        "../../packages/core/src/index"
+      ],
+      "@repo/core/*": [
+        "../../packages/core/*"
+      ],
+      "@repo/ui": [
+        "../../packages/ui/src/index"
+      ],
+      "@repo/ui/*": [
+        "../../packages/ui/*"
+      ],
+      "@repo/sdk": [
+        "../../packages/sdk/src/index"
+      ],
+      "@repo/sdk/*": [
+        "../../packages/sdk/*"
+      ],
+      "@repo/config": [
+        "../../packages/config/src/index"
+      ],
+      "@repo/config/*": [
+        "../../packages/config/*"
+      ],
+      "@repo/seed": [
+        "../../packages/seed/src/index"
+      ],
+      "@repo/seed/*": [
+        "../../packages/seed/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

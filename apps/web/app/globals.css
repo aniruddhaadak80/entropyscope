@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f0a2e;
+  --foreground: #fafafa;
+  --primary: #22d3ee;
+  --primary-foreground: #0f0a2e;
+  --secondary: #1e1b4b;
+  --secondary-foreground: #fafafa;
+  --muted: #1e1b4b;
+  --muted-foreground: #a5a5a5;
+  --accent: #22d3ee;
+  --accent-foreground: #0f0a2e;
+  --destructive: #ef4444;
+  --destructive-foreground: #fafafa;
+  --border: #312e81;
+  --input: #312e81;
+  --card: #1e1b4b;
+  --card-foreground: #fafafa;
+  --radius: 0.75rem;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.slab-text {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+.mono-text {
+  font-family: var(--font-mono);
+}
+
+@keyframes pulse-slow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
