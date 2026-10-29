@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "Simulera framtidens arbete — innan det händer",
+  "nav.simulate": "Simulera",
+  "nav.scenarios": "Scenarier",
+  "nav.markets": "Marknader",
+  "nav.time-machine": "Tidsmaskin",
+  "nav.calibration": "Kalibrering",
+  "nav.world": "Värld",
+  "btn.step-year": "Nästa År",
+  "btn.reset": "Återställ",
+  "btn.create-scenario": "Skapa Scenarie",
+  "btn.buy-shares": "Köp Andelar",
+  "label.unemployment": "Arbetslöshet",
+  "label.wage-bill": "Lönesumma",
+  "label.ai-exposure": "AI-exponering",
+  "label.remote-rate": "Distansarbete",
+  "seed.notice": "Deterministiskt — frö {{seed}}. Samma frö, samma universum.",
+  "footer.no-keys": "Inga API-nycklar krävs"
+}

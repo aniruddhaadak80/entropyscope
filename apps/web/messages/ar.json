@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "محاكاة مستقبل العمل — قبل حدوثه",
+  "nav.simulate": "محاكاة",
+  "nav.scenarios": "السيناريوهات",
+  "nav.markets": "الأسواق",
+  "nav.time-machine": "آلة الزمن",
+  "nav.calibration": "التدقيق",
+  "nav.world": "العالم",
+  "btn.step-year": "تقدم السنة",
+  "btn.reset": "إعادة تعيين",
+  "btn.create-scenario": "إنشاء سيناريو",
+  "btn.buy-shares": "شراء أسهم",
+  "label.unemployment": "البطالة",
+  "label.wage-bill": "الفاتورة الأجور",
+  "label.ai-exposure": "التعرض للذكاء الاصطناعي",
+  "label.remote-rate": "العمل عن بعد",
+  "seed.notice": "تحديدية — البذرة {{seed}}. نفس البذرة، نفس الكون.",
+  "footer.no-keys": "لا需要 مفاتيح API"
+}

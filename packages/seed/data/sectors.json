@@ -1,0 +1,126 @@
+{
+  "seed": 7331,
+  "sectors": [
+    {
+      "id": "sector-0",
+      "name": "Healthcare",
+      "description": "Simulated Healthcare sector with 0.45 AI exposure",
+      "aiExposure": 0.45,
+      "remoteRate": 0,
+      "growthRate": "-0.0300",
+      "wageBase": 35021,
+      "workerCount": 100
+    },
+    {
+      "id": "sector-1",
+      "name": "Education",
+      "description": "Simulated Education sector with 0.49 AI exposure",
+      "aiExposure": 0.49,
+      "remoteRate": -0.14,
+      "growthRate": "-0.0123",
+      "wageBase": 44703,
+      "workerCount": 115
+    },
+    {
+      "id": "sector-2",
+      "name": "Technology",
+      "description": "Simulated Technology sector with 0.36 AI exposure",
+      "aiExposure": 0.36,
+      "remoteRate": -0.2,
+      "growthRate": "0.0039",
+      "wageBase": 56496,
+      "workerCount": 130
+    },
+    {
+      "id": "sector-3",
+      "name": "Manufacturing",
+      "description": "Simulated Manufacturing sector with 0.10 AI exposure",
+      "aiExposure": 0.1,
+      "remoteRate": -0.16,
+      "growthRate": "0.0170",
+      "wageBase": 65994,
+      "workerCount": 145
+    },
+    {
+      "id": "sector-4",
+      "name": "Finance",
+      "description": "Simulated Finance sector with -0.16 AI exposure",
+      "aiExposure": -0.16,
+      "remoteRate": -0.03,
+      "growthRate": "0.0259",
+      "wageBase": 70900,
+      "workerCount": 160
+    },
+    {
+      "id": "sector-5",
+      "name": "Retail",
+      "description": "Simulated Retail sector with -0.29 AI exposure",
+      "aiExposure": -0.29,
+      "remoteRate": 0.15,
+      "growthRate": "0.0298",
+      "wageBase": 73140,
+      "workerCount": 175
+    },
+    {
+      "id": "sector-6",
+      "name": "Construction",
+      "description": "Simulated Construction sector with -0.24 AI exposure",
+      "aiExposure": -0.24,
+      "remoteRate": 0.35,
+      "growthRate": "0.0284",
+      "wageBase": 77089,
+      "workerCount": 190
+    },
+    {
+      "id": "sector-7",
+      "name": "Logistics",
+      "description": "Simulated Logistics sector with -0.03 AI exposure",
+      "aiExposure": -0.03,
+      "remoteRate": 0.51,
+      "growthRate": "0.0218",
+      "wageBase": 85553,
+      "workerCount": 205
+    },
+    {
+      "id": "sector-8",
+      "name": "Creative",
+      "description": "Simulated Creative sector with 0.24 AI exposure",
+      "aiExposure": 0.24,
+      "remoteRate": 0.59,
+      "growthRate": "0.0105",
+      "wageBase": 97186,
+      "workerCount": 220
+    },
+    {
+      "id": "sector-9",
+      "name": "Legal",
+      "description": "Simulated Legal sector with 0.45 AI exposure",
+      "aiExposure": 0.45,
+      "remoteRate": 0.58,
+      "growthRate": "-0.0044",
+      "wageBase": 107728,
+      "workerCount": 235
+    },
+    {
+      "id": "sector-10",
+      "name": "Agriculture",
+      "description": "Simulated Agriculture sector with 0.49 AI exposure",
+      "aiExposure": 0.49,
+      "remoteRate": 0.48,
+      "growthRate": "-0.0215",
+      "wageBase": 113922,
+      "workerCount": 250
+    },
+    {
+      "id": "sector-11",
+      "name": "Energy",
+      "description": "Simulated Energy sector with 0.35 AI exposure",
+      "aiExposure": 0.35,
+      "remoteRate": 0.3,
+      "growthRate": "-0.0395",
+      "wageBase": 116510,
+      "workerCount": 265
+    }
+  ],
+  "generatedAt": "2026-10-29T07:17:41.383Z"
+}

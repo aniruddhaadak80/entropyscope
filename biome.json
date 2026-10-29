@@ -46,6 +46,17 @@
     }
   },
   "files": {
-    "ignore": ["node_modules", ".next", "dist", "build", "out", ".turbo", "coverage", ".vercel", "target", "__pycache__"]
+    "ignore": [
+      "node_modules",
+      ".next",
+      "dist",
+      "build",
+      "out",
+      ".turbo",
+      "coverage",
+      ".vercel",
+      "target",
+      "__pycache__"
+    ]
   }
 }

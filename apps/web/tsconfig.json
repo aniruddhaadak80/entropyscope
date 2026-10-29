@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -24,39 +20,17 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "@repo/core": [
-        "../../packages/core/src/index"
-      ],
-      "@repo/core/*": [
-        "../../packages/core/*"
-      ],
-      "@repo/ui": [
-        "../../packages/ui/src/index"
-      ],
-      "@repo/ui/*": [
-        "../../packages/ui/*"
-      ],
-      "@repo/sdk": [
-        "../../packages/sdk/src/index"
-      ],
-      "@repo/sdk/*": [
-        "../../packages/sdk/*"
-      ],
-      "@repo/config": [
-        "../../packages/config/src/index"
-      ],
-      "@repo/config/*": [
-        "../../packages/config/*"
-      ],
-      "@repo/seed": [
-        "../../packages/seed/src/index"
-      ],
-      "@repo/seed/*": [
-        "../../packages/seed/*"
-      ]
+      "@/*": ["./*"],
+      "@repo/core": ["../../packages/core/src/index"],
+      "@repo/core/*": ["../../packages/core/*"],
+      "@repo/ui": ["../../packages/ui/src/index"],
+      "@repo/ui/*": ["../../packages/ui/*"],
+      "@repo/sdk": ["../../packages/sdk/src/index"],
+      "@repo/sdk/*": ["../../packages/sdk/*"],
+      "@repo/config": ["../../packages/config/src/index"],
+      "@repo/config/*": ["../../packages/config/*"],
+      "@repo/seed": ["../../packages/seed/src/index"],
+      "@repo/seed/*": ["../../packages/seed/*"]
     }
   },
   "include": [
@@ -66,7 +40,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

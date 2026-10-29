@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "भविष्य के काम का पूर्वानुमान लगाएं — इससे पहले कि वह हो",
+  "nav.simulate": "सिमुलेट करें",
+  "nav.scenarios": "परिदृश्य",
+  "nav.markets": "बाजार",
+  "nav.time-machine": "टाइम मशीन",
+  "nav.calibration": "कैलिब्रेशन",
+  "nav.world": "दुनिया",
+  "btn.step-year": "वर्ष बढ़ाएं",
+  "btn.reset": "रीसेट करें",
+  "btn.create-scenario": "परिदृश्य बनाएं",
+  "btn.buy-shares": "शेयर खरीदें",
+  "label.unemployment": "बेरोजगारी",
+  "label.wage-bill": "मजदूरी बिल",
+  "label.ai-exposure": "AI जोखिम",
+  "label.remote-rate": "रिमोट दर",
+  "seed.notice": "निर्धारित — बीज {{seed}}। एक ही बीज, एक ही ब्रह्मांड।",
+  "footer.no-keys": "API कुंजी की आवश्यकता नहीं"
+}

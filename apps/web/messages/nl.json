@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "Simuleer de toekomst van het werk — voordat het gebeurt",
+  "nav.simulate": "Simuleer",
+  "nav.scenarios": "Scenario's",
+  "nav.markets": "Markten",
+  "nav.time-machine": "Tijdmachine",
+  "nav.calibration": "Kalibratie",
+  "nav.world": "Wereld",
+  "btn.step-year": "Jaar Vooruit",
+  "btn.reset": "Reset",
+  "btn.create-scenario": "Scenario Maken",
+  "btn.buy-shares": "Aandelen Kopen",
+  "label.unemployment": "Werkloosheid",
+  "label.wage-bill": "Loonfaktuur",
+  "label.ai-exposure": "AI Blootstelling",
+  "label.remote-rate": "Thuiswerk",
+  "seed.notice": "Deterministisch — zaad {{seed}}. Hetzelfde zaad, hetzelfde universum.",
+  "footer.no-keys": "Geen API-sleutels vereist"
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "Simula il futuro del lavoro — prima che accada",
+  "nav.simulate": "Simula",
+  "nav.scenarios": "Scenari",
+  "nav.markets": "Mercati",
+  "nav.time-machine": "Macchina del Tempo",
+  "nav.calibration": "Calibrazione",
+  "nav.world": "Mondo",
+  "btn.step-year": "Avanza Anno",
+  "btn.reset": "Reimposta",
+  "btn.create-scenario": "Crea Scenario",
+  "btn.buy-shares": "Compra Quote",
+  "label.unemployment": "Disoccupazione",
+  "label.wage-bill": "Monte Salari",
+  "label.ai-exposure": "Esposizione all'IA",
+  "label.remote-rate": "Lavoro Remoto",
+  "seed.notice": "Deterministico — seme {{seed}}. Stesso seme, stesso universo.",
+  "footer.no-keys": "Nessuna chiave API richiesta"
+}

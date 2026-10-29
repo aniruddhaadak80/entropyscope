@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "未来の働き方を、それが起こる前にシミュレートする",
+  "nav.simulate": "シミュレート",
+  "nav.scenarios": "シナリオ",
+  "nav.markets": "マーケット",
+  "nav.time-machine": "タイムマシン",
+  "nav.calibration": "キャリブレーション",
+  "nav.world": "ワールド",
+  "btn.step-year": "年を進める",
+  "btn.reset": "リセット",
+  "btn.create-scenario": "シナリオを作成",
+  "btn.buy-shares": "株式を購入",
+  "label.unemployment": "失業率",
+  "label.wage-bill": "賃金総額",
+  "label.ai-exposure": "AI露出度",
+  "label.remote-rate": "リモート率",
+  "seed.notice": "決定論的 — シード {{seed}}。同じシード、同じ宇宙。",
+  "footer.no-keys": "APIキーは不要"
+}

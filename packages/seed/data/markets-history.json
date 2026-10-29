@@ -1,0 +1,865 @@
+{
+  "seed": 7331,
+  "markets": [
+    {
+      "id": "unemployment-year-10",
+      "history": [
+        {
+          "year": 1,
+          "yesPrice": "0.002",
+          "noPrice": "0.998",
+          "volume": 64,
+          "trades": 19
+        },
+        {
+          "year": 2,
+          "yesPrice": "0.012",
+          "noPrice": "0.988",
+          "volume": 96,
+          "trades": 26
+        },
+        {
+          "year": 3,
+          "yesPrice": "0.067",
+          "noPrice": "0.933",
+          "volume": 129,
+          "trades": 29
+        },
+        {
+          "year": 4,
+          "yesPrice": "0.159",
+          "noPrice": "0.841",
+          "volume": 148,
+          "trades": 28
+        },
+        {
+          "year": 5,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 144,
+          "trades": 21
+        },
+        {
+          "year": 6,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 120,
+          "trades": 12
+        },
+        {
+          "year": 7,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 86,
+          "trades": 2
+        },
+        {
+          "year": 8,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 58,
+          "trades": -6
+        },
+        {
+          "year": 9,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 50,
+          "trades": -10
+        },
+        {
+          "year": 10,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 65,
+          "trades": -10
+        },
+        {
+          "year": 11,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 96,
+          "trades": -5
+        },
+        {
+          "year": 12,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 129,
+          "trades": 4
+        },
+        {
+          "year": 13,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 148,
+          "trades": 14
+        },
+        {
+          "year": 14,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 144,
+          "trades": 23
+        },
+        {
+          "year": 15,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 119,
+          "trades": 28
+        },
+        {
+          "year": 16,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 85,
+          "trades": 29
+        },
+        {
+          "year": 17,
+          "yesPrice": "0.000",
+          "noPrice": "1.000",
+          "volume": 57,
+          "trades": 25
+        },
+        {
+          "year": 18,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 50,
+          "trades": 18
+        },
+        {
+          "year": 19,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 66,
+          "trades": 8
+        },
+        {
+          "year": 20,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 97,
+          "trades": -1
+        },
+        {
+          "year": 21,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 130,
+          "trades": -8
+        },
+        {
+          "year": 22,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 148,
+          "trades": -10
+        },
+        {
+          "year": 23,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 144,
+          "trades": -8
+        },
+        {
+          "year": 24,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 118,
+          "trades": -1
+        },
+        {
+          "year": 25,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 84,
+          "trades": 8
+        },
+        {
+          "year": 26,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 57,
+          "trades": 18
+        },
+        {
+          "year": 27,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 50,
+          "trades": 26
+        },
+        {
+          "year": 28,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 66,
+          "trades": 29
+        },
+        {
+          "year": 29,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 98,
+          "trades": 28
+        },
+        {
+          "year": 30,
+          "yesPrice": "0.160",
+          "noPrice": "0.840",
+          "volume": 131,
+          "trades": 23
+        }
+      ]
+    },
+    {
+      "id": "ai-adoption-year-15",
+      "history": [
+        {
+          "year": 1,
+          "yesPrice": "0.002",
+          "noPrice": "0.998",
+          "volume": 64,
+          "trades": 19
+        },
+        {
+          "year": 2,
+          "yesPrice": "0.012",
+          "noPrice": "0.988",
+          "volume": 96,
+          "trades": 26
+        },
+        {
+          "year": 3,
+          "yesPrice": "0.067",
+          "noPrice": "0.933",
+          "volume": 129,
+          "trades": 29
+        },
+        {
+          "year": 4,
+          "yesPrice": "0.159",
+          "noPrice": "0.841",
+          "volume": 148,
+          "trades": 28
+        },
+        {
+          "year": 5,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 144,
+          "trades": 21
+        },
+        {
+          "year": 6,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 120,
+          "trades": 12
+        },
+        {
+          "year": 7,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 86,
+          "trades": 2
+        },
+        {
+          "year": 8,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 58,
+          "trades": -6
+        },
+        {
+          "year": 9,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 50,
+          "trades": -10
+        },
+        {
+          "year": 10,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 65,
+          "trades": -10
+        },
+        {
+          "year": 11,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 96,
+          "trades": -5
+        },
+        {
+          "year": 12,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 129,
+          "trades": 4
+        },
+        {
+          "year": 13,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 148,
+          "trades": 14
+        },
+        {
+          "year": 14,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 144,
+          "trades": 23
+        },
+        {
+          "year": 15,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 119,
+          "trades": 28
+        },
+        {
+          "year": 16,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 85,
+          "trades": 29
+        },
+        {
+          "year": 17,
+          "yesPrice": "0.000",
+          "noPrice": "1.000",
+          "volume": 57,
+          "trades": 25
+        },
+        {
+          "year": 18,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 50,
+          "trades": 18
+        },
+        {
+          "year": 19,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 66,
+          "trades": 8
+        },
+        {
+          "year": 20,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 97,
+          "trades": -1
+        },
+        {
+          "year": 21,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 130,
+          "trades": -8
+        },
+        {
+          "year": 22,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 148,
+          "trades": -10
+        },
+        {
+          "year": 23,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 144,
+          "trades": -8
+        },
+        {
+          "year": 24,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 118,
+          "trades": -1
+        },
+        {
+          "year": 25,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 84,
+          "trades": 8
+        },
+        {
+          "year": 26,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 57,
+          "trades": 18
+        },
+        {
+          "year": 27,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 50,
+          "trades": 26
+        },
+        {
+          "year": 28,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 66,
+          "trades": 29
+        },
+        {
+          "year": 29,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 98,
+          "trades": 28
+        },
+        {
+          "year": 30,
+          "yesPrice": "0.160",
+          "noPrice": "0.840",
+          "volume": 131,
+          "trades": 23
+        }
+      ]
+    },
+    {
+      "id": "remote-dominance",
+      "history": [
+        {
+          "year": 1,
+          "yesPrice": "0.002",
+          "noPrice": "0.998",
+          "volume": 64,
+          "trades": 19
+        },
+        {
+          "year": 2,
+          "yesPrice": "0.012",
+          "noPrice": "0.988",
+          "volume": 96,
+          "trades": 26
+        },
+        {
+          "year": 3,
+          "yesPrice": "0.067",
+          "noPrice": "0.933",
+          "volume": 129,
+          "trades": 29
+        },
+        {
+          "year": 4,
+          "yesPrice": "0.159",
+          "noPrice": "0.841",
+          "volume": 148,
+          "trades": 28
+        },
+        {
+          "year": 5,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 144,
+          "trades": 21
+        },
+        {
+          "year": 6,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 120,
+          "trades": 12
+        },
+        {
+          "year": 7,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 86,
+          "trades": 2
+        },
+        {
+          "year": 8,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 58,
+          "trades": -6
+        },
+        {
+          "year": 9,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 50,
+          "trades": -10
+        },
+        {
+          "year": 10,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 65,
+          "trades": -10
+        },
+        {
+          "year": 11,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 96,
+          "trades": -5
+        },
+        {
+          "year": 12,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 129,
+          "trades": 4
+        },
+        {
+          "year": 13,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 148,
+          "trades": 14
+        },
+        {
+          "year": 14,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 144,
+          "trades": 23
+        },
+        {
+          "year": 15,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 119,
+          "trades": 28
+        },
+        {
+          "year": 16,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 85,
+          "trades": 29
+        },
+        {
+          "year": 17,
+          "yesPrice": "0.000",
+          "noPrice": "1.000",
+          "volume": 57,
+          "trades": 25
+        },
+        {
+          "year": 18,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 50,
+          "trades": 18
+        },
+        {
+          "year": 19,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 66,
+          "trades": 8
+        },
+        {
+          "year": 20,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 97,
+          "trades": -1
+        },
+        {
+          "year": 21,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 130,
+          "trades": -8
+        },
+        {
+          "year": 22,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 148,
+          "trades": -10
+        },
+        {
+          "year": 23,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 144,
+          "trades": -8
+        },
+        {
+          "year": 24,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 118,
+          "trades": -1
+        },
+        {
+          "year": 25,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 84,
+          "trades": 8
+        },
+        {
+          "year": 26,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 57,
+          "trades": 18
+        },
+        {
+          "year": 27,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 50,
+          "trades": 26
+        },
+        {
+          "year": 28,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 66,
+          "trades": 29
+        },
+        {
+          "year": 29,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 98,
+          "trades": 28
+        },
+        {
+          "year": 30,
+          "yesPrice": "0.160",
+          "noPrice": "0.840",
+          "volume": 131,
+          "trades": 23
+        }
+      ]
+    },
+    {
+      "id": "four-day-week-adoption",
+      "history": [
+        {
+          "year": 1,
+          "yesPrice": "0.002",
+          "noPrice": "0.998",
+          "volume": 64,
+          "trades": 19
+        },
+        {
+          "year": 2,
+          "yesPrice": "0.012",
+          "noPrice": "0.988",
+          "volume": 96,
+          "trades": 26
+        },
+        {
+          "year": 3,
+          "yesPrice": "0.067",
+          "noPrice": "0.933",
+          "volume": 129,
+          "trades": 29
+        },
+        {
+          "year": 4,
+          "yesPrice": "0.159",
+          "noPrice": "0.841",
+          "volume": 148,
+          "trades": 28
+        },
+        {
+          "year": 5,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 144,
+          "trades": 21
+        },
+        {
+          "year": 6,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 120,
+          "trades": 12
+        },
+        {
+          "year": 7,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 86,
+          "trades": 2
+        },
+        {
+          "year": 8,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 58,
+          "trades": -6
+        },
+        {
+          "year": 9,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 50,
+          "trades": -10
+        },
+        {
+          "year": 10,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 65,
+          "trades": -10
+        },
+        {
+          "year": 11,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 96,
+          "trades": -5
+        },
+        {
+          "year": 12,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 129,
+          "trades": 4
+        },
+        {
+          "year": 13,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 148,
+          "trades": 14
+        },
+        {
+          "year": 14,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 144,
+          "trades": 23
+        },
+        {
+          "year": 15,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 119,
+          "trades": 28
+        },
+        {
+          "year": 16,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 85,
+          "trades": 29
+        },
+        {
+          "year": 17,
+          "yesPrice": "0.000",
+          "noPrice": "1.000",
+          "volume": 57,
+          "trades": 25
+        },
+        {
+          "year": 18,
+          "yesPrice": "0.024",
+          "noPrice": "0.976",
+          "volume": 50,
+          "trades": 18
+        },
+        {
+          "year": 19,
+          "yesPrice": "0.091",
+          "noPrice": "0.909",
+          "volume": 66,
+          "trades": 8
+        },
+        {
+          "year": 20,
+          "yesPrice": "0.191",
+          "noPrice": "0.809",
+          "volume": 97,
+          "trades": -1
+        },
+        {
+          "year": 21,
+          "yesPrice": "0.309",
+          "noPrice": "0.691",
+          "volume": 130,
+          "trades": -8
+        },
+        {
+          "year": 22,
+          "yesPrice": "0.425",
+          "noPrice": "0.575",
+          "volume": 148,
+          "trades": -10
+        },
+        {
+          "year": 23,
+          "yesPrice": "0.521",
+          "noPrice": "0.479",
+          "volume": 144,
+          "trades": -8
+        },
+        {
+          "year": 24,
+          "yesPrice": "0.583",
+          "noPrice": "0.417",
+          "volume": 118,
+          "trades": -1
+        },
+        {
+          "year": 25,
+          "yesPrice": "0.599",
+          "noPrice": "0.401",
+          "volume": 84,
+          "trades": 8
+        },
+        {
+          "year": 26,
+          "yesPrice": "0.569",
+          "noPrice": "0.431",
+          "volume": 57,
+          "trades": 18
+        },
+        {
+          "year": 27,
+          "yesPrice": "0.496",
+          "noPrice": "0.504",
+          "volume": 50,
+          "trades": 26
+        },
+        {
+          "year": 28,
+          "yesPrice": "0.392",
+          "noPrice": "0.608",
+          "volume": 66,
+          "trades": 29
+        },
+        {
+          "year": 29,
+          "yesPrice": "0.274",
+          "noPrice": "0.726",
+          "volume": 98,
+          "trades": 28
+        },
+        {
+          "year": 30,
+          "yesPrice": "0.160",
+          "noPrice": "0.840",
+          "volume": 131,
+          "trades": 23
+        }
+      ]
+    }
+  ]
+}

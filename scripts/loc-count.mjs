@@ -15,28 +15,118 @@ import { opendir, stat } from "node:fs/promises";
 import { extname, join, resolve } from "node:path";
 
 const CODE_EXTS = new Set([
-  ".ts", ".tsx", ".mts", ".cts", ".js", ".jsx", ".mjs", ".cjs",
-  ".py", ".rb", ".pl", ".pm", ".rake", ".gemspec",
-  ".rs", ".go", ".java", ".kt", ".kts", ".swift", ".c", ".h", ".cpp", ".hpp", ".cc",
-  ".cs", ".php", ".lua", ".ex", ".exs", ".erl", ".hs", ".scala", ".clj",
-  ".sql", ".sh", ".bash", ".zsh", ".ps1", ".psm1", ".bat", ".cmd",
-  ".css", ".scss", ".sass", ".less", ".html", ".htm", ".vue", ".svelte", ".astro",
+  ".ts",
+  ".tsx",
+  ".mts",
+  ".cts",
+  ".js",
+  ".jsx",
+  ".mjs",
+  ".cjs",
+  ".py",
+  ".rb",
+  ".pl",
+  ".pm",
+  ".rake",
+  ".gemspec",
+  ".rs",
+  ".go",
+  ".java",
+  ".kt",
+  ".kts",
+  ".swift",
+  ".c",
+  ".h",
+  ".cpp",
+  ".hpp",
+  ".cc",
+  ".cs",
+  ".php",
+  ".lua",
+  ".ex",
+  ".exs",
+  ".erl",
+  ".hs",
+  ".scala",
+  ".clj",
+  ".sql",
+  ".sh",
+  ".bash",
+  ".zsh",
+  ".ps1",
+  ".psm1",
+  ".bat",
+  ".cmd",
+  ".css",
+  ".scss",
+  ".sass",
+  ".less",
+  ".html",
+  ".htm",
+  ".vue",
+  ".svelte",
+  ".astro",
 ]);
 
 const NON_CODE_EXTS = new Set([
-  ".md", ".mdx", ".rst", ".txt",
-  ".json", ".jsonc", ".yaml", ".yml", ".toml", ".xml", ".ini", ".cfg",
-  ".svg", ".mmd", ".mermaid", ".csv", ".tsv", ".graphql", ".gql", ".proto",
-  ".lock", ".env", ".example", ".gitignore", ".editorconfig", ".dockerignore",
+  ".md",
+  ".mdx",
+  ".rst",
+  ".txt",
+  ".json",
+  ".jsonc",
+  ".yaml",
+  ".yml",
+  ".toml",
+  ".xml",
+  ".ini",
+  ".cfg",
+  ".svg",
+  ".mmd",
+  ".mermaid",
+  ".csv",
+  ".tsv",
+  ".graphql",
+  ".gql",
+  ".proto",
+  ".lock",
+  ".env",
+  ".example",
+  ".gitignore",
+  ".editorconfig",
+  ".dockerignore",
 ]);
 
 const ALL_EXTS = new Set([...CODE_EXTS, ...NON_CODE_EXTS]);
 
 const SKIP_DIRS = new Set([
-  "node_modules", ".next", ".nuxt", ".svelte-kit", ".git", ".hg", ".svn",
-  ".turbo", "dist", "build", "out", "coverage", ".venv", "venv", "__pycache__",
-  "target", ".cache", "tmp", ".vercel", ".output", ".netlify", ".parcel-cache",
-  ".pnp", ".yarn", ".gradle", ".idea", ".vscode",
+  "node_modules",
+  ".next",
+  ".nuxt",
+  ".svelte-kit",
+  ".git",
+  ".hg",
+  ".svn",
+  ".turbo",
+  "dist",
+  "build",
+  "out",
+  "coverage",
+  ".venv",
+  "venv",
+  "__pycache__",
+  "target",
+  ".cache",
+  "tmp",
+  ".vercel",
+  ".output",
+  ".netlify",
+  ".parcel-cache",
+  ".pnp",
+  ".yarn",
+  ".gradle",
+  ".idea",
+  ".vscode",
 ]);
 
 const args = process.argv.slice(2);
@@ -84,7 +174,13 @@ async function walk(dir, agg) {
     }
     if (!entry.isFile()) continue;
     const ext = extname(entry.name).toLowerCase();
-    const specialNoExtNames = [".gitignore", ".editorconfig", ".dockerignore", ".gitattributes", ".npmrc"];
+    const specialNoExtNames = [
+      ".gitignore",
+      ".editorconfig",
+      ".dockerignore",
+      ".gitattributes",
+      ".npmrc",
+    ];
     if (!ALL_EXTS.has(ext) && !specialNoExtNames.includes(entry.name.toLowerCase())) continue;
     const bytes = await countLines(full);
     const st = await stat(full);
@@ -112,15 +208,21 @@ for (const [ext, v] of agg.byExt) {
 }
 
 if (jsonOut) {
-  console.log(JSON.stringify({
-    root,
-    files: agg.files,
-    codeLines,
-    codeFiles,
-    totalLines: agg.lines,
-    totalBytes: agg.bytes,
-    byExt: Object.fromEntries([...agg.byExt].sort((a, b) => b[1].lines - a[1].lines)),
-  }, null, 2));
+  console.log(
+    JSON.stringify(
+      {
+        root,
+        files: agg.files,
+        codeLines,
+        codeFiles,
+        totalLines: agg.lines,
+        totalBytes: agg.bytes,
+        byExt: Object.fromEntries([...agg.byExt].sort((a, b) => b[1].lines - a[1].lines)),
+      },
+      null,
+      2,
+    ),
+  );
 } else {
   const rows = [...agg.byExt].sort((a, b) => b[1].lines - a[1].lines);
   const w = Math.max(...rows.map(([e]) => e.length), 8);
@@ -128,15 +230,23 @@ if (jsonOut) {
   console.log(`  ${"ext".padEnd(w)}  ${"files".padStart(7)}  ${"lines".padStart(10)}`);
   console.log(`  ${"-".repeat(w)}  ${"-".repeat(7)}  ${"-".repeat(10)}`);
   for (const [ext, v] of rows) {
-    console.log(`  ${ext.padEnd(w)}  ${String(v.files).padStart(7)}  ${v.lines.toLocaleString("en-US").padStart(10)}`);
+    console.log(
+      `  ${ext.padEnd(w)}  ${String(v.files).padStart(7)}  ${v.lines.toLocaleString("en-US").padStart(10)}`,
+    );
   }
   console.log(`  ${"-".repeat(w)}  ${"-".repeat(7)}  ${"-".repeat(10)}`);
-  console.log(`  ${"TOTAL".padEnd(w)}  ${String(agg.files).padStart(7)}  ${agg.lines.toLocaleString("en-US").padStart(10)}`);
-  console.log(`\n  code lines (source only): ${codeLines.toLocaleString("en-US")} in ${codeFiles.toLocaleString("en-US")} files`);
+  console.log(
+    `  ${"TOTAL".padEnd(w)}  ${String(agg.files).padStart(7)}  ${agg.lines.toLocaleString("en-US").padStart(10)}`,
+  );
+  console.log(
+    `\n  code lines (source only): ${codeLines.toLocaleString("en-US")} in ${codeFiles.toLocaleString("en-US")} files`,
+  );
   console.log(`  total lines (with docs/config/assets): ${agg.lines.toLocaleString("en-US")}\n`);
 }
 
 if (minLines > 0 && agg.lines < minLines) {
-  console.error(`FAIL: total lines ${agg.lines.toLocaleString("en-US")} < required ${minLines.toLocaleString("en-US")}`);
+  console.error(
+    `FAIL: total lines ${agg.lines.toLocaleString("en-US")} < required ${minLines.toLocaleString("en-US")}`,
+  );
   process.exit(1);
 }

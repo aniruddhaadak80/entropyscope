@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "미래의 일자리를それが 일어나기 전에 시뮬레이션하다",
+  "nav.simulate": "시뮬레이션",
+  "nav.scenarios": "시나리오",
+  "nav.markets": "시장",
+  "nav.time-machine": "타임머신",
+  "nav.calibration": "보정",
+  "nav.world": "세상",
+  "btn.step-year": "년도 진행",
+  "btn.reset": "초기화",
+  "btn.create-scenario": "시나리오 생성",
+  "btn.buy-shares": "주식 구매",
+  "label.unemployment": "실업률",
+  "label.wage-bill": "임금 총액",
+  "label.ai-exposure": "AI 노출도",
+  "label.remote-rate": "원격 근무",
+  "seed.notice": "결정론적 — 시드 {{seed}}. 같은 시드, 같은 우주.",
+  "footer.no-keys": "API 키 불필요"
+}

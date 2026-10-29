@@ -1,0 +1,21 @@
+{
+  "$schema": "./.next/i18n-types.json",
+  "app.title": "EntropyScope",
+  "app.tagline": "在未来发生之前模拟未来的工作",
+  "nav.simulate": "模拟",
+  "nav.scenarios": "场景",
+  "nav.markets": "市场",
+  "nav.time-machine": "时间机器",
+  "nav.calibration": "校准",
+  "nav.world": "世界",
+  "btn.step-year": "推进年份",
+  "btn.reset": "重置",
+  "btn.create-scenario": "创建场景",
+  "btn.buy-shares": "购买股份",
+  "label.unemployment": "失业率",
+  "label.wage-bill": "工资总额",
+  "label.ai-exposure": "AI暴露度",
+  "label.remote-rate": "远程工作率",
+  "seed.notice": "确定性 — 种子 {{seed}}。相同种子，相同宇宙。",
+  "footer.no-keys": "无需 API 密钥"
+}

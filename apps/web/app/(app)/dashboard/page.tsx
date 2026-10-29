@@ -38,7 +38,7 @@ export default function Dashboard() {
     setStepResult(result);
     setWorld(result.world);
     setHistory((h) => [...h, result.world]);
-  }, [world, setWorld, setStepResult, setHistory]);
+  }, [world, setWorld, setStepResult]);
 
   const reset = React.useCallback(() => {
     initWorld();
