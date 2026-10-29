@@ -1,13 +1,27 @@
 {
   "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "bun run build",
-  "devCommand": "bun run dev",
-  "installCommand": "bun install",
   "regions": ["iad1", "bom1"],
   "crons": [],
   "github": {
     "autoDeploy": true,
     "silent": false
-  }
+  },
+  "services": [
+    {
+      "name": "web",
+      "root": ".",
+      "framework": "nextjs",
+      "buildCommand": "bun run build",
+      "devCommand": "bun run dev",
+      "installCommand": "bun install"
+    },
+    {
+      "name": "agents",
+      "root": "services/agents",
+      "framework": "other",
+      "buildCommand": "pip install -r requirements.txt",
+      "devCommand": "uvicorn app:app --host 0.0.0.0 --port 8000",
+      "installCommand": "pip install -r requirements.txt"
+    }
+  ]
 }
