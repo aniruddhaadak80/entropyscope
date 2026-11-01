@@ -6,7 +6,8 @@
  *   bun run scripts/generate.ts <family> [--seed N]
  *   bun run scripts/generate.ts all [--seed N]
  *
- * Families: routes, components, docs, adrs, i18n, worlds, stories, tests
+ * Families: routes, components, docs, adrs, i18n, worlds, stories, tests,
+ *           wiki, catalog, packs, memos, snapshots
  *
  * Seeded determinism: same seed => same repo. Seed recorded in packages/seed/seed.json.
  */
@@ -47,6 +48,21 @@ import("./generators/tests.mjs").then((m) => {
 });
 import("./generators/stories.mjs").then((m) => {
   if (family === "all" || family === "stories") m.generateStories(rand, seed);
+});
+import("./generators/wiki.mjs").then((m) => {
+  if (family === "all" || family === "wiki") m.generateWiki(rand, seed);
+});
+import("./generators/catalog.mjs").then((m) => {
+  if (family === "all" || family === "catalog") m.generateCatalog(rand, seed);
+});
+import("./generators/packs.mjs").then((m) => {
+  if (family === "all" || family === "packs") m.generatePacks(rand, seed);
+});
+import("./generators/memos.mjs").then((m) => {
+  if (family === "all" || family === "memos") m.generateMemos(rand, seed);
+});
+import("./generators/snapshots.mjs").then((m) => {
+  if (family === "all" || family === "snapshots") m.generateSnapshots(rand, seed);
 });
 
 console.log("✅ Scale engine pass complete. Run `bun run scripts/loc-count.mjs` to measure.");

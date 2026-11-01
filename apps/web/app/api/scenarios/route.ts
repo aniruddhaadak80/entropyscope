@@ -1,4 +1,3 @@
-
 import { scenarios } from "@repo/seed";
 
 export const dynamic = "force-dynamic";

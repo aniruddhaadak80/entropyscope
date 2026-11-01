@@ -1,11 +1,5 @@
-
 "use client";
-
-import * as React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/src/components/Card";
-import { Stat } from "@repo/ui/src/components/Stat";
-import { Sparkline } from "@repo/ui/src/components/Sparkline";
-import { Badge } from "@repo/ui/src/components/Badge";
 
 export default async function Page({ params }: { params: Promise<{ [key: string]: string }> }) {
   const resolvedParams = await params;
@@ -29,4 +23,3 @@ export default async function Page({ params }: { params: Promise<{ [key: string]
     </div>
   );
 }
-

@@ -1,11 +1,8 @@
-
 "use client";
-
-import * as React from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/src/components/Card";
-import { Stat } from "@repo/ui/src/components/Stat";
-import { Sparkline } from "@repo/ui/src/components/Sparkline";
 import { Badge } from "@repo/ui/src/components/Badge";
+import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/src/components/Card";
+import { Sparkline } from "@repo/ui/src/components/Sparkline";
+import { Stat } from "@repo/ui/src/components/Stat";
 
 export default async function Page({ params }: { params: Promise<{ [key: string]: string }> }) {
   const resolvedParams = await params;
@@ -23,9 +20,9 @@ export default async function Page({ params }: { params: Promise<{ [key: string]
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              Scenario &quot;{resolvedParams.id}&quot; runs deterministically from seed 7331.
-              Policy shocks are applied at scheduled years and the labor market
-              evolves year by year without any external data or API keys.
+              Scenario &quot;{resolvedParams.id}&quot; runs deterministically from seed 7331. Policy
+              shocks are applied at scheduled years and the labor market evolves year by year
+              without any external data or API keys.
             </p>
             <Stat label="Seed" value="7331" />
             <Stat label="Years" value="30" />
@@ -52,4 +49,3 @@ export default async function Page({ params }: { params: Promise<{ [key: string]
     </div>
   );
 }
-

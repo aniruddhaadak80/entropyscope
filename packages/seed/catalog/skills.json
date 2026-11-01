@@ -1,0 +1,2406 @@
+{
+  "seed": 7331,
+  "count": 240,
+  "skills": [
+    {
+      "id": "skill-001",
+      "name": "advisory summarization",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory summarization proficiency feeds worker vectors by 0.27 weight.",
+      "adjacency": [
+        "skill-001",
+        "skill-002"
+      ]
+    },
+    {
+      "id": "skill-002",
+      "name": "hands-on summarization",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on summarization proficiency feeds worker vectors by 0.35 weight.",
+      "adjacency": [
+        "skill-001",
+        "skill-003"
+      ]
+    },
+    {
+      "id": "skill-003",
+      "name": "remote summarization",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote summarization proficiency feeds worker vectors by 0.60 weight.",
+      "adjacency": [
+        "skill-001",
+        "skill-004"
+      ]
+    },
+    {
+      "id": "skill-004",
+      "name": "advisory delegation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory delegation proficiency feeds worker vectors by 0.67 weight.",
+      "adjacency": [
+        "skill-001",
+        "skill-005"
+      ]
+    },
+    {
+      "id": "skill-005",
+      "name": "hands-on delegation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on delegation proficiency feeds worker vectors by 0.37 weight.",
+      "adjacency": [
+        "skill-002",
+        "skill-006"
+      ]
+    },
+    {
+      "id": "skill-006",
+      "name": "remote delegation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote delegation proficiency feeds worker vectors by 0.62 weight.",
+      "adjacency": [
+        "skill-003",
+        "skill-007"
+      ]
+    },
+    {
+      "id": "skill-007",
+      "name": "advisory repair",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory repair proficiency feeds worker vectors by 0.37 weight.",
+      "adjacency": [
+        "skill-004",
+        "skill-008"
+      ]
+    },
+    {
+      "id": "skill-008",
+      "name": "hands-on repair",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on repair proficiency feeds worker vectors by 0.56 weight.",
+      "adjacency": [
+        "skill-005",
+        "skill-009"
+      ]
+    },
+    {
+      "id": "skill-009",
+      "name": "remote repair",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote repair proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-006",
+        "skill-010"
+      ]
+    },
+    {
+      "id": "skill-010",
+      "name": "advisory scripting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory scripting proficiency feeds worker vectors by 0.22 weight.",
+      "adjacency": [
+        "skill-007",
+        "skill-011"
+      ]
+    },
+    {
+      "id": "skill-011",
+      "name": "hands-on scripting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on scripting proficiency feeds worker vectors by 0.63 weight.",
+      "adjacency": [
+        "skill-008",
+        "skill-012"
+      ]
+    },
+    {
+      "id": "skill-012",
+      "name": "remote scripting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote scripting proficiency feeds worker vectors by 0.54 weight.",
+      "adjacency": [
+        "skill-009",
+        "skill-013"
+      ]
+    },
+    {
+      "id": "skill-013",
+      "name": "advisory forecasting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory forecasting proficiency feeds worker vectors by 0.27 weight.",
+      "adjacency": [
+        "skill-010",
+        "skill-014"
+      ]
+    },
+    {
+      "id": "skill-014",
+      "name": "hands-on forecasting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on forecasting proficiency feeds worker vectors by 0.77 weight.",
+      "adjacency": [
+        "skill-011",
+        "skill-015"
+      ]
+    },
+    {
+      "id": "skill-015",
+      "name": "remote forecasting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote forecasting proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-012",
+        "skill-016"
+      ]
+    },
+    {
+      "id": "skill-016",
+      "name": "advisory negotiation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory negotiation proficiency feeds worker vectors by 0.63 weight.",
+      "adjacency": [
+        "skill-013",
+        "skill-017"
+      ]
+    },
+    {
+      "id": "skill-017",
+      "name": "hands-on negotiation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on negotiation proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-014",
+        "skill-018"
+      ]
+    },
+    {
+      "id": "skill-018",
+      "name": "remote negotiation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote negotiation proficiency feeds worker vectors by 0.74 weight.",
+      "adjacency": [
+        "skill-015",
+        "skill-019"
+      ]
+    },
+    {
+      "id": "skill-019",
+      "name": "advisory documentation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory documentation proficiency feeds worker vectors by 0.27 weight.",
+      "adjacency": [
+        "skill-016",
+        "skill-020"
+      ]
+    },
+    {
+      "id": "skill-020",
+      "name": "hands-on documentation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on documentation proficiency feeds worker vectors by 0.77 weight.",
+      "adjacency": [
+        "skill-017",
+        "skill-021"
+      ]
+    },
+    {
+      "id": "skill-021",
+      "name": "remote documentation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote documentation proficiency feeds worker vectors by 0.41 weight.",
+      "adjacency": [
+        "skill-018",
+        "skill-022"
+      ]
+    },
+    {
+      "id": "skill-022",
+      "name": "advisory scheduling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory scheduling proficiency feeds worker vectors by 0.33 weight.",
+      "adjacency": [
+        "skill-019",
+        "skill-023"
+      ]
+    },
+    {
+      "id": "skill-023",
+      "name": "hands-on scheduling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on scheduling proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-020",
+        "skill-024"
+      ]
+    },
+    {
+      "id": "skill-024",
+      "name": "remote scheduling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote scheduling proficiency feeds worker vectors by 0.59 weight.",
+      "adjacency": [
+        "skill-021",
+        "skill-025"
+      ]
+    },
+    {
+      "id": "skill-025",
+      "name": "advisory inspection",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory inspection proficiency feeds worker vectors by 0.37 weight.",
+      "adjacency": [
+        "skill-022",
+        "skill-026"
+      ]
+    },
+    {
+      "id": "skill-026",
+      "name": "hands-on inspection",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on inspection proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-023",
+        "skill-027"
+      ]
+    },
+    {
+      "id": "skill-027",
+      "name": "remote inspection",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote inspection proficiency feeds worker vectors by 0.61 weight.",
+      "adjacency": [
+        "skill-024",
+        "skill-028"
+      ]
+    },
+    {
+      "id": "skill-028",
+      "name": "advisory mapping",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory mapping proficiency feeds worker vectors by 0.67 weight.",
+      "adjacency": [
+        "skill-025",
+        "skill-029"
+      ]
+    },
+    {
+      "id": "skill-029",
+      "name": "hands-on mapping",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on mapping proficiency feeds worker vectors by 0.78 weight.",
+      "adjacency": [
+        "skill-026",
+        "skill-030"
+      ]
+    },
+    {
+      "id": "skill-030",
+      "name": "remote mapping",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote mapping proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-027",
+        "skill-031"
+      ]
+    },
+    {
+      "id": "skill-031",
+      "name": "advisory sampling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory sampling proficiency feeds worker vectors by 0.48 weight.",
+      "adjacency": [
+        "skill-028",
+        "skill-032"
+      ]
+    },
+    {
+      "id": "skill-032",
+      "name": "hands-on sampling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on sampling proficiency feeds worker vectors by 0.62 weight.",
+      "adjacency": [
+        "skill-029",
+        "skill-033"
+      ]
+    },
+    {
+      "id": "skill-033",
+      "name": "remote sampling",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote sampling proficiency feeds worker vectors by 0.20 weight.",
+      "adjacency": [
+        "skill-030",
+        "skill-034"
+      ]
+    },
+    {
+      "id": "skill-034",
+      "name": "advisory calibration",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory calibration proficiency feeds worker vectors by 0.62 weight.",
+      "adjacency": [
+        "skill-031",
+        "skill-035"
+      ]
+    },
+    {
+      "id": "skill-035",
+      "name": "hands-on calibration",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on calibration proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-032",
+        "skill-036"
+      ]
+    },
+    {
+      "id": "skill-036",
+      "name": "remote calibration",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote calibration proficiency feeds worker vectors by 0.58 weight.",
+      "adjacency": [
+        "skill-033",
+        "skill-037"
+      ]
+    },
+    {
+      "id": "skill-037",
+      "name": "advisory routing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory routing proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-034",
+        "skill-038"
+      ]
+    },
+    {
+      "id": "skill-038",
+      "name": "hands-on routing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on routing proficiency feeds worker vectors by 0.76 weight.",
+      "adjacency": [
+        "skill-035",
+        "skill-039"
+      ]
+    },
+    {
+      "id": "skill-039",
+      "name": "remote routing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote routing proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-036",
+        "skill-040"
+      ]
+    },
+    {
+      "id": "skill-040",
+      "name": "advisory mentoring",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory mentoring proficiency feeds worker vectors by 0.50 weight.",
+      "adjacency": [
+        "skill-037",
+        "skill-041"
+      ]
+    },
+    {
+      "id": "skill-041",
+      "name": "hands-on mentoring",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on mentoring proficiency feeds worker vectors by 0.72 weight.",
+      "adjacency": [
+        "skill-038",
+        "skill-042"
+      ]
+    },
+    {
+      "id": "skill-042",
+      "name": "remote mentoring",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote mentoring proficiency feeds worker vectors by 0.85 weight.",
+      "adjacency": [
+        "skill-039",
+        "skill-043"
+      ]
+    },
+    {
+      "id": "skill-043",
+      "name": "advisory compliance",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory compliance proficiency feeds worker vectors by 0.78 weight.",
+      "adjacency": [
+        "skill-040",
+        "skill-044"
+      ]
+    },
+    {
+      "id": "skill-044",
+      "name": "hands-on compliance",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on compliance proficiency feeds worker vectors by 0.62 weight.",
+      "adjacency": [
+        "skill-041",
+        "skill-045"
+      ]
+    },
+    {
+      "id": "skill-045",
+      "name": "remote compliance",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote compliance proficiency feeds worker vectors by 0.41 weight.",
+      "adjacency": [
+        "skill-042",
+        "skill-046"
+      ]
+    },
+    {
+      "id": "skill-046",
+      "name": "advisory simulation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory simulation proficiency feeds worker vectors by 0.32 weight.",
+      "adjacency": [
+        "skill-043",
+        "skill-047"
+      ]
+    },
+    {
+      "id": "skill-047",
+      "name": "hands-on simulation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on simulation proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-044",
+        "skill-048"
+      ]
+    },
+    {
+      "id": "skill-048",
+      "name": "remote simulation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote simulation proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-045",
+        "skill-049"
+      ]
+    },
+    {
+      "id": "skill-049",
+      "name": "advisory budgeting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory budgeting proficiency feeds worker vectors by 0.33 weight.",
+      "adjacency": [
+        "skill-046",
+        "skill-050"
+      ]
+    },
+    {
+      "id": "skill-050",
+      "name": "hands-on budgeting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on budgeting proficiency feeds worker vectors by 0.44 weight.",
+      "adjacency": [
+        "skill-047",
+        "skill-051"
+      ]
+    },
+    {
+      "id": "skill-051",
+      "name": "remote budgeting",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote budgeting proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-048",
+        "skill-052"
+      ]
+    },
+    {
+      "id": "skill-052",
+      "name": "advisory translation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory translation proficiency feeds worker vectors by 0.55 weight.",
+      "adjacency": [
+        "skill-049",
+        "skill-053"
+      ]
+    },
+    {
+      "id": "skill-053",
+      "name": "hands-on translation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on translation proficiency feeds worker vectors by 0.32 weight.",
+      "adjacency": [
+        "skill-050",
+        "skill-054"
+      ]
+    },
+    {
+      "id": "skill-054",
+      "name": "remote translation",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote translation proficiency feeds worker vectors by 0.62 weight.",
+      "adjacency": [
+        "skill-051",
+        "skill-055"
+      ]
+    },
+    {
+      "id": "skill-055",
+      "name": "advisory testing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory testing proficiency feeds worker vectors by 0.84 weight.",
+      "adjacency": [
+        "skill-052",
+        "skill-056"
+      ]
+    },
+    {
+      "id": "skill-056",
+      "name": "hands-on testing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on testing proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-053",
+        "skill-057"
+      ]
+    },
+    {
+      "id": "skill-057",
+      "name": "remote testing",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote testing proficiency feeds worker vectors by 0.70 weight.",
+      "adjacency": [
+        "skill-054",
+        "skill-058"
+      ]
+    },
+    {
+      "id": "skill-058",
+      "name": "advisory archiving",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: advisory archiving proficiency feeds worker vectors by 0.67 weight.",
+      "adjacency": [
+        "skill-055",
+        "skill-059"
+      ]
+    },
+    {
+      "id": "skill-059",
+      "name": "hands-on archiving",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: hands-on archiving proficiency feeds worker vectors by 0.68 weight.",
+      "adjacency": [
+        "skill-056",
+        "skill-060"
+      ]
+    },
+    {
+      "id": "skill-060",
+      "name": "remote archiving",
+      "category": "cognitive",
+      "description": "Deterministic cognitive skill: remote archiving proficiency feeds worker vectors by 0.47 weight.",
+      "adjacency": [
+        "skill-057",
+        "skill-061"
+      ]
+    },
+    {
+      "id": "skill-061",
+      "name": "advisory summarization",
+      "category": "social",
+      "description": "Deterministic social skill: advisory summarization proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-058",
+        "skill-062"
+      ]
+    },
+    {
+      "id": "skill-062",
+      "name": "hands-on summarization",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on summarization proficiency feeds worker vectors by 0.37 weight.",
+      "adjacency": [
+        "skill-059",
+        "skill-063"
+      ]
+    },
+    {
+      "id": "skill-063",
+      "name": "remote summarization",
+      "category": "social",
+      "description": "Deterministic social skill: remote summarization proficiency feeds worker vectors by 0.58 weight.",
+      "adjacency": [
+        "skill-060",
+        "skill-064"
+      ]
+    },
+    {
+      "id": "skill-064",
+      "name": "advisory delegation",
+      "category": "social",
+      "description": "Deterministic social skill: advisory delegation proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-061",
+        "skill-065"
+      ]
+    },
+    {
+      "id": "skill-065",
+      "name": "hands-on delegation",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on delegation proficiency feeds worker vectors by 0.36 weight.",
+      "adjacency": [
+        "skill-062",
+        "skill-066"
+      ]
+    },
+    {
+      "id": "skill-066",
+      "name": "remote delegation",
+      "category": "social",
+      "description": "Deterministic social skill: remote delegation proficiency feeds worker vectors by 0.38 weight.",
+      "adjacency": [
+        "skill-063",
+        "skill-067"
+      ]
+    },
+    {
+      "id": "skill-067",
+      "name": "advisory repair",
+      "category": "social",
+      "description": "Deterministic social skill: advisory repair proficiency feeds worker vectors by 0.86 weight.",
+      "adjacency": [
+        "skill-064",
+        "skill-068"
+      ]
+    },
+    {
+      "id": "skill-068",
+      "name": "hands-on repair",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on repair proficiency feeds worker vectors by 0.57 weight.",
+      "adjacency": [
+        "skill-065",
+        "skill-069"
+      ]
+    },
+    {
+      "id": "skill-069",
+      "name": "remote repair",
+      "category": "social",
+      "description": "Deterministic social skill: remote repair proficiency feeds worker vectors by 0.59 weight.",
+      "adjacency": [
+        "skill-066",
+        "skill-070"
+      ]
+    },
+    {
+      "id": "skill-070",
+      "name": "advisory scripting",
+      "category": "social",
+      "description": "Deterministic social skill: advisory scripting proficiency feeds worker vectors by 0.52 weight.",
+      "adjacency": [
+        "skill-067",
+        "skill-071"
+      ]
+    },
+    {
+      "id": "skill-071",
+      "name": "hands-on scripting",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on scripting proficiency feeds worker vectors by 0.71 weight.",
+      "adjacency": [
+        "skill-068",
+        "skill-072"
+      ]
+    },
+    {
+      "id": "skill-072",
+      "name": "remote scripting",
+      "category": "social",
+      "description": "Deterministic social skill: remote scripting proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-069",
+        "skill-073"
+      ]
+    },
+    {
+      "id": "skill-073",
+      "name": "advisory forecasting",
+      "category": "social",
+      "description": "Deterministic social skill: advisory forecasting proficiency feeds worker vectors by 0.64 weight.",
+      "adjacency": [
+        "skill-070",
+        "skill-074"
+      ]
+    },
+    {
+      "id": "skill-074",
+      "name": "hands-on forecasting",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on forecasting proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-071",
+        "skill-075"
+      ]
+    },
+    {
+      "id": "skill-075",
+      "name": "remote forecasting",
+      "category": "social",
+      "description": "Deterministic social skill: remote forecasting proficiency feeds worker vectors by 0.60 weight.",
+      "adjacency": [
+        "skill-072",
+        "skill-076"
+      ]
+    },
+    {
+      "id": "skill-076",
+      "name": "advisory negotiation",
+      "category": "social",
+      "description": "Deterministic social skill: advisory negotiation proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-073",
+        "skill-077"
+      ]
+    },
+    {
+      "id": "skill-077",
+      "name": "hands-on negotiation",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on negotiation proficiency feeds worker vectors by 0.71 weight.",
+      "adjacency": [
+        "skill-074",
+        "skill-078"
+      ]
+    },
+    {
+      "id": "skill-078",
+      "name": "remote negotiation",
+      "category": "social",
+      "description": "Deterministic social skill: remote negotiation proficiency feeds worker vectors by 0.31 weight.",
+      "adjacency": [
+        "skill-075",
+        "skill-079"
+      ]
+    },
+    {
+      "id": "skill-079",
+      "name": "advisory documentation",
+      "category": "social",
+      "description": "Deterministic social skill: advisory documentation proficiency feeds worker vectors by 0.82 weight.",
+      "adjacency": [
+        "skill-076",
+        "skill-080"
+      ]
+    },
+    {
+      "id": "skill-080",
+      "name": "hands-on documentation",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on documentation proficiency feeds worker vectors by 0.83 weight.",
+      "adjacency": [
+        "skill-077",
+        "skill-081"
+      ]
+    },
+    {
+      "id": "skill-081",
+      "name": "remote documentation",
+      "category": "social",
+      "description": "Deterministic social skill: remote documentation proficiency feeds worker vectors by 0.33 weight.",
+      "adjacency": [
+        "skill-078",
+        "skill-082"
+      ]
+    },
+    {
+      "id": "skill-082",
+      "name": "advisory scheduling",
+      "category": "social",
+      "description": "Deterministic social skill: advisory scheduling proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-079",
+        "skill-083"
+      ]
+    },
+    {
+      "id": "skill-083",
+      "name": "hands-on scheduling",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on scheduling proficiency feeds worker vectors by 0.42 weight.",
+      "adjacency": [
+        "skill-080",
+        "skill-084"
+      ]
+    },
+    {
+      "id": "skill-084",
+      "name": "remote scheduling",
+      "category": "social",
+      "description": "Deterministic social skill: remote scheduling proficiency feeds worker vectors by 0.20 weight.",
+      "adjacency": [
+        "skill-081",
+        "skill-085"
+      ]
+    },
+    {
+      "id": "skill-085",
+      "name": "advisory inspection",
+      "category": "social",
+      "description": "Deterministic social skill: advisory inspection proficiency feeds worker vectors by 0.69 weight.",
+      "adjacency": [
+        "skill-082",
+        "skill-086"
+      ]
+    },
+    {
+      "id": "skill-086",
+      "name": "hands-on inspection",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on inspection proficiency feeds worker vectors by 0.40 weight.",
+      "adjacency": [
+        "skill-083",
+        "skill-087"
+      ]
+    },
+    {
+      "id": "skill-087",
+      "name": "remote inspection",
+      "category": "social",
+      "description": "Deterministic social skill: remote inspection proficiency feeds worker vectors by 0.20 weight.",
+      "adjacency": [
+        "skill-084",
+        "skill-088"
+      ]
+    },
+    {
+      "id": "skill-088",
+      "name": "advisory mapping",
+      "category": "social",
+      "description": "Deterministic social skill: advisory mapping proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-085",
+        "skill-089"
+      ]
+    },
+    {
+      "id": "skill-089",
+      "name": "hands-on mapping",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on mapping proficiency feeds worker vectors by 0.38 weight.",
+      "adjacency": [
+        "skill-086",
+        "skill-090"
+      ]
+    },
+    {
+      "id": "skill-090",
+      "name": "remote mapping",
+      "category": "social",
+      "description": "Deterministic social skill: remote mapping proficiency feeds worker vectors by 0.42 weight.",
+      "adjacency": [
+        "skill-087",
+        "skill-091"
+      ]
+    },
+    {
+      "id": "skill-091",
+      "name": "advisory sampling",
+      "category": "social",
+      "description": "Deterministic social skill: advisory sampling proficiency feeds worker vectors by 0.56 weight.",
+      "adjacency": [
+        "skill-088",
+        "skill-092"
+      ]
+    },
+    {
+      "id": "skill-092",
+      "name": "hands-on sampling",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on sampling proficiency feeds worker vectors by 0.61 weight.",
+      "adjacency": [
+        "skill-089",
+        "skill-093"
+      ]
+    },
+    {
+      "id": "skill-093",
+      "name": "remote sampling",
+      "category": "social",
+      "description": "Deterministic social skill: remote sampling proficiency feeds worker vectors by 0.61 weight.",
+      "adjacency": [
+        "skill-090",
+        "skill-094"
+      ]
+    },
+    {
+      "id": "skill-094",
+      "name": "advisory calibration",
+      "category": "social",
+      "description": "Deterministic social skill: advisory calibration proficiency feeds worker vectors by 0.49 weight.",
+      "adjacency": [
+        "skill-091",
+        "skill-095"
+      ]
+    },
+    {
+      "id": "skill-095",
+      "name": "hands-on calibration",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on calibration proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-092",
+        "skill-096"
+      ]
+    },
+    {
+      "id": "skill-096",
+      "name": "remote calibration",
+      "category": "social",
+      "description": "Deterministic social skill: remote calibration proficiency feeds worker vectors by 0.83 weight.",
+      "adjacency": [
+        "skill-093",
+        "skill-097"
+      ]
+    },
+    {
+      "id": "skill-097",
+      "name": "advisory routing",
+      "category": "social",
+      "description": "Deterministic social skill: advisory routing proficiency feeds worker vectors by 0.28 weight.",
+      "adjacency": [
+        "skill-094",
+        "skill-098"
+      ]
+    },
+    {
+      "id": "skill-098",
+      "name": "hands-on routing",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on routing proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-095",
+        "skill-099"
+      ]
+    },
+    {
+      "id": "skill-099",
+      "name": "remote routing",
+      "category": "social",
+      "description": "Deterministic social skill: remote routing proficiency feeds worker vectors by 0.30 weight.",
+      "adjacency": [
+        "skill-096",
+        "skill-100"
+      ]
+    },
+    {
+      "id": "skill-100",
+      "name": "advisory mentoring",
+      "category": "social",
+      "description": "Deterministic social skill: advisory mentoring proficiency feeds worker vectors by 0.49 weight.",
+      "adjacency": [
+        "skill-097",
+        "skill-101"
+      ]
+    },
+    {
+      "id": "skill-101",
+      "name": "hands-on mentoring",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on mentoring proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-098",
+        "skill-102"
+      ]
+    },
+    {
+      "id": "skill-102",
+      "name": "remote mentoring",
+      "category": "social",
+      "description": "Deterministic social skill: remote mentoring proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-099",
+        "skill-103"
+      ]
+    },
+    {
+      "id": "skill-103",
+      "name": "advisory compliance",
+      "category": "social",
+      "description": "Deterministic social skill: advisory compliance proficiency feeds worker vectors by 0.88 weight.",
+      "adjacency": [
+        "skill-100",
+        "skill-104"
+      ]
+    },
+    {
+      "id": "skill-104",
+      "name": "hands-on compliance",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on compliance proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-101",
+        "skill-105"
+      ]
+    },
+    {
+      "id": "skill-105",
+      "name": "remote compliance",
+      "category": "social",
+      "description": "Deterministic social skill: remote compliance proficiency feeds worker vectors by 0.46 weight.",
+      "adjacency": [
+        "skill-102",
+        "skill-106"
+      ]
+    },
+    {
+      "id": "skill-106",
+      "name": "advisory simulation",
+      "category": "social",
+      "description": "Deterministic social skill: advisory simulation proficiency feeds worker vectors by 0.60 weight.",
+      "adjacency": [
+        "skill-103",
+        "skill-107"
+      ]
+    },
+    {
+      "id": "skill-107",
+      "name": "hands-on simulation",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on simulation proficiency feeds worker vectors by 0.22 weight.",
+      "adjacency": [
+        "skill-104",
+        "skill-108"
+      ]
+    },
+    {
+      "id": "skill-108",
+      "name": "remote simulation",
+      "category": "social",
+      "description": "Deterministic social skill: remote simulation proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-105",
+        "skill-109"
+      ]
+    },
+    {
+      "id": "skill-109",
+      "name": "advisory budgeting",
+      "category": "social",
+      "description": "Deterministic social skill: advisory budgeting proficiency feeds worker vectors by 0.57 weight.",
+      "adjacency": [
+        "skill-106",
+        "skill-110"
+      ]
+    },
+    {
+      "id": "skill-110",
+      "name": "hands-on budgeting",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on budgeting proficiency feeds worker vectors by 0.49 weight.",
+      "adjacency": [
+        "skill-107",
+        "skill-111"
+      ]
+    },
+    {
+      "id": "skill-111",
+      "name": "remote budgeting",
+      "category": "social",
+      "description": "Deterministic social skill: remote budgeting proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-108",
+        "skill-112"
+      ]
+    },
+    {
+      "id": "skill-112",
+      "name": "advisory translation",
+      "category": "social",
+      "description": "Deterministic social skill: advisory translation proficiency feeds worker vectors by 0.28 weight.",
+      "adjacency": [
+        "skill-109",
+        "skill-113"
+      ]
+    },
+    {
+      "id": "skill-113",
+      "name": "hands-on translation",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on translation proficiency feeds worker vectors by 0.32 weight.",
+      "adjacency": [
+        "skill-110",
+        "skill-114"
+      ]
+    },
+    {
+      "id": "skill-114",
+      "name": "remote translation",
+      "category": "social",
+      "description": "Deterministic social skill: remote translation proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-111",
+        "skill-115"
+      ]
+    },
+    {
+      "id": "skill-115",
+      "name": "advisory testing",
+      "category": "social",
+      "description": "Deterministic social skill: advisory testing proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-112",
+        "skill-116"
+      ]
+    },
+    {
+      "id": "skill-116",
+      "name": "hands-on testing",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on testing proficiency feeds worker vectors by 0.60 weight.",
+      "adjacency": [
+        "skill-113",
+        "skill-117"
+      ]
+    },
+    {
+      "id": "skill-117",
+      "name": "remote testing",
+      "category": "social",
+      "description": "Deterministic social skill: remote testing proficiency feeds worker vectors by 0.63 weight.",
+      "adjacency": [
+        "skill-114",
+        "skill-118"
+      ]
+    },
+    {
+      "id": "skill-118",
+      "name": "advisory archiving",
+      "category": "social",
+      "description": "Deterministic social skill: advisory archiving proficiency feeds worker vectors by 0.21 weight.",
+      "adjacency": [
+        "skill-115",
+        "skill-119"
+      ]
+    },
+    {
+      "id": "skill-119",
+      "name": "hands-on archiving",
+      "category": "social",
+      "description": "Deterministic social skill: hands-on archiving proficiency feeds worker vectors by 0.57 weight.",
+      "adjacency": [
+        "skill-116",
+        "skill-120"
+      ]
+    },
+    {
+      "id": "skill-120",
+      "name": "remote archiving",
+      "category": "social",
+      "description": "Deterministic social skill: remote archiving proficiency feeds worker vectors by 0.36 weight.",
+      "adjacency": [
+        "skill-117",
+        "skill-121"
+      ]
+    },
+    {
+      "id": "skill-121",
+      "name": "advisory summarization",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory summarization proficiency feeds worker vectors by 0.40 weight.",
+      "adjacency": [
+        "skill-118",
+        "skill-122"
+      ]
+    },
+    {
+      "id": "skill-122",
+      "name": "hands-on summarization",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on summarization proficiency feeds worker vectors by 0.72 weight.",
+      "adjacency": [
+        "skill-119",
+        "skill-123"
+      ]
+    },
+    {
+      "id": "skill-123",
+      "name": "remote summarization",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote summarization proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-120",
+        "skill-124"
+      ]
+    },
+    {
+      "id": "skill-124",
+      "name": "advisory delegation",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory delegation proficiency feeds worker vectors by 0.85 weight.",
+      "adjacency": [
+        "skill-121",
+        "skill-125"
+      ]
+    },
+    {
+      "id": "skill-125",
+      "name": "hands-on delegation",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on delegation proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-122",
+        "skill-126"
+      ]
+    },
+    {
+      "id": "skill-126",
+      "name": "remote delegation",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote delegation proficiency feeds worker vectors by 0.54 weight.",
+      "adjacency": [
+        "skill-123",
+        "skill-127"
+      ]
+    },
+    {
+      "id": "skill-127",
+      "name": "advisory repair",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory repair proficiency feeds worker vectors by 0.58 weight.",
+      "adjacency": [
+        "skill-124",
+        "skill-128"
+      ]
+    },
+    {
+      "id": "skill-128",
+      "name": "hands-on repair",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on repair proficiency feeds worker vectors by 0.86 weight.",
+      "adjacency": [
+        "skill-125",
+        "skill-129"
+      ]
+    },
+    {
+      "id": "skill-129",
+      "name": "remote repair",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote repair proficiency feeds worker vectors by 0.80 weight.",
+      "adjacency": [
+        "skill-126",
+        "skill-130"
+      ]
+    },
+    {
+      "id": "skill-130",
+      "name": "advisory scripting",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory scripting proficiency feeds worker vectors by 0.86 weight.",
+      "adjacency": [
+        "skill-127",
+        "skill-131"
+      ]
+    },
+    {
+      "id": "skill-131",
+      "name": "hands-on scripting",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on scripting proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-128",
+        "skill-132"
+      ]
+    },
+    {
+      "id": "skill-132",
+      "name": "remote scripting",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote scripting proficiency feeds worker vectors by 0.25 weight.",
+      "adjacency": [
+        "skill-129",
+        "skill-133"
+      ]
+    },
+    {
+      "id": "skill-133",
+      "name": "advisory forecasting",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory forecasting proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-130",
+        "skill-134"
+      ]
+    },
+    {
+      "id": "skill-134",
+      "name": "hands-on forecasting",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on forecasting proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-131",
+        "skill-135"
+      ]
+    },
+    {
+      "id": "skill-135",
+      "name": "remote forecasting",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote forecasting proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-132",
+        "skill-136"
+      ]
+    },
+    {
+      "id": "skill-136",
+      "name": "advisory negotiation",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory negotiation proficiency feeds worker vectors by 0.85 weight.",
+      "adjacency": [
+        "skill-133",
+        "skill-137"
+      ]
+    },
+    {
+      "id": "skill-137",
+      "name": "hands-on negotiation",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on negotiation proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-134",
+        "skill-138"
+      ]
+    },
+    {
+      "id": "skill-138",
+      "name": "remote negotiation",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote negotiation proficiency feeds worker vectors by 0.28 weight.",
+      "adjacency": [
+        "skill-135",
+        "skill-139"
+      ]
+    },
+    {
+      "id": "skill-139",
+      "name": "advisory documentation",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory documentation proficiency feeds worker vectors by 0.87 weight.",
+      "adjacency": [
+        "skill-136",
+        "skill-140"
+      ]
+    },
+    {
+      "id": "skill-140",
+      "name": "hands-on documentation",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on documentation proficiency feeds worker vectors by 0.22 weight.",
+      "adjacency": [
+        "skill-137",
+        "skill-141"
+      ]
+    },
+    {
+      "id": "skill-141",
+      "name": "remote documentation",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote documentation proficiency feeds worker vectors by 0.44 weight.",
+      "adjacency": [
+        "skill-138",
+        "skill-142"
+      ]
+    },
+    {
+      "id": "skill-142",
+      "name": "advisory scheduling",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory scheduling proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-139",
+        "skill-143"
+      ]
+    },
+    {
+      "id": "skill-143",
+      "name": "hands-on scheduling",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on scheduling proficiency feeds worker vectors by 0.27 weight.",
+      "adjacency": [
+        "skill-140",
+        "skill-144"
+      ]
+    },
+    {
+      "id": "skill-144",
+      "name": "remote scheduling",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote scheduling proficiency feeds worker vectors by 0.84 weight.",
+      "adjacency": [
+        "skill-141",
+        "skill-145"
+      ]
+    },
+    {
+      "id": "skill-145",
+      "name": "advisory inspection",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory inspection proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-142",
+        "skill-146"
+      ]
+    },
+    {
+      "id": "skill-146",
+      "name": "hands-on inspection",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on inspection proficiency feeds worker vectors by 0.78 weight.",
+      "adjacency": [
+        "skill-143",
+        "skill-147"
+      ]
+    },
+    {
+      "id": "skill-147",
+      "name": "remote inspection",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote inspection proficiency feeds worker vectors by 0.52 weight.",
+      "adjacency": [
+        "skill-144",
+        "skill-148"
+      ]
+    },
+    {
+      "id": "skill-148",
+      "name": "advisory mapping",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory mapping proficiency feeds worker vectors by 0.45 weight.",
+      "adjacency": [
+        "skill-145",
+        "skill-149"
+      ]
+    },
+    {
+      "id": "skill-149",
+      "name": "hands-on mapping",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on mapping proficiency feeds worker vectors by 0.68 weight.",
+      "adjacency": [
+        "skill-146",
+        "skill-150"
+      ]
+    },
+    {
+      "id": "skill-150",
+      "name": "remote mapping",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote mapping proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-147",
+        "skill-151"
+      ]
+    },
+    {
+      "id": "skill-151",
+      "name": "advisory sampling",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory sampling proficiency feeds worker vectors by 0.46 weight.",
+      "adjacency": [
+        "skill-148",
+        "skill-152"
+      ]
+    },
+    {
+      "id": "skill-152",
+      "name": "hands-on sampling",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on sampling proficiency feeds worker vectors by 0.24 weight.",
+      "adjacency": [
+        "skill-149",
+        "skill-153"
+      ]
+    },
+    {
+      "id": "skill-153",
+      "name": "remote sampling",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote sampling proficiency feeds worker vectors by 0.25 weight.",
+      "adjacency": [
+        "skill-150",
+        "skill-154"
+      ]
+    },
+    {
+      "id": "skill-154",
+      "name": "advisory calibration",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory calibration proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-151",
+        "skill-155"
+      ]
+    },
+    {
+      "id": "skill-155",
+      "name": "hands-on calibration",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on calibration proficiency feeds worker vectors by 0.35 weight.",
+      "adjacency": [
+        "skill-152",
+        "skill-156"
+      ]
+    },
+    {
+      "id": "skill-156",
+      "name": "remote calibration",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote calibration proficiency feeds worker vectors by 0.48 weight.",
+      "adjacency": [
+        "skill-153",
+        "skill-157"
+      ]
+    },
+    {
+      "id": "skill-157",
+      "name": "advisory routing",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory routing proficiency feeds worker vectors by 0.86 weight.",
+      "adjacency": [
+        "skill-154",
+        "skill-158"
+      ]
+    },
+    {
+      "id": "skill-158",
+      "name": "hands-on routing",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on routing proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-155",
+        "skill-159"
+      ]
+    },
+    {
+      "id": "skill-159",
+      "name": "remote routing",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote routing proficiency feeds worker vectors by 0.82 weight.",
+      "adjacency": [
+        "skill-156",
+        "skill-160"
+      ]
+    },
+    {
+      "id": "skill-160",
+      "name": "advisory mentoring",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory mentoring proficiency feeds worker vectors by 0.46 weight.",
+      "adjacency": [
+        "skill-157",
+        "skill-161"
+      ]
+    },
+    {
+      "id": "skill-161",
+      "name": "hands-on mentoring",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on mentoring proficiency feeds worker vectors by 0.42 weight.",
+      "adjacency": [
+        "skill-158",
+        "skill-162"
+      ]
+    },
+    {
+      "id": "skill-162",
+      "name": "remote mentoring",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote mentoring proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-159",
+        "skill-163"
+      ]
+    },
+    {
+      "id": "skill-163",
+      "name": "advisory compliance",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory compliance proficiency feeds worker vectors by 0.69 weight.",
+      "adjacency": [
+        "skill-160",
+        "skill-164"
+      ]
+    },
+    {
+      "id": "skill-164",
+      "name": "hands-on compliance",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on compliance proficiency feeds worker vectors by 0.33 weight.",
+      "adjacency": [
+        "skill-161",
+        "skill-165"
+      ]
+    },
+    {
+      "id": "skill-165",
+      "name": "remote compliance",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote compliance proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-162",
+        "skill-166"
+      ]
+    },
+    {
+      "id": "skill-166",
+      "name": "advisory simulation",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory simulation proficiency feeds worker vectors by 0.73 weight.",
+      "adjacency": [
+        "skill-163",
+        "skill-167"
+      ]
+    },
+    {
+      "id": "skill-167",
+      "name": "hands-on simulation",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on simulation proficiency feeds worker vectors by 0.54 weight.",
+      "adjacency": [
+        "skill-164",
+        "skill-168"
+      ]
+    },
+    {
+      "id": "skill-168",
+      "name": "remote simulation",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote simulation proficiency feeds worker vectors by 0.51 weight.",
+      "adjacency": [
+        "skill-165",
+        "skill-169"
+      ]
+    },
+    {
+      "id": "skill-169",
+      "name": "advisory budgeting",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory budgeting proficiency feeds worker vectors by 0.21 weight.",
+      "adjacency": [
+        "skill-166",
+        "skill-170"
+      ]
+    },
+    {
+      "id": "skill-170",
+      "name": "hands-on budgeting",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on budgeting proficiency feeds worker vectors by 0.47 weight.",
+      "adjacency": [
+        "skill-167",
+        "skill-171"
+      ]
+    },
+    {
+      "id": "skill-171",
+      "name": "remote budgeting",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote budgeting proficiency feeds worker vectors by 0.83 weight.",
+      "adjacency": [
+        "skill-168",
+        "skill-172"
+      ]
+    },
+    {
+      "id": "skill-172",
+      "name": "advisory translation",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory translation proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-169",
+        "skill-173"
+      ]
+    },
+    {
+      "id": "skill-173",
+      "name": "hands-on translation",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on translation proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-170",
+        "skill-174"
+      ]
+    },
+    {
+      "id": "skill-174",
+      "name": "remote translation",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote translation proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-171",
+        "skill-175"
+      ]
+    },
+    {
+      "id": "skill-175",
+      "name": "advisory testing",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory testing proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-172",
+        "skill-176"
+      ]
+    },
+    {
+      "id": "skill-176",
+      "name": "hands-on testing",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on testing proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-173",
+        "skill-177"
+      ]
+    },
+    {
+      "id": "skill-177",
+      "name": "remote testing",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote testing proficiency feeds worker vectors by 0.42 weight.",
+      "adjacency": [
+        "skill-174",
+        "skill-178"
+      ]
+    },
+    {
+      "id": "skill-178",
+      "name": "advisory archiving",
+      "category": "physical",
+      "description": "Deterministic physical skill: advisory archiving proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-175",
+        "skill-179"
+      ]
+    },
+    {
+      "id": "skill-179",
+      "name": "hands-on archiving",
+      "category": "physical",
+      "description": "Deterministic physical skill: hands-on archiving proficiency feeds worker vectors by 0.30 weight.",
+      "adjacency": [
+        "skill-176",
+        "skill-180"
+      ]
+    },
+    {
+      "id": "skill-180",
+      "name": "remote archiving",
+      "category": "physical",
+      "description": "Deterministic physical skill: remote archiving proficiency feeds worker vectors by 0.42 weight.",
+      "adjacency": [
+        "skill-177",
+        "skill-181"
+      ]
+    },
+    {
+      "id": "skill-181",
+      "name": "advisory summarization",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory summarization proficiency feeds worker vectors by 0.70 weight.",
+      "adjacency": [
+        "skill-178",
+        "skill-182"
+      ]
+    },
+    {
+      "id": "skill-182",
+      "name": "hands-on summarization",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on summarization proficiency feeds worker vectors by 0.74 weight.",
+      "adjacency": [
+        "skill-179",
+        "skill-183"
+      ]
+    },
+    {
+      "id": "skill-183",
+      "name": "remote summarization",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote summarization proficiency feeds worker vectors by 0.53 weight.",
+      "adjacency": [
+        "skill-180",
+        "skill-184"
+      ]
+    },
+    {
+      "id": "skill-184",
+      "name": "advisory delegation",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory delegation proficiency feeds worker vectors by 0.47 weight.",
+      "adjacency": [
+        "skill-181",
+        "skill-185"
+      ]
+    },
+    {
+      "id": "skill-185",
+      "name": "hands-on delegation",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on delegation proficiency feeds worker vectors by 0.50 weight.",
+      "adjacency": [
+        "skill-182",
+        "skill-186"
+      ]
+    },
+    {
+      "id": "skill-186",
+      "name": "remote delegation",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote delegation proficiency feeds worker vectors by 0.59 weight.",
+      "adjacency": [
+        "skill-183",
+        "skill-187"
+      ]
+    },
+    {
+      "id": "skill-187",
+      "name": "advisory repair",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory repair proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-184",
+        "skill-188"
+      ]
+    },
+    {
+      "id": "skill-188",
+      "name": "hands-on repair",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on repair proficiency feeds worker vectors by 0.74 weight.",
+      "adjacency": [
+        "skill-185",
+        "skill-189"
+      ]
+    },
+    {
+      "id": "skill-189",
+      "name": "remote repair",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote repair proficiency feeds worker vectors by 0.45 weight.",
+      "adjacency": [
+        "skill-186",
+        "skill-190"
+      ]
+    },
+    {
+      "id": "skill-190",
+      "name": "advisory scripting",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory scripting proficiency feeds worker vectors by 0.22 weight.",
+      "adjacency": [
+        "skill-187",
+        "skill-191"
+      ]
+    },
+    {
+      "id": "skill-191",
+      "name": "hands-on scripting",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on scripting proficiency feeds worker vectors by 0.87 weight.",
+      "adjacency": [
+        "skill-188",
+        "skill-192"
+      ]
+    },
+    {
+      "id": "skill-192",
+      "name": "remote scripting",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote scripting proficiency feeds worker vectors by 0.61 weight.",
+      "adjacency": [
+        "skill-189",
+        "skill-193"
+      ]
+    },
+    {
+      "id": "skill-193",
+      "name": "advisory forecasting",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory forecasting proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-190",
+        "skill-194"
+      ]
+    },
+    {
+      "id": "skill-194",
+      "name": "hands-on forecasting",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on forecasting proficiency feeds worker vectors by 0.79 weight.",
+      "adjacency": [
+        "skill-191",
+        "skill-195"
+      ]
+    },
+    {
+      "id": "skill-195",
+      "name": "remote forecasting",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote forecasting proficiency feeds worker vectors by 0.76 weight.",
+      "adjacency": [
+        "skill-192",
+        "skill-196"
+      ]
+    },
+    {
+      "id": "skill-196",
+      "name": "advisory negotiation",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory negotiation proficiency feeds worker vectors by 0.73 weight.",
+      "adjacency": [
+        "skill-193",
+        "skill-197"
+      ]
+    },
+    {
+      "id": "skill-197",
+      "name": "hands-on negotiation",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on negotiation proficiency feeds worker vectors by 0.67 weight.",
+      "adjacency": [
+        "skill-194",
+        "skill-198"
+      ]
+    },
+    {
+      "id": "skill-198",
+      "name": "remote negotiation",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote negotiation proficiency feeds worker vectors by 0.21 weight.",
+      "adjacency": [
+        "skill-195",
+        "skill-199"
+      ]
+    },
+    {
+      "id": "skill-199",
+      "name": "advisory documentation",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory documentation proficiency feeds worker vectors by 0.66 weight.",
+      "adjacency": [
+        "skill-196",
+        "skill-200"
+      ]
+    },
+    {
+      "id": "skill-200",
+      "name": "hands-on documentation",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on documentation proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-197",
+        "skill-201"
+      ]
+    },
+    {
+      "id": "skill-201",
+      "name": "remote documentation",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote documentation proficiency feeds worker vectors by 0.52 weight.",
+      "adjacency": [
+        "skill-198",
+        "skill-202"
+      ]
+    },
+    {
+      "id": "skill-202",
+      "name": "advisory scheduling",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory scheduling proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-199",
+        "skill-203"
+      ]
+    },
+    {
+      "id": "skill-203",
+      "name": "hands-on scheduling",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on scheduling proficiency feeds worker vectors by 0.81 weight.",
+      "adjacency": [
+        "skill-200",
+        "skill-204"
+      ]
+    },
+    {
+      "id": "skill-204",
+      "name": "remote scheduling",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote scheduling proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-201",
+        "skill-205"
+      ]
+    },
+    {
+      "id": "skill-205",
+      "name": "advisory inspection",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory inspection proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-202",
+        "skill-206"
+      ]
+    },
+    {
+      "id": "skill-206",
+      "name": "hands-on inspection",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on inspection proficiency feeds worker vectors by 0.36 weight.",
+      "adjacency": [
+        "skill-203",
+        "skill-207"
+      ]
+    },
+    {
+      "id": "skill-207",
+      "name": "remote inspection",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote inspection proficiency feeds worker vectors by 0.32 weight.",
+      "adjacency": [
+        "skill-204",
+        "skill-208"
+      ]
+    },
+    {
+      "id": "skill-208",
+      "name": "advisory mapping",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory mapping proficiency feeds worker vectors by 0.87 weight.",
+      "adjacency": [
+        "skill-205",
+        "skill-209"
+      ]
+    },
+    {
+      "id": "skill-209",
+      "name": "hands-on mapping",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on mapping proficiency feeds worker vectors by 0.37 weight.",
+      "adjacency": [
+        "skill-206",
+        "skill-210"
+      ]
+    },
+    {
+      "id": "skill-210",
+      "name": "remote mapping",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote mapping proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-207",
+        "skill-211"
+      ]
+    },
+    {
+      "id": "skill-211",
+      "name": "advisory sampling",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory sampling proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-208",
+        "skill-212"
+      ]
+    },
+    {
+      "id": "skill-212",
+      "name": "hands-on sampling",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on sampling proficiency feeds worker vectors by 0.34 weight.",
+      "adjacency": [
+        "skill-209",
+        "skill-213"
+      ]
+    },
+    {
+      "id": "skill-213",
+      "name": "remote sampling",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote sampling proficiency feeds worker vectors by 0.55 weight.",
+      "adjacency": [
+        "skill-210",
+        "skill-214"
+      ]
+    },
+    {
+      "id": "skill-214",
+      "name": "advisory calibration",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory calibration proficiency feeds worker vectors by 0.29 weight.",
+      "adjacency": [
+        "skill-211",
+        "skill-215"
+      ]
+    },
+    {
+      "id": "skill-215",
+      "name": "hands-on calibration",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on calibration proficiency feeds worker vectors by 0.51 weight.",
+      "adjacency": [
+        "skill-212",
+        "skill-216"
+      ]
+    },
+    {
+      "id": "skill-216",
+      "name": "remote calibration",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote calibration proficiency feeds worker vectors by 0.38 weight.",
+      "adjacency": [
+        "skill-213",
+        "skill-217"
+      ]
+    },
+    {
+      "id": "skill-217",
+      "name": "advisory routing",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory routing proficiency feeds worker vectors by 0.60 weight.",
+      "adjacency": [
+        "skill-214",
+        "skill-218"
+      ]
+    },
+    {
+      "id": "skill-218",
+      "name": "hands-on routing",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on routing proficiency feeds worker vectors by 0.77 weight.",
+      "adjacency": [
+        "skill-215",
+        "skill-219"
+      ]
+    },
+    {
+      "id": "skill-219",
+      "name": "remote routing",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote routing proficiency feeds worker vectors by 0.23 weight.",
+      "adjacency": [
+        "skill-216",
+        "skill-220"
+      ]
+    },
+    {
+      "id": "skill-220",
+      "name": "advisory mentoring",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory mentoring proficiency feeds worker vectors by 0.56 weight.",
+      "adjacency": [
+        "skill-217",
+        "skill-221"
+      ]
+    },
+    {
+      "id": "skill-221",
+      "name": "hands-on mentoring",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on mentoring proficiency feeds worker vectors by 0.26 weight.",
+      "adjacency": [
+        "skill-218",
+        "skill-222"
+      ]
+    },
+    {
+      "id": "skill-222",
+      "name": "remote mentoring",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote mentoring proficiency feeds worker vectors by 0.49 weight.",
+      "adjacency": [
+        "skill-219",
+        "skill-223"
+      ]
+    },
+    {
+      "id": "skill-223",
+      "name": "advisory compliance",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory compliance proficiency feeds worker vectors by 0.85 weight.",
+      "adjacency": [
+        "skill-220",
+        "skill-224"
+      ]
+    },
+    {
+      "id": "skill-224",
+      "name": "hands-on compliance",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on compliance proficiency feeds worker vectors by 0.89 weight.",
+      "adjacency": [
+        "skill-221",
+        "skill-225"
+      ]
+    },
+    {
+      "id": "skill-225",
+      "name": "remote compliance",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote compliance proficiency feeds worker vectors by 0.45 weight.",
+      "adjacency": [
+        "skill-222",
+        "skill-226"
+      ]
+    },
+    {
+      "id": "skill-226",
+      "name": "advisory simulation",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory simulation proficiency feeds worker vectors by 0.89 weight.",
+      "adjacency": [
+        "skill-223",
+        "skill-227"
+      ]
+    },
+    {
+      "id": "skill-227",
+      "name": "hands-on simulation",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on simulation proficiency feeds worker vectors by 0.54 weight.",
+      "adjacency": [
+        "skill-224",
+        "skill-228"
+      ]
+    },
+    {
+      "id": "skill-228",
+      "name": "remote simulation",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote simulation proficiency feeds worker vectors by 0.38 weight.",
+      "adjacency": [
+        "skill-225",
+        "skill-229"
+      ]
+    },
+    {
+      "id": "skill-229",
+      "name": "advisory budgeting",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory budgeting proficiency feeds worker vectors by 0.47 weight.",
+      "adjacency": [
+        "skill-226",
+        "skill-230"
+      ]
+    },
+    {
+      "id": "skill-230",
+      "name": "hands-on budgeting",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on budgeting proficiency feeds worker vectors by 0.73 weight.",
+      "adjacency": [
+        "skill-227",
+        "skill-231"
+      ]
+    },
+    {
+      "id": "skill-231",
+      "name": "remote budgeting",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote budgeting proficiency feeds worker vectors by 0.58 weight.",
+      "adjacency": [
+        "skill-228",
+        "skill-232"
+      ]
+    },
+    {
+      "id": "skill-232",
+      "name": "advisory translation",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory translation proficiency feeds worker vectors by 0.75 weight.",
+      "adjacency": [
+        "skill-229",
+        "skill-233"
+      ]
+    },
+    {
+      "id": "skill-233",
+      "name": "hands-on translation",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on translation proficiency feeds worker vectors by 0.66 weight.",
+      "adjacency": [
+        "skill-230",
+        "skill-234"
+      ]
+    },
+    {
+      "id": "skill-234",
+      "name": "remote translation",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote translation proficiency feeds worker vectors by 0.46 weight.",
+      "adjacency": [
+        "skill-231",
+        "skill-235"
+      ]
+    },
+    {
+      "id": "skill-235",
+      "name": "advisory testing",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory testing proficiency feeds worker vectors by 0.82 weight.",
+      "adjacency": [
+        "skill-232",
+        "skill-236"
+      ]
+    },
+    {
+      "id": "skill-236",
+      "name": "hands-on testing",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on testing proficiency feeds worker vectors by 0.76 weight.",
+      "adjacency": [
+        "skill-233",
+        "skill-237"
+      ]
+    },
+    {
+      "id": "skill-237",
+      "name": "remote testing",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote testing proficiency feeds worker vectors by 0.65 weight.",
+      "adjacency": [
+        "skill-234",
+        "skill-238"
+      ]
+    },
+    {
+      "id": "skill-238",
+      "name": "advisory archiving",
+      "category": "digital",
+      "description": "Deterministic digital skill: advisory archiving proficiency feeds worker vectors by 0.44 weight.",
+      "adjacency": [
+        "skill-235",
+        "skill-239"
+      ]
+    },
+    {
+      "id": "skill-239",
+      "name": "hands-on archiving",
+      "category": "digital",
+      "description": "Deterministic digital skill: hands-on archiving proficiency feeds worker vectors by 0.59 weight.",
+      "adjacency": [
+        "skill-236",
+        "skill-240"
+      ]
+    },
+    {
+      "id": "skill-240",
+      "name": "remote archiving",
+      "category": "digital",
+      "description": "Deterministic digital skill: remote archiving proficiency feeds worker vectors by 0.84 weight.",
+      "adjacency": [
+        "skill-237",
+        "skill-241"
+      ]
+    }
+  ]
+}

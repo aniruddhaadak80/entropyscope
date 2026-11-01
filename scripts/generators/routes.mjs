@@ -4,7 +4,7 @@
  * segments, which Next.js requires to avoid ambiguous route patterns.
  */
 
-import { mkdirSync, writeFileSync, existsSync } from "node:fs";
+import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = "apps/web/app";
@@ -16,19 +16,35 @@ function writeIfMissing(filePath, content) {
   writeFileSync(filePath, content);
 }
 
-const scenarioIds = [
-  "baseline", "early-ai", "late-ai", "remote-first",
-  "four-day-week", "automation-wave",
+const _scenarioIds = [
+  "baseline",
+  "early-ai",
+  "late-ai",
+  "remote-first",
+  "four-day-week",
+  "automation-wave",
 ];
 
-const sectorNames = [
-  "Healthcare", "Education", "Technology", "Manufacturing",
-  "Finance", "Retail", "Construction", "Logistics",
-  "Creative", "Legal", "Agriculture", "Energy",
+const _sectorNames = [
+  "Healthcare",
+  "Education",
+  "Technology",
+  "Manufacturing",
+  "Finance",
+  "Retail",
+  "Construction",
+  "Logistics",
+  "Creative",
+  "Legal",
+  "Agriculture",
+  "Energy",
 ];
 
-const marketIds = [
-  "unemployment-year-10", "ai-adoption-year-15", "remote-dominance", "four-day-week-adoption",
+const _marketIds = [
+  "unemployment-year-10",
+  "ai-adoption-year-15",
+  "remote-dominance",
+  "four-day-week-adoption",
 ];
 
 function pageHeader(title) {
@@ -63,7 +79,9 @@ export function generateRoutes(rand, seed) {
 
   // 1. Scenario detail: /scenarios/[id]/page.tsx
   const scenarioFile = `${ROOT}/scenarios/[id]/page.tsx`;
-  writeIfMissing(scenarioFile, `
+  writeIfMissing(
+    scenarioFile,
+    `
 ${pageHeader("Scenario Detail")}
       <div className="grid md:grid-cols-2 gap-6">
         <Card>
@@ -99,12 +117,15 @@ ${pageHeader("Scenario Detail")}
         <Badge variant="secondary">No API keys</Badge>
       </div>
 ${pageFooter()}
-`);
+`,
+  );
   count++;
 
   // 2. Sector detail: /world/sectors/[id]/page.tsx
   const sectorFile = `${ROOT}/world/sectors/[id]/page.tsx`;
-  writeIfMissing(sectorFile, `
+  writeIfMissing(
+    sectorFile,
+    `
 ${pageHeader("Sector Detail")}
       <Card>
         <CardHeader>
@@ -122,12 +143,15 @@ ${pageHeader("Sector Detail")}
         </CardContent>
       </Card>
 ${pageFooter()}
-`);
+`,
+  );
   count++;
 
   // 3. Year simulation: /simulate/[year]/page.tsx
   const yearFile = `${ROOT}/simulate/[year]/page.tsx`;
-  writeIfMissing(yearFile, `
+  writeIfMissing(
+    yearFile,
+    `
 ${pageHeader("Year Simulation")}
       <Card>
         <CardHeader>
@@ -146,12 +170,15 @@ ${pageHeader("Year Simulation")}
         </CardContent>
       </Card>
 ${pageFooter()}
-`);
+`,
+  );
   count++;
 
   // 4. Market detail: /markets/[id]/page.tsx
   const marketFile = `${ROOT}/markets/[id]/page.tsx`;
-  writeIfMissing(marketFile, `
+  writeIfMissing(
+    marketFile,
+    `
 ${pageHeader("Prediction Market Detail")}
       <Card>
         <CardHeader>
@@ -169,14 +196,17 @@ ${pageHeader("Prediction Market Detail")}
         </CardContent>
       </Card>
 ${pageFooter()}
-`);
+`,
+  );
   count++;
 
   // 5. Admin panels: /admin/[route]/page.tsx
   const adminRoutes = ["users", "scenarios", "markets", "settings", "audit", "deploy"];
-  for (const route of adminRoutes) {
+  for (const _route of adminRoutes) {
     const file = `${ROOT}/admin/[route]/page.tsx`;
-    writeIfMissing(file, `
+    writeIfMissing(
+      file,
+      `
 ${pageHeader("Admin Panel")}
       <Card>
         <CardHeader>
@@ -189,16 +219,19 @@ ${pageHeader("Admin Panel")}
         </CardContent>
       </Card>
 ${pageFooter()}
-`);
+`,
+    );
     // Only write once - writeIfMissing skips existing
   }
   count += adminRoutes.length;
 
   // 6. Settings: /settings/[route]/page.tsx
   const settingsRoutes = ["profile", "notifications", "billing", "integrations", "security"];
-  for (const route of settingsRoutes) {
+  for (const _route of settingsRoutes) {
     const file = `${ROOT}/settings/[route]/page.tsx`;
-    writeIfMissing(file, `
+    writeIfMissing(
+      file,
+      `
 ${pageHeader("Settings")}
       <Card>
         <CardHeader>
@@ -211,14 +244,17 @@ ${pageHeader("Settings")}
         </CardContent>
       </Card>
 ${pageFooter()}
-`);
+`,
+    );
   }
   count += settingsRoutes.length;
 
   // 7. API routes for scenarios
   const apiDir = `${ROOT}/api/scenarios`;
   mkdirSync(apiDir, { recursive: true });
-  writeIfMissing(`${apiDir}/route.ts`, `
+  writeIfMissing(
+    `${apiDir}/route.ts`,
+    `
 import { scenarios } from "@repo/seed";
 
 export const dynamic = "force-dynamic";
@@ -226,8 +262,11 @@ export const dynamic = "force-dynamic";
 export async function GET() {
   return Response.json(scenarios);
 }
-`);
-  writeIfMissing(`${apiDir}/[id]/route.ts`, `
+`,
+  );
+  writeIfMissing(
+    `${apiDir}/[id]/route.ts`,
+    `
 import { scenarios } from "@repo/seed";
 
 export const dynamic = "force-dynamic";
@@ -241,7 +280,8 @@ export async function GET(
   if (!scn) return Response.json({ error: "not found" }, { status: 404 });
   return Response.json(scn);
 }
-`);
+`,
+  );
   count += 2;
 
   console.log(`   routes: ${count} files generated`);

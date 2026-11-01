@@ -26,12 +26,19 @@ bun run ci   # typecheck + lint + test + build
 
 ## Scale engine
 
-Deterministic, seeded repo-growth generator:
+Deterministic, seeded repo-growth generator. Families: `routes`, `components`,
+`docs`, `adrs`, `i18n`, `worlds`, `tests`, `stories`, `wiki`, `catalog`,
+`packs`, `memos`, `snapshots` — same seed always yields the same repo.
 
 ```bash
 bun run scripts/generate.ts all --seed 7331
 bun run scripts/loc-count.mjs
 ```
+
+Current size: ~142k total lines (100+ packages/artifacts, 500+ files) including
+a 12-sector job catalog, 240-entry skill taxonomy, 7 year-by-year world
+snapshots (1,000 workers each), 65 wiki entries, 36 scenario packs, and 120
+monthly FOW memos. Data integrity is pinned by tests in `packages/seed/tests`.
 
 ## Deploy on Vercel
 

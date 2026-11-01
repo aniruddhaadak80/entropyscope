@@ -1,11 +1,6 @@
-
 "use client";
-
-import * as React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@repo/ui/src/components/Card";
 import { Stat } from "@repo/ui/src/components/Stat";
-import { Sparkline } from "@repo/ui/src/components/Sparkline";
-import { Badge } from "@repo/ui/src/components/Badge";
 
 export default async function Page({ params }: { params: Promise<{ [key: string]: string }> }) {
   const resolvedParams = await params;
@@ -23,8 +18,7 @@ export default async function Page({ params }: { params: Promise<{ [key: string]
         <CardContent className="space-y-4">
           <p className="text-muted-foreground">
             The labor market at simulated year {resolvedParams.year}. All values are deterministic
-            given seed 7331. Fork this year in the Time Machine to explore
-            divergent timelines.
+            given seed 7331. Fork this year in the Time Machine to explore divergent timelines.
           </p>
           <Stat label="Unemployment" value="14.9%" />
           <Stat label="AI Adoption" value="43.2%" />
@@ -35,4 +29,3 @@ export default async function Page({ params }: { params: Promise<{ [key: string]
     </div>
   );
 }
-

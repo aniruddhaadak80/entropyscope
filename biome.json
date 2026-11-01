@@ -56,7 +56,13 @@
       "coverage",
       ".vercel",
       "target",
-      "__pycache__"
+      "__pycache__",
+      "packages/seed/data",
+      "packages/seed/packs",
+      "packages/seed/wiki",
+      "packages/seed/catalog",
+      "docs/wiki",
+      "docs/memos"
     ]
   }
 }
