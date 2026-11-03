@@ -21,8 +21,11 @@ bun run dev
 ## Quality gates
 
 ```bash
-bun run ci   # typecheck + lint + test + build
+bun run ci                    # typecheck + lint + unit tests + build
+bun run build && bun run e2e  # Playwright e2e (chromium + Pixel 7)
 ```
+
+CI runs both on every push via `.github/workflows/ci.yml`.
 
 ## Scale engine
 

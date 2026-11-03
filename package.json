@@ -18,7 +18,7 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "test:unit": "turbo run test",
-    "e2e": "turbo run e2e",
+    "e2e": "playwright test",
     "seed": "bun run packages/seed/seed.ts",
     "generate": "bun run scripts/generate.ts",
     "loc": "bun run scripts/loc-count.mjs",
