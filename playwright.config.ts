@@ -3,7 +3,14 @@ import { defineConfig, devices } from "@playwright/test";
 /**
  * Playwright e2e — runs against the production build (next start).
  * Prerequisite: `bun run build` at the repo root.
+ *
+ * Set E2E_BASE_URL (e.g. https://entropyscope.vercel.app) to point the
+ * suite at a remote environment instead of the local server — the local
+ * webServer is then skipped entirely.
  */
+const BASE_URL = process.env.E2E_BASE_URL ?? "http://localhost:3000";
+const IS_REMOTE = Boolean(process.env.E2E_BASE_URL);
+
 export default defineConfig({
   testDir: "apps/web/tests/e2e",
   fullyParallel: true,
@@ -14,7 +21,7 @@ export default defineConfig({
   timeout: 45_000,
   expect: { timeout: 10_000 },
   use: {
-    baseURL: "http://localhost:3000",
+    baseURL: BASE_URL,
     trace: "on-first-retry",
     screenshot: "only-on-failure",
   },
@@ -28,11 +35,13 @@ export default defineConfig({
       use: devices["Pixel 7"],
     },
   ],
-  webServer: {
-    command: "bun run start",
-    cwd: "apps/web",
-    url: "http://localhost:3000",
-    reuseExistingServer: !process.env.CI,
-    timeout: 120_000,
-  },
+  webServer: IS_REMOTE
+    ? undefined
+    : {
+        command: "bun run start",
+        cwd: "apps/web",
+        url: "http://localhost:3000",
+        reuseExistingServer: !process.env.CI,
+        timeout: 120_000,
+      },
 });

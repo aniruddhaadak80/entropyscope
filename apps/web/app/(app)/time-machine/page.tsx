@@ -25,9 +25,15 @@ export default function TimeMachinePage() {
             <CardTitle className="text-white">Fork from year</CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">
-            <label className="text-sm text-muted-foreground">Fork year</label>
+            <label htmlFor="fork-year" className="text-sm text-muted-foreground">
+              Fork year
+            </label>
             <input
+              id="fork-year"
+              name="fork-year"
               type="number"
+              min={0}
+              max={30}
               defaultValue={5}
               className="w-full p-2 border border-indigo-900 bg-indigo-950 rounded"
             />

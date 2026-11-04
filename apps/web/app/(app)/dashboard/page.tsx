@@ -141,7 +141,7 @@ export default function Dashboard() {
               <span className="text-sm">Simulation speed</span>
               <span className="text-xs text-muted-foreground">{simSpeed}x</span>
             </div>
-            <Slider value={simSpeed} onValueChange={setSimSpeed} min={1} max={5} />
+            <Slider value={simSpeed} onValueChange={setSimSpeed} min={1} max={5} ariaLabel="Simulation speed" />
             <div className="flex items-center gap-2">
               <Toggle checked={isPlaying} onCheckedChange={setIsPlaying} label="Auto-step" />
             </div>

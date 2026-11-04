@@ -1,5 +1,7 @@
 # EntropyScope
 
+[![CI](https://github.com/aniruddhaadak80/entropyscope/actions/workflows/ci.yml/badge.svg)](https://github.com/aniruddhaadak80/entropyscope/actions/workflows/ci.yml)
+
 **Simulate the future of work — before it happens.**
 
 Deterministic labor-market forecasting sandbox: branching scenario timelines,
