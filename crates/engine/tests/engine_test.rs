@@ -11,15 +11,25 @@ use serde::Deserialize;
 struct Case {
     seed: u32,
     years: u32,
-    wage_bill: f64,
-    unemployment_rate: f64,
-    ai_adoption_rate: f64,
-    remote_rate: f64,
+    wage_bill: String,
+    unemployment_rate: String,
+    ai_adoption_rate: String,
+    remote_rate: String,
 }
 
 #[derive(Deserialize)]
 struct Fixture {
     cases: Vec<Case>,
+}
+
+/// Fixture floats are shortest-round-trip decimal STRINGS (not JSON numbers):
+/// JSON-number parse paths differ between runtimes and can shift a value by
+/// 1 ULP. `f64::FromStr` is correctly rounded, so parsing the string pins
+/// the exact double bits.
+fn parse_f64(value: &str) -> f64 {
+    value
+        .parse::<f64>()
+        .expect("fixture float literal must be a valid f64")
 }
 
 fn fixture_cases() -> Vec<Case> {
@@ -34,9 +44,11 @@ fn parity_check_matches_golden_wage_bill() {
     for case in fixture_cases() {
         let result = parity_check(case.seed, case.years);
         assert_eq!(
-            result, case.wage_bill,
+            result,
+            parse_f64(&case.wage_bill),
             "seed={}, years={}",
-            case.seed, case.years
+            case.seed,
+            case.years
         );
     }
 }
@@ -51,28 +63,28 @@ fn full_state_matches_golden_all_rates() {
         assert_eq!(state.year(), case.years, "seed={}", case.seed);
         assert_eq!(
             state.unemployment_rate(),
-            case.unemployment_rate,
+            parse_f64(&case.unemployment_rate),
             "seed={}, years={}",
             case.seed,
             case.years
         );
         assert_eq!(
             state.total_wage_bill(),
-            case.wage_bill,
+            parse_f64(&case.wage_bill),
             "seed={}, years={}",
             case.seed,
             case.years
         );
         assert_eq!(
             state.ai_adoption_rate(),
-            case.ai_adoption_rate,
+            parse_f64(&case.ai_adoption_rate),
             "seed={}, years={}",
             case.seed,
             case.years
         );
         assert_eq!(
             state.remote_rate(),
-            case.remote_rate,
+            parse_f64(&case.remote_rate),
             "seed={}, years={}",
             case.seed,
             case.years

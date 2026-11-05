@@ -3,18 +3,22 @@ package main
 import (
 	"encoding/json"
 	"os"
+	"strconv"
 	"testing"
 )
 
 // Fixture layout mirrors fixtures/parity/expected.json, shared with the
-// TypeScript, Python and Rust implementations of PARITY-SPEC v1.
+// TypeScript, Python and Rust implementations of PARITY-SPEC v1. Floats are
+// shortest-round-trip decimal STRINGS (not JSON numbers): JSON-number parse
+// paths differ between runtimes and can shift a value by 1 ULP, while
+// strconv.ParseFloat is correctly rounded and pins the exact double bits.
 type parityCase struct {
-	Seed             int     `json:"seed"`
-	Years            int     `json:"years"`
-	WageBill         float64 `json:"wageBill"`
-	UnemploymentRate float64 `json:"unemploymentRate"`
-	AIAdoptionRate   float64 `json:"aiAdoptionRate"`
-	RemoteRate       float64 `json:"remoteRate"`
+	Seed             int    `json:"seed"`
+	Years            int    `json:"years"`
+	WageBill         string `json:"wageBill"`
+	UnemploymentRate string `json:"unemploymentRate"`
+	AIAdoptionRate   string `json:"aiAdoptionRate"`
+	RemoteRate       string `json:"remoteRate"`
 }
 
 type parityFixture struct {
@@ -34,10 +38,19 @@ func loadFixture(t *testing.T) []parityCase {
 	return f.Cases
 }
 
+func parseF64(t *testing.T, s string) float64 {
+	t.Helper()
+	v, err := strconv.ParseFloat(s, 64)
+	if err != nil {
+		t.Fatalf("parse fixture float %q: %v", s, err)
+	}
+	return v
+}
+
 func TestParityCheckMatchesGoldenWageBill(t *testing.T) {
 	for _, c := range loadFixture(t) {
-		if got := ParityCheck(c.Seed, c.Years); got != c.WageBill {
-			t.Errorf("seed=%d years=%d: got %v, want %v", c.Seed, c.Years, got, c.WageBill)
+		if got := ParityCheck(c.Seed, c.Years); got != parseF64(t, c.WageBill) {
+			t.Errorf("seed=%d years=%d: got %v, want %s", c.Seed, c.Years, got, c.WageBill)
 		}
 	}
 }
@@ -45,9 +58,10 @@ func TestParityCheckMatchesGoldenWageBill(t *testing.T) {
 func TestFullStateMatchesGoldenAllRates(t *testing.T) {
 	for _, c := range loadFixture(t) {
 		s := RunParity(c.Seed, c.Years)
-		if s.Year != c.Years || s.UnemploymentRate != c.UnemploymentRate ||
-			s.TotalWageBill != c.WageBill || s.AIAdoptionRate != c.AIAdoptionRate ||
-			s.RemoteRate != c.RemoteRate {
+		if s.Year != c.Years || s.UnemploymentRate != parseF64(t, c.UnemploymentRate) ||
+			s.TotalWageBill != parseF64(t, c.WageBill) ||
+			s.AIAdoptionRate != parseF64(t, c.AIAdoptionRate) ||
+			s.RemoteRate != parseF64(t, c.RemoteRate) {
 			t.Errorf("seed=%d years=%d: state %+v mismatches golden", c.Seed, c.Years, s)
 		}
 	}

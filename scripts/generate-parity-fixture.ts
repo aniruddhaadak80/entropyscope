@@ -4,6 +4,13 @@
  *
  *   bun scripts/generate-parity-fixture.ts
  *
+ * Floats are encoded as decimal STRINGS (shortest round-trip form) rather
+ * than JSON numbers: JSON-number parse paths differ between runtimes
+ * (serde_json double-rounds via significand-then-scale), which can shift a
+ * value by 1 ULP. String literals keep every mirror on its own
+ * correctly-rounded parser (Number(str), float(str), f64::from_str,
+ * strconv.ParseFloat), so all four reconcile to identical bits.
+ *
  * The output (fixtures/parity/expected.json) is committed and must be
  * byte-identical for every consumer; the TypeScript, Python, Rust/wasm and
  * Go mirrors all assert against these exact double-precision values.
@@ -22,10 +29,10 @@ for (const seed of SEEDS) {
     cases.push({
       seed,
       years,
-      wageBill: state.totalWageBill,
-      unemploymentRate: state.unemploymentRate,
-      aiAdoptionRate: state.aiAdoptionRate,
-      remoteRate: state.remoteRate,
+      wageBill: state.totalWageBill.toString(),
+      unemploymentRate: state.unemploymentRate.toString(),
+      aiAdoptionRate: state.aiAdoptionRate.toString(),
+      remoteRate: state.remoteRate.toString(),
     });
   }
 }

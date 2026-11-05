@@ -24,17 +24,21 @@ def load_cases():
 
 def test_parity_check_matches_golden_wage_bill():
     for case in load_cases():
-        assert parity_check(case["seed"], case["years"]) == case["wageBill"], case
+        # Fixture floats are shortest-round-trip strings; float(str) is
+        # correctly rounded, so this pins the exact double bits.
+        assert parity_check(case["seed"], case["years"]) == float(case["wageBill"]), (
+            case
+        )
 
 
 def test_full_state_matches_golden_all_rates():
     for case in load_cases():
         state = run_parity(case["seed"], case["years"])
         assert state.year == case["years"], case
-        assert state.unemployment_rate == case["unemploymentRate"], case
-        assert state.total_wage_bill == case["wageBill"], case
-        assert state.ai_adoption_rate == case["aiAdoptionRate"], case
-        assert state.remote_rate == case["remoteRate"], case
+        assert state.unemployment_rate == float(case["unemploymentRate"]), case
+        assert state.total_wage_bill == float(case["wageBill"]), case
+        assert state.ai_adoption_rate == float(case["aiAdoptionRate"]), case
+        assert state.remote_rate == float(case["remoteRate"]), case
 
 
 def test_parity_check_is_deterministic():

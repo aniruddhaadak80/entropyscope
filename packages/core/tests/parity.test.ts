@@ -12,10 +12,10 @@ import { parityCheck, runParity } from "../src/parity";
 interface ParityCase {
   seed: number;
   years: number;
-  wageBill: number;
-  unemploymentRate: number;
-  aiAdoptionRate: number;
-  remoteRate: number;
+  wageBill: string;
+  unemploymentRate: string;
+  aiAdoptionRate: string;
+  remoteRate: string;
 }
 
 const fixture = fixtureJson as { cases: ParityCase[] };
@@ -23,7 +23,9 @@ const fixture = fixtureJson as { cases: ParityCase[] };
 describe("PARITY-SPEC v1", () => {
   it("parityCheck matches the golden wage bill for every fixture case", () => {
     for (const c of fixture.cases) {
-      expect(parityCheck(c.seed, c.years)).toBe(c.wageBill);
+      // Fixture floats are shortest-round-trip strings; Number(str) is
+      // correctly rounded, so this pins the exact double bits.
+      expect(parityCheck(c.seed, c.years)).toBe(Number(c.wageBill));
     }
   });
 
@@ -31,10 +33,10 @@ describe("PARITY-SPEC v1", () => {
     for (const c of fixture.cases) {
       const state = runParity(c.seed, c.years);
       expect(state.year).toBe(c.years);
-      expect(state.unemploymentRate).toBe(c.unemploymentRate);
-      expect(state.totalWageBill).toBe(c.wageBill);
-      expect(state.aiAdoptionRate).toBe(c.aiAdoptionRate);
-      expect(state.remoteRate).toBe(c.remoteRate);
+      expect(state.unemploymentRate.toString()).toBe(c.unemploymentRate);
+      expect(state.totalWageBill.toString()).toBe(c.wageBill);
+      expect(state.aiAdoptionRate.toString()).toBe(c.aiAdoptionRate);
+      expect(state.remoteRate.toString()).toBe(c.remoteRate);
     }
   });
 
