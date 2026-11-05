@@ -3,6 +3,7 @@
 # Deterministic, offline, zero dependencies beyond Ruby stdlib.
 
 require "json"
+require "time"
 require "fileutils"
 
 SEED = 7331

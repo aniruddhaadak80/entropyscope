@@ -22,7 +22,8 @@
     "seed": "bun run packages/seed/seed.ts",
     "generate": "bun run scripts/generate.ts",
     "loc": "bun run scripts/loc-count.mjs",
-    "ci": "bun run typecheck && bun run lint && bun run test && bun run build"
+    "ci": "bun run typecheck && bun run lint && bun run test && bun run build",
+    "ci:polyglot": "cargo test --manifest-path crates/engine/Cargo.toml && python -m pytest services/agents/tests -q && go test ./... && ruby bin/pipeline_test.rb && perl bin/xtract_test.pl"
   },
   "devDependencies": {
     "turbo": "^2.4.2",

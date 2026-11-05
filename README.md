@@ -25,9 +25,26 @@ bun run dev
 ```bash
 bun run ci                    # typecheck + lint + unit tests + build
 bun run build && bun run e2e  # Playwright e2e (chromium + Pixel 7)
+bun run ci:polyglot           # Rust + Python + Go + Ruby + Perl test suites
 ```
 
 CI runs both on every push via `.github/workflows/ci.yml`.
+
+## Polyglot parity core
+
+The deterministic scalar core — **PARITY-SPEC v1** — exists in four languages,
+all pinned to the same committed golden fixture
+(`fixtures/parity/expected.json`, regenerate: `bun scripts/generate-parity-fixture.ts`):
+
+| Language | Implementation | Test |
+| --- | --- | --- |
+| TypeScript | `packages/core/src/parity.ts` | `packages/core/tests/parity.test.ts` |
+| Python | `services/agents/parity.py` | `services/agents/tests/test_parity.py` |
+| Rust/wasm | `crates/engine/src/lib.rs` | `crates/engine/tests/engine_test.rs` |
+| Go | `services/parity-go/parity.go` | `services/parity-go/parity_test.go` |
+
+Ruby (`bin/pipeline.rb`) and Perl (`bin/xtract.pl`) power the offline content
+pipeline. Every language also runs in CI — see `.github/workflows/ci.yml`.
 
 ## Scale engine
 
