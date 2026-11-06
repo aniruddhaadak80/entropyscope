@@ -57,10 +57,12 @@ bun run scripts/generate.ts all --seed 7331
 bun run scripts/loc-count.mjs
 ```
 
-Current size: ~142k total lines (100+ packages/artifacts, 500+ files) including
+Current size: ~143.8k total lines across 527 files (10.3k source lines) including
 a 12-sector job catalog, 240-entry skill taxonomy, 7 year-by-year world
 snapshots (1,000 workers each), 65 wiki entries, 36 scenario packs, and 120
-monthly FOW memos. Data integrity is pinned by tests in `packages/seed/tests`.
+monthly FOW memos. Data integrity is pinned by tests in `packages/seed/tests`,
+and the scalar core is pinned bit-for-bit in four languages by the shared
+parity fixture (see Polyglot parity core).
 
 ## Deploy on Vercel
 
