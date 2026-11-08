@@ -1,0 +1,255 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Agriculture",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-agriculture-01",
+      "title": "Associate Agriculture Trainer",
+      "automationRisk": 0.6268,
+      "augmentationLeverage": 0.478,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-181", "skill-182", "skill-183"],
+      "wageForecasts": [51460, 53065, 54674, 56285, 57899, 59516, 61136, 62759, 64385, 66014, 67646]
+    },
+    {
+      "jobId": "job-agriculture-02",
+      "title": "Senior Agriculture CoordinatorII",
+      "automationRisk": 0.3968,
+      "augmentationLeverage": 0.748,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        76479, 80155, 83838, 87528, 91224, 94927, 98637, 102354, 106077, 109806, 113543
+      ]
+    },
+    {
+      "jobId": "job-agriculture-03",
+      "title": "Lead Agriculture PlannerIII",
+      "automationRisk": 0.499,
+      "augmentationLeverage": 0.54,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [
+        69555, 73248, 76948, 80655, 84369, 88089, 91816, 95549, 99290, 103037, 106790
+      ]
+    },
+    {
+      "jobId": "job-agriculture-04",
+      "title": "Principal Agriculture Designer",
+      "automationRisk": 0.6356,
+      "augmentationLeverage": 0.326,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [36592, 40944, 45304, 49672, 54047, 58431, 62822, 67222, 71629, 76044, 80467]
+    },
+    {
+      "jobId": "job-agriculture-05",
+      "title": "Staff Agriculture TrainerII",
+      "automationRisk": 0.5254,
+      "augmentationLeverage": 0.474,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [41686, 46992, 52307, 57632, 62967, 68311, 73665, 79029, 84402, 89785, 95178]
+    },
+    {
+      "jobId": "job-agriculture-06",
+      "title": "Associate Agriculture PlannerIII",
+      "automationRisk": 0.7046,
+      "augmentationLeverage": 0.366,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [47744, 50553, 53366, 56185, 59009, 61838, 64672, 67511, 70355, 73205, 76059]
+    },
+    {
+      "jobId": "job-agriculture-07",
+      "title": "Senior Agriculture Auditor",
+      "automationRisk": 0.4922,
+      "augmentationLeverage": 0.622,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        77425, 82457, 87497, 92547, 97606, 102674, 107752, 112838, 117933, 123038, 128152
+      ]
+    },
+    {
+      "jobId": "job-agriculture-08",
+      "title": "Lead Agriculture CoordinatorII",
+      "automationRisk": 0.5486,
+      "augmentationLeverage": 0.476,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        82888, 86483, 90085, 93693, 97308, 100930, 104558, 108192, 111833, 115481, 119135
+      ]
+    },
+    {
+      "jobId": "job-agriculture-09",
+      "title": "Principal Agriculture EngineerIII",
+      "automationRisk": 0.3988,
+      "augmentationLeverage": 0.678,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [
+        69397, 73384, 77377, 81379, 85387, 89403, 93425, 97455, 101493, 105537, 109589
+      ]
+    },
+    {
+      "jobId": "job-agriculture-10",
+      "title": "Staff Agriculture Planner",
+      "automationRisk": 0.3936,
+      "augmentationLeverage": 0.676,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [
+        64021, 68440, 72867, 77302, 81745, 86196, 90655, 95123, 99598, 104081, 108572
+      ]
+    },
+    {
+      "jobId": "job-agriculture-11",
+      "title": "Associate Agriculture PlannerII",
+      "automationRisk": 0.427,
+      "augmentationLeverage": 0.73,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [76802, 78771, 80743, 82719, 84699, 86682, 88668, 90659, 92652, 94650, 96651]
+    },
+    {
+      "jobId": "job-agriculture-12",
+      "title": "Senior Agriculture TrainerIII",
+      "automationRisk": 0.4824,
+      "augmentationLeverage": 0.594,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        83697, 87569, 91447, 95333, 99225, 103125, 107032, 110945, 114866, 118794, 122729
+      ]
+    },
+    {
+      "jobId": "job-agriculture-13",
+      "title": "Lead Agriculture Planner",
+      "automationRisk": 0.3192,
+      "augmentationLeverage": 0.772,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [56222, 59883, 63551, 67226, 70907, 74595, 78290, 81991, 85699, 89413, 93135]
+    },
+    {
+      "jobId": "job-agriculture-14",
+      "title": "Principal Agriculture AnalystII",
+      "automationRisk": 0.2602,
+      "augmentationLeverage": 0.822,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [53550, 57520, 61496, 65480, 69472, 73470, 77476, 81489, 85509, 89536, 93571]
+    },
+    {
+      "jobId": "job-agriculture-15",
+      "title": "Staff Agriculture AuditorIII",
+      "automationRisk": 0.637,
+      "augmentationLeverage": 0.33,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [36339, 39933, 43534, 47141, 50755, 54376, 58003, 61636, 65276, 68922, 72575]
+    },
+    {
+      "jobId": "job-agriculture-16",
+      "title": "Associate Agriculture Engineer",
+      "automationRisk": 0.4688,
+      "augmentationLeverage": 0.708,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [33306, 38015, 42733, 47459, 52194, 56938, 61690, 66451, 71220, 75997, 80784]
+    },
+    {
+      "jobId": "job-agriculture-17",
+      "title": "Senior Agriculture TechnicianII",
+      "automationRisk": 0.2888,
+      "augmentationLeverage": 0.838,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [69921, 72380, 74844, 77312, 79785, 82262, 84743, 87229, 89720, 92215, 94714]
+    },
+    {
+      "jobId": "job-agriculture-18",
+      "title": "Lead Agriculture TrainerIII",
+      "automationRisk": 0.214,
+      "augmentationLeverage": 0.87,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        63189, 67082, 70981, 74888, 78802, 82722, 86650, 90585, 94527, 98476, 102433
+      ]
+    },
+    {
+      "jobId": "job-agriculture-19",
+      "title": "Principal Agriculture Designer",
+      "automationRisk": 0.2616,
+      "augmentationLeverage": 0.826,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [
+        79568, 84729, 89899, 95078, 100267, 105465, 110673, 115890, 121116, 126352, 131597
+      ]
+    },
+    {
+      "jobId": "job-agriculture-20",
+      "title": "Staff Agriculture EngineerII",
+      "automationRisk": 0.3952,
+      "augmentationLeverage": 0.642,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        76203, 79426, 82655, 85889, 89130, 92376, 95628, 98886, 102150, 105420, 108696
+      ]
+    },
+    {
+      "jobId": "job-agriculture-21",
+      "title": "Associate Agriculture PlannerIII",
+      "automationRisk": 0.4006,
+      "augmentationLeverage": 0.796,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-127", "skill-128", "skill-129"],
+      "wageForecasts": [45984, 51003, 56030, 61067, 66113, 71168, 76232, 81305, 86388, 91479, 96580]
+    },
+    {
+      "jobId": "job-agriculture-22",
+      "title": "Senior Agriculture Auditor",
+      "automationRisk": 0.682,
+      "augmentationLeverage": 0.38,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [69119, 71909, 74703, 77503, 80308, 83117, 85932, 88752, 91577, 94407, 97242]
+    },
+    {
+      "jobId": "job-agriculture-23",
+      "title": "Lead Agriculture CoordinatorII",
+      "automationRisk": 0.358,
+      "augmentationLeverage": 0.69,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [37076, 40644, 44219, 47800, 51388, 54982, 58583, 62190, 65803, 69424, 73050]
+    },
+    {
+      "jobId": "job-agriculture-24",
+      "title": "Principal Agriculture CoordinatorIII",
+      "automationRisk": 0.4112,
+      "augmentationLeverage": 0.662,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [64871, 66231, 67594, 68959, 70327, 71697, 73069, 74445, 75822, 77202, 78585]
+    },
+    {
+      "jobId": "job-agriculture-25",
+      "title": "Staff Agriculture Engineer",
+      "automationRisk": 0.358,
+      "augmentationLeverage": 0.69,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        66795, 71576, 76366, 81165, 85972, 90789, 95613, 100447, 105289, 110140, 114999
+      ]
+    }
+  ]
+}

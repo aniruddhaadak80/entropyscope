@@ -1,0 +1,251 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Logistics",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-logistics-01",
+      "title": "Associate Logistics Planner",
+      "automationRisk": 0.467,
+      "augmentationLeverage": 0.69,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [57336, 61316, 65302, 69297, 73298, 77306, 81322, 85345, 89375, 93413, 97457]
+    },
+    {
+      "jobId": "job-logistics-02",
+      "title": "Senior Logistics AuditorII",
+      "automationRisk": 0.8022,
+      "augmentationLeverage": 0.222,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [61858, 65473, 69095, 72724, 76359, 80000, 83648, 87303, 90964, 94632, 98306]
+    },
+    {
+      "jobId": "job-logistics-03",
+      "title": "Lead Logistics EngineerIII",
+      "automationRisk": 0.376,
+      "augmentationLeverage": 0.69,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [
+        77273, 80833, 84400, 87973, 91553, 95139, 98731, 102330, 105936, 109548, 113166
+      ]
+    },
+    {
+      "jobId": "job-logistics-04",
+      "title": "Principal Logistics Trainer",
+      "automationRisk": 0.7684,
+      "augmentationLeverage": 0.204,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        67989, 71184, 74385, 77591, 80803, 84022, 87245, 90475, 93711, 96952, 100199
+      ]
+    },
+    {
+      "jobId": "job-logistics-05",
+      "title": "Staff Logistics CoordinatorII",
+      "automationRisk": 0.3864,
+      "augmentationLeverage": 0.694,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [69963, 72588, 75219, 77853, 80493, 83138, 85787, 88441, 91100, 93763, 96431]
+    },
+    {
+      "jobId": "job-logistics-06",
+      "title": "Associate Logistics EngineerIII",
+      "automationRisk": 0.715,
+      "augmentationLeverage": 0.37,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        62353, 66424, 70502, 74587, 78680, 82780, 86888, 91003, 95126, 99255, 103393
+      ]
+    },
+    {
+      "jobId": "job-logistics-07",
+      "title": "Senior Logistics Engineer",
+      "automationRisk": 0.705,
+      "augmentationLeverage": 0.33,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [35086, 38317, 41554, 44796, 48045, 51299, 54560, 57826, 61098, 64376, 67659]
+    },
+    {
+      "jobId": "job-logistics-08",
+      "title": "Lead Logistics TrainerII",
+      "automationRisk": 0.3904,
+      "augmentationLeverage": 0.654,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-181", "skill-182", "skill-183"],
+      "wageForecasts": [
+        49360, 54693, 60035, 65388, 70749, 76121, 81502, 86893, 92294, 97704, 103124
+      ]
+    },
+    {
+      "jobId": "job-logistics-09",
+      "title": "Principal Logistics AuditorIII",
+      "automationRisk": 0.3346,
+      "augmentationLeverage": 0.726,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [50632, 54953, 59282, 63618, 67963, 72315, 76675, 81043, 85419, 89803, 94194]
+    },
+    {
+      "jobId": "job-logistics-10",
+      "title": "Staff Logistics Auditor",
+      "automationRisk": 0.4742,
+      "augmentationLeverage": 0.572,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [41399, 45462, 49532, 53609, 57694, 61786, 65886, 69993, 74107, 78229, 82358]
+    },
+    {
+      "jobId": "job-logistics-11",
+      "title": "Associate Logistics AnalystII",
+      "automationRisk": 0.5882,
+      "augmentationLeverage": 0.522,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [44455, 49141, 53836, 58539, 63251, 67971, 72700, 77438, 82183, 86938, 91701]
+    },
+    {
+      "jobId": "job-logistics-12",
+      "title": "Senior Logistics AuditorIII",
+      "automationRisk": 0.4142,
+      "augmentationLeverage": 0.682,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        68585, 73655, 78733, 83821, 88919, 94025, 99141, 104266, 109400, 114543, 119695
+      ]
+    },
+    {
+      "jobId": "job-logistics-13",
+      "title": "Lead Logistics Planner",
+      "automationRisk": 0.6074,
+      "augmentationLeverage": 0.374,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-186", "skill-187", "skill-188"],
+      "wageForecasts": [37448, 41496, 45551, 49613, 53683, 57760, 61844, 65936, 70035, 74142, 78256]
+    },
+    {
+      "jobId": "job-logistics-14",
+      "title": "Principal Logistics TrainerII",
+      "automationRisk": 0.4432,
+      "augmentationLeverage": 0.612,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-127", "skill-128", "skill-129"],
+      "wageForecasts": [
+        74038, 77233, 80434, 83640, 86852, 90071, 93294, 96524, 99760, 103001, 106248
+      ]
+    },
+    {
+      "jobId": "job-logistics-15",
+      "title": "Staff Logistics EngineerIII",
+      "automationRisk": 0.2182,
+      "augmentationLeverage": 0.882,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        60542, 65106, 69679, 74259, 78848, 83446, 88051, 92665, 97287, 101918, 106557
+      ]
+    },
+    {
+      "jobId": "job-logistics-16",
+      "title": "Associate Logistics Designer",
+      "automationRisk": 0.7072,
+      "augmentationLeverage": 0.412,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        73761, 78740, 83727, 88724, 93729, 98744, 103768, 108801, 113842, 118893, 123953
+      ]
+    },
+    {
+      "jobId": "job-logistics-17",
+      "title": "Senior Logistics TechnicianII",
+      "automationRisk": 0.5046,
+      "augmentationLeverage": 0.606,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [52308, 54767, 57231, 59699, 62172, 64649, 67130, 69616, 72107, 74602, 77101]
+    },
+    {
+      "jobId": "job-logistics-18",
+      "title": "Lead Logistics CoordinatorIII",
+      "automationRisk": 0.5096,
+      "augmentationLeverage": 0.506,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [81364, 83145, 84928, 86716, 88506, 90299, 92096, 93896, 95700, 97506, 99316]
+    },
+    {
+      "jobId": "job-logistics-19",
+      "title": "Principal Logistics Planner",
+      "automationRisk": 0.6964,
+      "augmentationLeverage": 0.294,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [51255, 53182, 55112, 57046, 58983, 60924, 62868, 64816, 66767, 68722, 70680]
+    },
+    {
+      "jobId": "job-logistics-20",
+      "title": "Staff Logistics DesignerII",
+      "automationRisk": 0.3208,
+      "augmentationLeverage": 0.738,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [36457, 39946, 43442, 46944, 50452, 53966, 57487, 61014, 64548, 68088, 71634]
+    },
+    {
+      "jobId": "job-logistics-21",
+      "title": "Associate Logistics AuditorIII",
+      "automationRisk": 0.4564,
+      "augmentationLeverage": 0.724,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-127", "skill-128", "skill-129"],
+      "wageForecasts": [53342, 55347, 57355, 59367, 61383, 63403, 65426, 67452, 69483, 71516, 73554]
+    },
+    {
+      "jobId": "job-logistics-22",
+      "title": "Senior Logistics Engineer",
+      "automationRisk": 0.7394,
+      "augmentationLeverage": 0.274,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        59007, 63352, 67705, 72066, 76434, 80811, 85195, 89587, 93988, 98396, 102812
+      ]
+    },
+    {
+      "jobId": "job-logistics-23",
+      "title": "Lead Logistics TechnicianII",
+      "automationRisk": 0.451,
+      "augmentationLeverage": 0.57,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [47735, 52072, 56417, 60769, 65130, 69498, 73875, 78259, 82651, 87051, 91459]
+    },
+    {
+      "jobId": "job-logistics-24",
+      "title": "Principal Logistics EngineerIII",
+      "automationRisk": 0.4896,
+      "augmentationLeverage": 0.526,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-183", "skill-184", "skill-185"],
+      "wageForecasts": [46338, 47833, 49331, 50832, 52336, 53842, 55351, 56863, 58377, 59894, 61414]
+    },
+    {
+      "jobId": "job-logistics-25",
+      "title": "Staff Logistics Technician",
+      "automationRisk": 0.7708,
+      "augmentationLeverage": 0.198,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [43636, 48668, 53708, 58758, 63817, 68885, 73963, 79049, 84144, 89249, 94363]
+    }
+  ]
+}

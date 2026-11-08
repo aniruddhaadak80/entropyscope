@@ -1,0 +1,243 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Creative",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-creative-01",
+      "title": "Associate Creative Technician",
+      "automationRisk": 0.4346,
+      "augmentationLeverage": 0.726,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-181", "skill-182", "skill-183"],
+      "wageForecasts": [69799, 72360, 74926, 77497, 80072, 82652, 85237, 87826, 90420, 93018, 95622]
+    },
+    {
+      "jobId": "job-creative-02",
+      "title": "Senior Creative AuditorII",
+      "automationRisk": 0.642,
+      "augmentationLeverage": 0.42,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [74114, 75373, 76635, 77898, 79164, 80433, 81703, 82976, 84251, 85529, 86808]
+    },
+    {
+      "jobId": "job-creative-03",
+      "title": "Lead Creative DesignerIII",
+      "automationRisk": 0.4744,
+      "augmentationLeverage": 0.534,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [60258, 61932, 63608, 65288, 66970, 68656, 70345, 72036, 73731, 75429, 77130]
+    },
+    {
+      "jobId": "job-creative-04",
+      "title": "Principal Creative Technician",
+      "automationRisk": 0.7374,
+      "augmentationLeverage": 0.244,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        79354, 82558, 85768, 88983, 92205, 95432, 98665, 101904, 105148, 108399, 111655
+      ]
+    },
+    {
+      "jobId": "job-creative-05",
+      "title": "Staff Creative PlannerII",
+      "automationRisk": 0.5982,
+      "augmentationLeverage": 0.412,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [65572, 68959, 72352, 75752, 79157, 82569, 85987, 89411, 92841, 96277, 99720]
+    },
+    {
+      "jobId": "job-creative-06",
+      "title": "Associate Creative DesignerIII",
+      "automationRisk": 0.515,
+      "augmentationLeverage": 0.66,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [45834, 48970, 52111, 55259, 58412, 61570, 64735, 67905, 71080, 74262, 77449]
+    },
+    {
+      "jobId": "job-creative-07",
+      "title": "Senior Creative Trainer",
+      "automationRisk": 0.4142,
+      "augmentationLeverage": 0.682,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [39672, 42129, 44591, 47057, 49528, 52003, 54482, 56966, 59455, 61948, 64445]
+    },
+    {
+      "jobId": "job-creative-08",
+      "title": "Lead Creative DesignerII",
+      "automationRisk": 0.3966,
+      "augmentationLeverage": 0.646,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-181", "skill-182", "skill-183"],
+      "wageForecasts": [56460, 58839, 61223, 63610, 66003, 68399, 70800, 73205, 75614, 78028, 80446]
+    },
+    {
+      "jobId": "job-creative-09",
+      "title": "Principal Creative AnalystIII",
+      "automationRisk": 0.7002,
+      "augmentationLeverage": 0.292,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [59877, 61198, 62522, 63848, 65176, 66507, 67840, 69176, 70514, 71854, 73197]
+    },
+    {
+      "jobId": "job-creative-10",
+      "title": "Staff Creative Analyst",
+      "automationRisk": 0.818,
+      "augmentationLeverage": 0.14,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [
+        66711, 71875, 77048, 82230, 87422, 92623, 97834, 103054, 108283, 113522, 118770
+      ]
+    },
+    {
+      "jobId": "job-creative-11",
+      "title": "Associate Creative EngineerII",
+      "automationRisk": 0.6406,
+      "augmentationLeverage": 0.466,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [56863, 58568, 60275, 61986, 63700, 65417, 67137, 68860, 70586, 72315, 74048]
+    },
+    {
+      "jobId": "job-creative-12",
+      "title": "Senior Creative PlannerIII",
+      "automationRisk": 0.767,
+      "augmentationLeverage": 0.25,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [43481, 46022, 48568, 51119, 53674, 56234, 58798, 61367, 63941, 66519, 69102]
+    },
+    {
+      "jobId": "job-creative-13",
+      "title": "Lead Creative Technician",
+      "automationRisk": 0.7932,
+      "augmentationLeverage": 0.172,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        68486, 72833, 77188, 81551, 85921, 90300, 94686, 99080, 103483, 107893, 112311
+      ]
+    },
+    {
+      "jobId": "job-creative-14",
+      "title": "Principal Creative TrainerII",
+      "automationRisk": 0.4398,
+      "augmentationLeverage": 0.628,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [45848, 48747, 51651, 54560, 57474, 60394, 63319, 66249, 69184, 72125, 75071]
+    },
+    {
+      "jobId": "job-creative-15",
+      "title": "Staff Creative AuditorIII",
+      "automationRisk": 0.6922,
+      "augmentationLeverage": 0.282,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [50635, 54965, 59303, 63648, 68002, 72363, 76733, 81110, 85495, 89888, 94288]
+    },
+    {
+      "jobId": "job-creative-16",
+      "title": "Associate Creative Planner",
+      "automationRisk": 0.7074,
+      "augmentationLeverage": 0.374,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [44075, 45342, 46612, 47883, 49157, 50434, 51712, 52993, 54277, 55562, 56850]
+    },
+    {
+      "jobId": "job-creative-17",
+      "title": "Senior Creative DesignerII",
+      "automationRisk": 0.4962,
+      "augmentationLeverage": 0.582,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-183", "skill-184", "skill-185"],
+      "wageForecasts": [38266, 40963, 43666, 46373, 49085, 51802, 54524, 57251, 59983, 62719, 65461]
+    },
+    {
+      "jobId": "job-creative-18",
+      "title": "Lead Creative TechnicianIII",
+      "automationRisk": 0.3698,
+      "augmentationLeverage": 0.698,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [62776, 65884, 68997, 72116, 75241, 78372, 81508, 84649, 87797, 90950, 94108]
+    },
+    {
+      "jobId": "job-creative-19",
+      "title": "Principal Creative Technician",
+      "automationRisk": 0.46,
+      "augmentationLeverage": 0.57,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [62851, 64358, 65868, 67381, 68897, 70415, 71936, 73460, 74987, 76516, 78048]
+    },
+    {
+      "jobId": "job-creative-20",
+      "title": "Staff Creative AuditorII",
+      "automationRisk": 0.5496,
+      "augmentationLeverage": 0.466,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-006", "skill-007", "skill-008"],
+      "wageForecasts": [46904, 49766, 52632, 55504, 58382, 61264, 64152, 67044, 69942, 72846, 75754]
+    },
+    {
+      "jobId": "job-creative-21",
+      "title": "Associate Creative AnalystIII",
+      "automationRisk": 0.5214,
+      "augmentationLeverage": 0.614,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [35373, 38088, 40809, 43534, 46264, 49000, 51740, 54485, 57235, 59990, 62750]
+    },
+    {
+      "jobId": "job-creative-22",
+      "title": "Senior Creative Trainer",
+      "automationRisk": 0.736,
+      "augmentationLeverage": 0.29,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [47932, 51003, 54079, 57161, 60249, 63342, 66440, 69545, 72655, 75770, 78891]
+    },
+    {
+      "jobId": "job-creative-23",
+      "title": "Lead Creative TechnicianII",
+      "automationRisk": 0.46,
+      "augmentationLeverage": 0.57,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [
+        81414, 83428, 85445, 87466, 89491, 91520, 93552, 95588, 97627, 99670, 101717
+      ]
+    },
+    {
+      "jobId": "job-creative-24",
+      "title": "Principal Creative EngineerIII",
+      "automationRisk": 0.3284,
+      "augmentationLeverage": 0.734,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-183", "skill-184", "skill-185"],
+      "wageForecasts": [50583, 54619, 58662, 62712, 66770, 70835, 74907, 78987, 83074, 87168, 91270]
+    },
+    {
+      "jobId": "job-creative-25",
+      "title": "Staff Creative Coordinator",
+      "automationRisk": 0.3628,
+      "augmentationLeverage": 0.678,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        74461, 78962, 83471, 87989, 92514, 97048, 101590, 106140, 110699, 115265, 119840
+      ]
+    }
+  ]
+}

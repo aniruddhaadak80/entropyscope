@@ -1,0 +1,245 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Energy",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-energy-01",
+      "title": "Associate Energy Trainer",
+      "automationRisk": 0.56,
+      "augmentationLeverage": 0.57,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        81680, 84266, 86857, 89453, 92054, 94659, 97269, 99883, 102502, 105126, 107755
+      ]
+    },
+    {
+      "jobId": "job-energy-02",
+      "title": "Senior Energy TechnicianII",
+      "automationRisk": 0.5394,
+      "augmentationLeverage": 0.564,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [58369, 60905, 63446, 65992, 68542, 71097, 73656, 76220, 78788, 81362, 83939]
+    },
+    {
+      "jobId": "job-energy-03",
+      "title": "Lead Energy EngineerIII",
+      "automationRisk": 0.4772,
+      "augmentationLeverage": 0.542,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-183", "skill-184", "skill-185"],
+      "wageForecasts": [42067, 47141, 52223, 57315, 62417, 67527, 72647, 77776, 82914, 88061, 93218]
+    },
+    {
+      "jobId": "job-energy-04",
+      "title": "Principal Energy Engineer",
+      "automationRisk": 0.7222,
+      "augmentationLeverage": 0.252,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [42818, 44263, 45711, 47162, 48615, 50071, 51529, 52990, 54454, 55920, 57389]
+    },
+    {
+      "jobId": "job-energy-05",
+      "title": "Staff Energy EngineerII",
+      "automationRisk": 0.4318,
+      "augmentationLeverage": 0.618,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [37645, 41196, 44754, 48318, 51889, 55466, 59049, 62639, 66235, 69838, 73448]
+    },
+    {
+      "jobId": "job-energy-06",
+      "title": "Associate Energy EngineerIII",
+      "automationRisk": 0.3988,
+      "augmentationLeverage": 0.778,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        74813, 78238, 81669, 85107, 88551, 92001, 95457, 98919, 102388, 105863, 109344
+      ]
+    },
+    {
+      "jobId": "job-energy-07",
+      "title": "Senior Energy Auditor",
+      "automationRisk": 0.3708,
+      "augmentationLeverage": 0.738,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [35302, 37806, 40315, 42828, 45346, 47869, 50396, 52927, 55464, 58004, 60549]
+    },
+    {
+      "jobId": "job-energy-08",
+      "title": "Lead Energy EngineerII",
+      "automationRisk": 0.5972,
+      "augmentationLeverage": 0.422,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [
+        66335, 70054, 73781, 77513, 81253, 84999, 88753, 92513, 96279, 100053, 103833
+      ]
+    },
+    {
+      "jobId": "job-energy-09",
+      "title": "Principal Energy CoordinatorIII",
+      "automationRisk": 0.4414,
+      "augmentationLeverage": 0.594,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [68081, 70166, 72255, 74347, 76443, 78543, 80647, 82755, 84866, 86981, 89100]
+    },
+    {
+      "jobId": "job-energy-10",
+      "title": "Staff Energy Engineer",
+      "automationRisk": 0.717,
+      "augmentationLeverage": 0.25,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [53106, 56612, 60125, 63644, 67169, 70701, 74239, 77783, 81334, 84891, 88454]
+    },
+    {
+      "jobId": "job-energy-11",
+      "title": "Associate Energy DesignerII",
+      "automationRisk": 0.644,
+      "augmentationLeverage": 0.45,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [76666, 77923, 79183, 80444, 81708, 82975, 84243, 85514, 86787, 88062, 89340]
+    },
+    {
+      "jobId": "job-energy-12",
+      "title": "Senior Energy PlannerIII",
+      "automationRisk": 0.7732,
+      "augmentationLeverage": 0.242,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [
+        83351, 85999, 88653, 91311, 93973, 96641, 99314, 101991, 104673, 107360, 110052
+      ]
+    },
+    {
+      "jobId": "job-energy-13",
+      "title": "Lead Energy Analyst",
+      "automationRisk": 0.5786,
+      "augmentationLeverage": 0.446,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-006", "skill-007", "skill-008"],
+      "wageForecasts": [43434, 46524, 49619, 52720, 55827, 58939, 62057, 65181, 68310, 71444, 74585]
+    },
+    {
+      "jobId": "job-energy-14",
+      "title": "Principal Energy TechnicianII",
+      "automationRisk": 0.3988,
+      "augmentationLeverage": 0.678,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [45730, 47925, 50124, 52327, 54534, 56745, 58960, 61179, 63402, 65628, 67859]
+    },
+    {
+      "jobId": "job-energy-15",
+      "title": "Staff Energy DesignerIII",
+      "automationRisk": 0.183,
+      "augmentationLeverage": 0.91,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        54400, 59345, 64300, 69263, 74236, 79217, 84208, 89207, 94215, 99233, 104259
+      ]
+    },
+    {
+      "jobId": "job-energy-16",
+      "title": "Associate Energy Engineer",
+      "automationRisk": 0.5088,
+      "augmentationLeverage": 0.668,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [64729, 68108, 71493, 74885, 78282, 81686, 85095, 88511, 91933, 95362, 98796]
+    },
+    {
+      "jobId": "job-energy-17",
+      "title": "Senior Energy EngineerII",
+      "automationRisk": 0.5678,
+      "augmentationLeverage": 0.478,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [57880, 60175, 62474, 64778, 67085, 69397, 71713, 74033, 76357, 78686, 81018]
+    },
+    {
+      "jobId": "job-energy-18",
+      "title": "Lead Energy TechnicianIII",
+      "automationRisk": 0.6602,
+      "augmentationLeverage": 0.332,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [50068, 54686, 59313, 63948, 68591, 73243, 77903, 82572, 87248, 91934, 96627]
+    },
+    {
+      "jobId": "job-energy-19",
+      "title": "Principal Energy Planner",
+      "automationRisk": 0.4786,
+      "augmentationLeverage": 0.546,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [57558, 60593, 63633, 66679, 69730, 72787, 75849, 78917, 81990, 85069, 88154]
+    },
+    {
+      "jobId": "job-energy-20",
+      "title": "Staff Energy DesignerII",
+      "automationRisk": 0.4352,
+      "augmentationLeverage": 0.602,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [55065, 57737, 60415, 63097, 65784, 68476, 71172, 73874, 76580, 79292, 82008]
+    },
+    {
+      "jobId": "job-energy-21",
+      "title": "Associate Energy EngineerIII",
+      "automationRisk": 0.5696,
+      "augmentationLeverage": 0.546,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [60014, 63272, 66536, 69806, 73081, 76363, 79651, 82944, 86243, 89549, 92860]
+    },
+    {
+      "jobId": "job-energy-22",
+      "title": "Senior Energy Technician",
+      "automationRisk": 0.7502,
+      "augmentationLeverage": 0.292,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [37184, 40428, 43678, 46934, 50195, 53463, 56736, 60015, 63301, 66592, 69889]
+    },
+    {
+      "jobId": "job-energy-23",
+      "title": "Lead Energy AnalystII",
+      "automationRisk": 0.3422,
+      "augmentationLeverage": 0.722,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [52825, 55513, 58207, 60905, 63608, 66316, 69029, 71747, 74469, 77197, 79929]
+    },
+    {
+      "jobId": "job-energy-24",
+      "title": "Principal Energy CoordinatorIII",
+      "automationRisk": 0.663,
+      "augmentationLeverage": 0.34,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [
+        70647, 73958, 77275, 80598, 83927, 87262, 90603, 93950, 97303, 100663, 104028
+      ]
+    },
+    {
+      "jobId": "job-energy-25",
+      "title": "Staff Energy Planner",
+      "automationRisk": 0.5282,
+      "augmentationLeverage": 0.482,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [34869, 36401, 37937, 39475, 41015, 42559, 44105, 45654, 47206, 48761, 50318]
+    }
+  ]
+}

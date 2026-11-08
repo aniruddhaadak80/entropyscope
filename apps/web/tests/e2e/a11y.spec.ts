@@ -7,7 +7,7 @@ import { expect, test } from "@playwright/test";
  * findings are tolerated so CI doesn't block on cosmetic tuning, but
  * critical and serious ones fail the suite.
  */
-const PAGES = ["/", "/dashboard", "/scenarios", "/markets", "/time-machine", "/about", "/features"];
+const PAGES = ["/", "/dashboard", "/scenarios", "/markets", "/time-machine", "/parity", "/about", "/features"];
 
 for (const path of PAGES) {
   test(`a11y: no critical violations on ${path}`, async ({ page }) => {

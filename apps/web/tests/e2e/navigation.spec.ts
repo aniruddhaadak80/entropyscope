@@ -6,6 +6,7 @@ const routes: Array<{ path: string; heading: string }> = [
   { path: "/calibration", heading: "Forecast Calibration" },
   { path: "/world", heading: "World Explorer" },
   { path: "/time-machine", heading: "Time Machine" },
+  { path: "/parity", heading: "Parity Lab" },
   { path: "/features", heading: "Features" },
   { path: "/about", heading: "About EntropyScope" },
 ];

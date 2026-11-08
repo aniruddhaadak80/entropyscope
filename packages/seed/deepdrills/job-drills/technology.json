@@ -1,0 +1,253 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Technology",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-technology-01",
+      "title": "Associate Technology Coordinator",
+      "automationRisk": 0.4306,
+      "augmentationLeverage": 0.766,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [40473, 43848, 47229, 50617, 54010, 57410, 60815, 64227, 67645, 71069, 74500]
+    },
+    {
+      "jobId": "job-technology-02",
+      "title": "Senior Technology TechnicianII",
+      "automationRisk": 0.5492,
+      "augmentationLeverage": 0.502,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        81073, 83199, 85329, 87462, 89600, 91741, 93887, 96036, 98189, 100345, 102506
+      ]
+    },
+    {
+      "jobId": "job-technology-03",
+      "title": "Lead Technology AuditorIII",
+      "automationRisk": 0.562,
+      "augmentationLeverage": 0.45,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [
+        48475, 53669, 58872, 64084, 69306, 74538, 79779, 85029, 90289, 95558, 100837
+      ]
+    },
+    {
+      "jobId": "job-technology-04",
+      "title": "Principal Technology Designer",
+      "automationRisk": 0.2492,
+      "augmentationLeverage": 0.842,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [
+        66702, 70594, 74492, 78398, 82311, 86230, 90157, 94091, 98032, 101980, 105935
+      ]
+    },
+    {
+      "jobId": "job-technology-05",
+      "title": "Staff Technology AuditorII",
+      "automationRisk": 0.2884,
+      "augmentationLeverage": 0.774,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [58840, 62726, 66618, 70518, 74424, 78338, 82259, 86187, 90122, 94064, 98013]
+    },
+    {
+      "jobId": "job-technology-06",
+      "title": "Associate Technology DesignerIII",
+      "automationRisk": 0.4608,
+      "augmentationLeverage": 0.698,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [57020, 59587, 62159, 64736, 67317, 69903, 72494, 75089, 77689, 80294, 82903]
+    },
+    {
+      "jobId": "job-technology-07",
+      "title": "Senior Technology Engineer",
+      "automationRisk": 0.3578,
+      "augmentationLeverage": 0.778,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        75345, 78778, 82217, 85663, 89115, 92573, 96037, 99508, 102985, 106468, 109957
+      ]
+    },
+    {
+      "jobId": "job-technology-08",
+      "title": "Lead Technology DesignerII",
+      "automationRisk": 0.7832,
+      "augmentationLeverage": 0.182,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [
+        67065, 70368, 73677, 76992, 80313, 83640, 86973, 90312, 93657, 97008, 100365
+      ]
+    },
+    {
+      "jobId": "job-technology-09",
+      "title": "Principal Technology AnalystIII",
+      "automationRisk": 0.409,
+      "augmentationLeverage": 0.63,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [
+        72228, 76036, 79852, 83674, 87503, 91339, 95183, 99032, 102889, 106753, 110624
+      ]
+    },
+    {
+      "jobId": "job-technology-10",
+      "title": "Staff Technology Planner",
+      "automationRisk": 0.8118,
+      "augmentationLeverage": 0.148,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [41203, 44249, 47300, 50357, 53419, 56487, 59561, 62640, 65724, 68814, 71910]
+    },
+    {
+      "jobId": "job-technology-11",
+      "title": "Associate Technology PlannerII",
+      "automationRisk": 0.7382,
+      "augmentationLeverage": 0.372,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        73658, 78978, 84307, 89646, 94995, 100354, 105722, 111100, 116487, 121884, 127291
+      ]
+    },
+    {
+      "jobId": "job-technology-12",
+      "title": "Senior Technology AuditorIII",
+      "automationRisk": 0.7092,
+      "augmentationLeverage": 0.342,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [64704, 66418, 68134, 69854, 71577, 73303, 75032, 76764, 78500, 80238, 81980]
+    },
+    {
+      "jobId": "job-technology-13",
+      "title": "Lead Technology Technician",
+      "automationRisk": 0.7274,
+      "augmentationLeverage": 0.254,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-006", "skill-007", "skill-008"],
+      "wageForecasts": [61591, 63942, 66298, 68657, 71021, 73389, 75762, 78139, 80520, 82905, 85295]
+    },
+    {
+      "jobId": "job-technology-14",
+      "title": "Principal Technology TechnicianII",
+      "automationRisk": 0.7018,
+      "augmentationLeverage": 0.258,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-127", "skill-128", "skill-129"],
+      "wageForecasts": [
+        76373, 79977, 83588, 87205, 90829, 94460, 98097, 101740, 105391, 109047, 112710
+      ]
+    },
+    {
+      "jobId": "job-technology-15",
+      "title": "Staff Technology AuditorIII",
+      "automationRisk": 0.5192,
+      "augmentationLeverage": 0.482,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [54372, 55814, 57259, 58707, 60157, 61610, 63065, 64523, 65984, 67447, 68913]
+    },
+    {
+      "jobId": "job-technology-16",
+      "title": "Associate Technology Technician",
+      "automationRisk": 0.808,
+      "augmentationLeverage": 0.25,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [55590, 59507, 63430, 67361, 71299, 75244, 79196, 83155, 87122, 91095, 95076]
+    },
+    {
+      "jobId": "job-technology-17",
+      "title": "Senior Technology DesignerII",
+      "automationRisk": 0.4932,
+      "augmentationLeverage": 0.612,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [49507, 53199, 56898, 60604, 64317, 68036, 71762, 75494, 79234, 82980, 86732]
+    },
+    {
+      "jobId": "job-technology-18",
+      "title": "Lead Technology TrainerIII",
+      "automationRisk": 0.3518,
+      "augmentationLeverage": 0.698,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [49725, 52747, 55774, 58807, 61845, 64889, 67938, 70992, 74053, 77118, 80189]
+    },
+    {
+      "jobId": "job-technology-19",
+      "title": "Principal Technology Auditor",
+      "automationRisk": 0.4124,
+      "augmentationLeverage": 0.614,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        78454, 81081, 83714, 86350, 88992, 91639, 94290, 96946, 99607, 102272, 104943
+      ]
+    },
+    {
+      "jobId": "job-technology-20",
+      "title": "Staff Technology AuditorII",
+      "automationRisk": 0.4538,
+      "augmentationLeverage": 0.578,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [33832, 36023, 38218, 40417, 42620, 44827, 47038, 49253, 51471, 53694, 55921]
+    },
+    {
+      "jobId": "job-technology-21",
+      "title": "Associate Technology AuditorIII",
+      "automationRisk": 0.5276,
+      "augmentationLeverage": 0.606,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [67668, 70262, 72861, 75465, 78074, 80687, 83305, 85927, 88555, 91187, 93824]
+    },
+    {
+      "jobId": "job-technology-22",
+      "title": "Senior Technology Technician",
+      "automationRisk": 0.5844,
+      "augmentationLeverage": 0.474,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [74839, 77267, 79700, 82137, 84578, 87024, 89474, 91929, 94388, 96852, 99320]
+    },
+    {
+      "jobId": "job-technology-23",
+      "title": "Lead Technology AuditorII",
+      "automationRisk": 0.7656,
+      "augmentationLeverage": 0.196,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [43270, 48626, 53991, 59367, 64752, 70147, 75551, 80965, 86389, 91823, 97266]
+    },
+    {
+      "jobId": "job-technology-24",
+      "title": "Principal Technology AuditorIII",
+      "automationRisk": 0.3518,
+      "augmentationLeverage": 0.698,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [45582, 48471, 51364, 54264, 57168, 60078, 62992, 65913, 68838, 71769, 74704]
+    },
+    {
+      "jobId": "job-technology-25",
+      "title": "Staff Technology Coordinator",
+      "automationRisk": 0.343,
+      "augmentationLeverage": 0.75,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [
+        67920, 71336, 74758, 78187, 81622, 85063, 88510, 91963, 95423, 98888, 102360
+      ]
+    }
+  ]
+}

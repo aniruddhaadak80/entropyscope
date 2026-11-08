@@ -1,0 +1,245 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Healthcare",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-healthcare-01",
+      "title": "Associate Healthcare Technician",
+      "automationRisk": 0.3588,
+      "augmentationLeverage": 0.818,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        60253, 64511, 68776, 73050, 77331, 81620, 85916, 90220, 94533, 98852, 103180
+      ]
+    },
+    {
+      "jobId": "job-healthcare-02",
+      "title": "Senior Healthcare DesignerII",
+      "automationRisk": 0.8184,
+      "augmentationLeverage": 0.204,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        74298, 78070, 81850, 85636, 89429, 93229, 97035, 100849, 104669, 108497, 112331
+      ]
+    },
+    {
+      "jobId": "job-healthcare-03",
+      "title": "Lead Healthcare CoordinatorIII",
+      "automationRisk": 0.3078,
+      "augmentationLeverage": 0.778,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [47433, 50441, 53454, 56473, 59497, 62526, 65561, 68602, 71648, 74699, 77756]
+    },
+    {
+      "jobId": "job-healthcare-04",
+      "title": "Principal Healthcare Designer",
+      "automationRisk": 0.626,
+      "augmentationLeverage": 0.35,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [41185, 46036, 50897, 55766, 60644, 65530, 70426, 75330, 80243, 85165, 90096]
+    },
+    {
+      "jobId": "job-healthcare-05",
+      "title": "Staff Healthcare EngineerII",
+      "automationRisk": 0.4928,
+      "augmentationLeverage": 0.548,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [
+        71119, 75571, 80031, 84499, 88976, 93460, 97953, 102453, 106962, 111479, 116003
+      ]
+    },
+    {
+      "jobId": "job-healthcare-06",
+      "title": "Associate Healthcare PlannerIII",
+      "automationRisk": 0.568,
+      "augmentationLeverage": 0.58,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [45156, 47218, 49283, 51353, 53426, 55503, 57583, 59668, 61756, 63848, 65943]
+    },
+    {
+      "jobId": "job-healthcare-07",
+      "title": "Senior Healthcare Engineer",
+      "automationRisk": 0.5232,
+      "augmentationLeverage": 0.582,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        83152, 85849, 88552, 91259, 93971, 96688, 99410, 102137, 104869, 107605, 110347
+      ]
+    },
+    {
+      "jobId": "job-healthcare-08",
+      "title": "Lead Healthcare TrainerII",
+      "automationRisk": 0.234,
+      "augmentationLeverage": 0.85,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [41257, 44553, 47855, 51163, 54477, 57797, 61123, 64455, 67793, 71136, 74486]
+    },
+    {
+      "jobId": "job-healthcare-09",
+      "title": "Principal Healthcare EngineerIII",
+      "automationRisk": 0.5688,
+      "augmentationLeverage": 0.418,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [72910, 74260, 75613, 76968, 78326, 79686, 81048, 82413, 83780, 85150, 86523]
+    },
+    {
+      "jobId": "job-healthcare-10",
+      "title": "Staff Healthcare Trainer",
+      "automationRisk": 0.375,
+      "augmentationLeverage": 0.7,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [58300, 59877, 61458, 63041, 64627, 66216, 67808, 69402, 71000, 72600, 74203]
+    },
+    {
+      "jobId": "job-healthcare-11",
+      "title": "Associate Healthcare EngineerII",
+      "automationRisk": 0.4998,
+      "augmentationLeverage": 0.668,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [39715, 44497, 49288, 54088, 58896, 63714, 68539, 73374, 78217, 83069, 87929]
+    },
+    {
+      "jobId": "job-healthcare-12",
+      "title": "Senior Healthcare TechnicianIII",
+      "automationRisk": 0.4898,
+      "augmentationLeverage": 0.628,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [40131, 43786, 47448, 51117, 54792, 58474, 62163, 65858, 69559, 73268, 76983]
+    },
+    {
+      "jobId": "job-healthcare-13",
+      "title": "Lead Healthcare Analyst",
+      "automationRisk": 0.2106,
+      "augmentationLeverage": 0.886,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-186", "skill-187", "skill-188"],
+      "wageForecasts": [34818, 38828, 42845, 46869, 50900, 54939, 58985, 63038, 67099, 71167, 75242]
+    },
+    {
+      "jobId": "job-healthcare-14",
+      "title": "Principal Healthcare AuditorII",
+      "automationRisk": 0.2168,
+      "augmentationLeverage": 0.878,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [41284, 42659, 44037, 45417, 46800, 48185, 49573, 50963, 52356, 53751, 55149]
+    },
+    {
+      "jobId": "job-healthcare-15",
+      "title": "Staff Healthcare TechnicianIII",
+      "automationRisk": 0.3752,
+      "augmentationLeverage": 0.662,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [40409, 42170, 43933, 45700, 47471, 49244, 51021, 52800, 54583, 56370, 58159]
+    },
+    {
+      "jobId": "job-healthcare-16",
+      "title": "Associate Healthcare Designer",
+      "automationRisk": 0.3802,
+      "augmentationLeverage": 0.802,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [72468, 74977, 77491, 80010, 82532, 85060, 87592, 90129, 92670, 95216, 97766]
+    },
+    {
+      "jobId": "job-healthcare-17",
+      "title": "Senior Healthcare DesignerII",
+      "automationRisk": 0.3336,
+      "augmentationLeverage": 0.786,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [32821, 36156, 39497, 42844, 46197, 49557, 52922, 56293, 59671, 63054, 66444]
+    },
+    {
+      "jobId": "job-healthcare-18",
+      "title": "Lead Healthcare AnalystIII",
+      "automationRisk": 0.3282,
+      "augmentationLeverage": 0.772,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        70385, 73525, 76670, 79822, 82979, 86141, 89310, 92484, 95664, 98849, 102040
+      ]
+    },
+    {
+      "jobId": "job-healthcare-19",
+      "title": "Principal Healthcare Designer",
+      "automationRisk": 0.6158,
+      "augmentationLeverage": 0.398,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [76835, 78378, 79925, 81474, 83025, 84580, 86137, 87698, 89261, 90827, 92395]
+    },
+    {
+      "jobId": "job-healthcare-20",
+      "title": "Staff Healthcare TechnicianII",
+      "automationRisk": 0.3098,
+      "augmentationLeverage": 0.758,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-186", "skill-187", "skill-188"],
+      "wageForecasts": [56751, 59645, 62544, 65448, 68357, 71272, 74192, 77117, 80047, 82983, 85924]
+    },
+    {
+      "jobId": "job-healthcare-21",
+      "title": "Associate Healthcare TechnicianIII",
+      "automationRisk": 0.6496,
+      "augmentationLeverage": 0.466,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        81236, 84585, 87940, 91301, 94669, 98042, 101422, 104807, 108199, 111596, 115000
+      ]
+    },
+    {
+      "jobId": "job-healthcare-22",
+      "title": "Senior Healthcare Trainer",
+      "automationRisk": 0.3756,
+      "augmentationLeverage": 0.726,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [72111, 74323, 76539, 78759, 80983, 83211, 85443, 87679, 89920, 92164, 94412]
+    },
+    {
+      "jobId": "job-healthcare-23",
+      "title": "Lead Healthcare CoordinatorII",
+      "automationRisk": 0.7064,
+      "augmentationLeverage": 0.284,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [57566, 60213, 62866, 65523, 68184, 70851, 73523, 76199, 78880, 81566, 84256]
+    },
+    {
+      "jobId": "job-healthcare-24",
+      "title": "Principal Healthcare TrainerIII",
+      "automationRisk": 0.7498,
+      "augmentationLeverage": 0.228,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [42459, 44375, 46294, 48217, 50143, 52073, 54006, 55942, 57882, 59826, 61773]
+    },
+    {
+      "jobId": "job-healthcare-25",
+      "title": "Staff Healthcare Engineer",
+      "automationRisk": 0.562,
+      "augmentationLeverage": 0.45,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [40882, 45348, 49822, 54305, 58795, 63293, 67800, 72315, 76838, 81369, 85908]
+    }
+  ]
+}

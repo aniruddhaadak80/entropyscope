@@ -1,0 +1,255 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Education",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-education-01",
+      "title": "Associate Education Auditor",
+      "automationRisk": 0.5062,
+      "augmentationLeverage": 0.622,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        59076, 63454, 67840, 72234, 76636, 81045, 85463, 89889, 94322, 98764, 103214
+      ]
+    },
+    {
+      "jobId": "job-education-02",
+      "title": "Senior Education EngineerII",
+      "automationRisk": 0.6202,
+      "augmentationLeverage": 0.422,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [
+        77113, 79688, 82268, 84853, 87442, 90036, 92635, 95239, 97847, 100459, 103077
+      ]
+    },
+    {
+      "jobId": "job-education-03",
+      "title": "Lead Education AnalystIII",
+      "automationRisk": 0.5724,
+      "augmentationLeverage": 0.454,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [35803, 37683, 39566, 41452, 43342, 45236, 47132, 49033, 50936, 52843, 54754]
+    },
+    {
+      "jobId": "job-education-04",
+      "title": "Principal Education Coordinator",
+      "automationRisk": 0.3554,
+      "augmentationLeverage": 0.734,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [41614, 46492, 51380, 56276, 61181, 66095, 71018, 75949, 80890, 85839, 90797]
+    },
+    {
+      "jobId": "job-education-05",
+      "title": "Staff Education AnalystII",
+      "automationRisk": 0.5116,
+      "augmentationLeverage": 0.486,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        75574, 80107, 84648, 89198, 93756, 98322, 102896, 107479, 112070, 116668, 121276
+      ]
+    },
+    {
+      "jobId": "job-education-06",
+      "title": "Associate Education AnalystIII",
+      "automationRisk": 0.7612,
+      "augmentationLeverage": 0.322,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-006", "skill-007", "skill-008"],
+      "wageForecasts": [
+        80483, 84254, 88033, 91818, 95610, 99409, 103214, 107027, 110846, 114672, 118506
+      ]
+    },
+    {
+      "jobId": "job-education-07",
+      "title": "Senior Education Designer",
+      "automationRisk": 0.6636,
+      "augmentationLeverage": 0.366,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [
+        77082, 81592, 86110, 90637, 95172, 99714, 104265, 108825, 113392, 117968, 122552
+      ]
+    },
+    {
+      "jobId": "job-education-08",
+      "title": "Lead Education AuditorII",
+      "automationRisk": 0.313,
+      "augmentationLeverage": 0.78,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [63322, 66920, 70525, 74136, 77754, 81379, 85010, 88647, 92291, 95942, 99599]
+    },
+    {
+      "jobId": "job-education-09",
+      "title": "Principal Education PlannerIII",
+      "automationRisk": 0.7108,
+      "augmentationLeverage": 0.258,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [44667, 48967, 53275, 57590, 61913, 66245, 70584, 74930, 79285, 83647, 88018]
+    },
+    {
+      "jobId": "job-education-10",
+      "title": "Staff Education Auditor",
+      "automationRisk": 0.5886,
+      "augmentationLeverage": 0.436,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [53063, 54432, 55804, 57178, 58555, 59934, 61316, 62700, 64087, 65476, 66867]
+    },
+    {
+      "jobId": "job-education-11",
+      "title": "Associate Education CoordinatorII",
+      "automationRisk": 0.7198,
+      "augmentationLeverage": 0.358,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [45547, 48460, 51378, 54301, 57229, 60163, 63102, 66047, 68996, 71951, 74912]
+    },
+    {
+      "jobId": "job-education-12",
+      "title": "Senior Education EngineerIII",
+      "automationRisk": 0.8518,
+      "augmentationLeverage": 0.158,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [
+        78526, 83115, 87713, 92319, 96933, 101555, 106186, 110825, 115473, 120129, 124793
+      ]
+    },
+    {
+      "jobId": "job-education-13",
+      "title": "Lead Education Designer",
+      "automationRisk": 0.4476,
+      "augmentationLeverage": 0.586,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        51792, 56619, 61456, 66300, 71154, 76017, 80888, 85768, 90657, 95554, 100460
+      ]
+    },
+    {
+      "jobId": "job-education-14",
+      "title": "Principal Education DesignerII",
+      "automationRisk": 0.2278,
+      "augmentationLeverage": 0.858,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [
+        81439, 84846, 88259, 91679, 95105, 98536, 101974, 105419, 108869, 112326, 115788
+      ]
+    },
+    {
+      "jobId": "job-education-15",
+      "title": "Staff Education PlannerIII",
+      "automationRisk": 0.3378,
+      "augmentationLeverage": 0.748,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [53773, 55001, 56231, 57464, 58699, 59936, 61175, 62417, 63660, 64906, 66155]
+    },
+    {
+      "jobId": "job-education-16",
+      "title": "Associate Education Auditor",
+      "automationRisk": 0.7046,
+      "augmentationLeverage": 0.366,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [76731, 79035, 81343, 83656, 85972, 88293, 90618, 92948, 95281, 97619, 99960]
+    },
+    {
+      "jobId": "job-education-17",
+      "title": "Senior Education AuditorII",
+      "automationRisk": 0.512,
+      "augmentationLeverage": 0.55,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [42707, 45424, 48147, 50874, 53606, 56344, 59086, 61833, 64585, 67342, 70104]
+    },
+    {
+      "jobId": "job-education-18",
+      "title": "Lead Education DesignerIII",
+      "automationRisk": 0.3998,
+      "augmentationLeverage": 0.668,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [36941, 42287, 47642, 53008, 58383, 63767, 69162, 74566, 79980, 85403, 90837]
+    },
+    {
+      "jobId": "job-education-19",
+      "title": "Principal Education Analyst",
+      "automationRisk": 0.3468,
+      "augmentationLeverage": 0.748,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [39693, 41097, 42504, 43913, 45325, 46740, 48157, 49576, 50999, 52423, 53851]
+    },
+    {
+      "jobId": "job-education-20",
+      "title": "Staff Education DesignerII",
+      "automationRisk": 0.482,
+      "augmentationLeverage": 0.53,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [49668, 51532, 53399, 55269, 57143, 59020, 60901, 62785, 64672, 66563, 68457]
+    },
+    {
+      "jobId": "job-education-21",
+      "title": "Associate Education PlannerIII",
+      "automationRisk": 0.4842,
+      "augmentationLeverage": 0.662,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [46000, 47618, 49240, 50864, 52492, 54122, 55755, 57391, 59030, 60672, 62317]
+    },
+    {
+      "jobId": "job-education-22",
+      "title": "Senior Education Coordinator",
+      "automationRisk": 0.6554,
+      "augmentationLeverage": 0.394,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [
+        54315, 58978, 63650, 68330, 73019, 77716, 82421, 87136, 91858, 96589, 101329
+      ]
+    },
+    {
+      "jobId": "job-education-23",
+      "title": "Lead Education CoordinatorII",
+      "automationRisk": 0.3282,
+      "augmentationLeverage": 0.772,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [33032, 37303, 41582, 45868, 50162, 54464, 58774, 63091, 67416, 71749, 76090]
+    },
+    {
+      "jobId": "job-education-24",
+      "title": "Principal Education DesignerIII",
+      "automationRisk": 0.6364,
+      "augmentationLeverage": 0.354,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [
+        83856, 85500, 87148, 88798, 90452, 92108, 93768, 95430, 97096, 98764, 100435
+      ]
+    },
+    {
+      "jobId": "job-education-25",
+      "title": "Staff Education Trainer",
+      "automationRisk": 0.5266,
+      "augmentationLeverage": 0.516,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        72823, 75633, 78447, 81267, 84092, 86922, 89757, 92597, 95442, 98293, 101148
+      ]
+    }
+  ]
+}

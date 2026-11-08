@@ -27,5 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     { url: `${base}/world`, lastModified: new Date(), changeFrequency: "daily", priority: 0.7 },
+    { url: `${base}/parity`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.6 },
   ];
 }

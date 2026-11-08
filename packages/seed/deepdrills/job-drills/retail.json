@@ -1,0 +1,249 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Retail",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-retail-01",
+      "title": "Associate Retail Technician",
+      "automationRisk": 0.3278,
+      "augmentationLeverage": 0.858,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [51571, 52966, 54364, 55764, 57167, 58573, 59981, 61391, 62804, 64220, 65638]
+    },
+    {
+      "jobId": "job-retail-02",
+      "title": "Senior Retail AuditorII",
+      "automationRisk": 0.2468,
+      "augmentationLeverage": 0.898,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        81201, 86330, 91468, 96615, 101772, 106937, 112113, 117297, 122491, 127694, 132907
+      ]
+    },
+    {
+      "jobId": "job-retail-03",
+      "title": "Lead Retail DesignerIII",
+      "automationRisk": 0.7188,
+      "augmentationLeverage": 0.268,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [50089, 55007, 59935, 64871, 69816, 74771, 79734, 84706, 89687, 94677, 99676]
+    },
+    {
+      "jobId": "job-retail-04",
+      "title": "Principal Retail Analyst",
+      "automationRisk": 0.5062,
+      "augmentationLeverage": 0.522,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [59497, 62565, 65638, 68717, 71802, 74892, 77987, 81089, 84195, 87308, 90426]
+    },
+    {
+      "jobId": "job-retail-05",
+      "title": "Staff Retail CoordinatorII",
+      "automationRisk": 0.6788,
+      "augmentationLeverage": 0.308,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [42809, 44836, 46866, 48901, 50938, 52980, 55025, 57074, 59127, 61183, 63243]
+    },
+    {
+      "jobId": "job-retail-06",
+      "title": "Associate Retail AuditorIII",
+      "automationRisk": 0.396,
+      "augmentationLeverage": 0.77,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [72336, 75010, 77690, 80374, 83063, 85757, 88455, 91159, 93867, 96581, 99299]
+    },
+    {
+      "jobId": "job-retail-07",
+      "title": "Senior Retail Coordinator",
+      "automationRisk": 0.457,
+      "augmentationLeverage": 0.65,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [64760, 67850, 70945, 74046, 77153, 80265, 83383, 86507, 89636, 92770, 95911]
+    },
+    {
+      "jobId": "job-retail-08",
+      "title": "Lead Retail EngineerII",
+      "automationRisk": 0.3318,
+      "augmentationLeverage": 0.718,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [63145, 64571, 66000, 67432, 68866, 70302, 71742, 73183, 74628, 76075, 77525]
+    },
+    {
+      "jobId": "job-retail-09",
+      "title": "Principal Retail PlannerIII",
+      "automationRisk": 0.3202,
+      "augmentationLeverage": 0.762,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [
+        76441, 81699, 86966, 92243, 97529, 102825, 108131, 113446, 118771, 124105, 129449
+      ]
+    },
+    {
+      "jobId": "job-retail-10",
+      "title": "Staff Retail Designer",
+      "automationRisk": 0.4504,
+      "augmentationLeverage": 0.594,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [55301, 56582, 57866, 59151, 60440, 61730, 63023, 64318, 65615, 66915, 68217]
+    },
+    {
+      "jobId": "job-retail-11",
+      "title": "Associate Retail CoordinatorII",
+      "automationRisk": 0.877,
+      "augmentationLeverage": 0.19,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [63624, 66448, 69276, 72110, 74949, 77793, 80642, 83497, 86356, 89221, 92090]
+    },
+    {
+      "jobId": "job-retail-12",
+      "title": "Senior Retail TrainerIII",
+      "automationRisk": 0.2144,
+      "augmentationLeverage": 0.934,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [40632, 44487, 48348, 52217, 56092, 59975, 63864, 67761, 71664, 75575, 79492]
+    },
+    {
+      "jobId": "job-retail-13",
+      "title": "Lead Retail Trainer",
+      "automationRisk": 0.5364,
+      "augmentationLeverage": 0.454,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [54615, 57947, 61285, 64629, 67979, 71336, 74698, 78066, 81441, 84821, 88208]
+    },
+    {
+      "jobId": "job-retail-14",
+      "title": "Principal Retail EngineerII",
+      "automationRisk": 0.2712,
+      "augmentationLeverage": 0.802,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [
+        76364, 79973, 83589, 87212, 90840, 94476, 98118, 101767, 105422, 109084, 112752
+      ]
+    },
+    {
+      "jobId": "job-retail-15",
+      "title": "Staff Retail CoordinatorIII",
+      "automationRisk": 0.438,
+      "augmentationLeverage": 0.61,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [
+        81860, 86702, 91554, 96414, 101282, 106160, 111046, 115942, 120845, 125758, 130680
+      ]
+    },
+    {
+      "jobId": "job-retail-16",
+      "title": "Associate Retail Engineer",
+      "automationRisk": 0.4192,
+      "augmentationLeverage": 0.772,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [39574, 41308, 43044, 44784, 46527, 48273, 50023, 51775, 53531, 55290, 57051]
+    },
+    {
+      "jobId": "job-retail-17",
+      "title": "Senior Retail DesignerII",
+      "automationRisk": 0.7856,
+      "augmentationLeverage": 0.226,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [76625, 78578, 80534, 82494, 84457, 86424, 88395, 90369, 92347, 94328, 96312]
+    },
+    {
+      "jobId": "job-retail-18",
+      "title": "Lead Retail TechnicianIII",
+      "automationRisk": 0.274,
+      "augmentationLeverage": 0.81,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [36157, 39337, 42523, 45714, 48911, 52114, 55323, 58538, 61758, 64984, 68216]
+    },
+    {
+      "jobId": "job-retail-19",
+      "title": "Principal Retail Analyst",
+      "automationRisk": 0.6088,
+      "augmentationLeverage": 0.378,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [
+        79138, 82243, 85353, 88469, 91591, 94719, 97852, 100990, 104134, 107284, 110440
+      ]
+    },
+    {
+      "jobId": "job-retail-20",
+      "title": "Staff Retail TrainerII",
+      "automationRisk": 0.3254,
+      "augmentationLeverage": 0.764,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        83486, 88875, 94274, 99682, 105100, 110528, 115966, 121414, 126871, 132338, 137815
+      ]
+    },
+    {
+      "jobId": "job-retail-21",
+      "title": "Associate Retail EngineerIII",
+      "automationRisk": 0.6826,
+      "augmentationLeverage": 0.406,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [
+        60759, 64724, 68695, 72674, 76661, 80654, 84655, 88662, 92677, 96700, 100729
+      ]
+    },
+    {
+      "jobId": "job-retail-22",
+      "title": "Senior Retail Analyst",
+      "automationRisk": 0.3942,
+      "augmentationLeverage": 0.702,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        57182, 62538, 67903, 73279, 78664, 84059, 89463, 94877, 100301, 105735, 111178
+      ]
+    },
+    {
+      "jobId": "job-retail-23",
+      "title": "Lead Retail CoordinatorII",
+      "automationRisk": 0.2326,
+      "augmentationLeverage": 0.846,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [66511, 69254, 72003, 74756, 77515, 80278, 83047, 85820, 88598, 91382, 94170]
+    },
+    {
+      "jobId": "job-retail-24",
+      "title": "Principal Retail DesignerIII",
+      "automationRisk": 0.4422,
+      "augmentationLeverage": 0.622,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [37942, 40529, 43121, 45718, 48320, 50926, 53537, 56152, 58772, 61397, 64027]
+    },
+    {
+      "jobId": "job-retail-25",
+      "title": "Staff Retail Trainer",
+      "automationRisk": 0.2526,
+      "augmentationLeverage": 0.826,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [62152, 64980, 67812, 70650, 73493, 76341, 79194, 82053, 84916, 87785, 90659]
+    }
+  ]
+}

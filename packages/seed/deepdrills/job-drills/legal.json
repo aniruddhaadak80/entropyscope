@@ -1,0 +1,261 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Legal",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-legal-01",
+      "title": "Associate Legal Coordinator",
+      "automationRisk": 0.6514,
+      "augmentationLeverage": 0.484,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        81679, 86670, 91669, 96678, 101696, 106722, 111758, 116803, 121857, 126920, 131992
+      ]
+    },
+    {
+      "jobId": "job-legal-02",
+      "title": "Senior Legal PlannerII",
+      "automationRisk": 0.7812,
+      "augmentationLeverage": 0.252,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        65789, 69484, 73186, 76895, 80611, 84333, 88062, 91797, 95540, 99289, 103045
+      ]
+    },
+    {
+      "jobId": "job-legal-03",
+      "title": "Lead Legal EngineerIII",
+      "automationRisk": 0.5116,
+      "augmentationLeverage": 0.486,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [
+        77881, 81735, 85595, 89463, 93337, 97219, 101107, 105003, 108905, 112815, 116731
+      ]
+    },
+    {
+      "jobId": "job-legal-04",
+      "title": "Principal Legal Trainer",
+      "automationRisk": 0.717,
+      "augmentationLeverage": 0.25,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [
+        80403, 85122, 89850, 94587, 99332, 104085, 108847, 113618, 118397, 123185, 127982
+      ]
+    },
+    {
+      "jobId": "job-legal-05",
+      "title": "Staff Legal PlannerII",
+      "automationRisk": 0.57,
+      "augmentationLeverage": 0.46,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [45693, 50730, 55775, 60830, 65894, 70967, 76050, 81141, 86242, 91352, 96470]
+    },
+    {
+      "jobId": "job-legal-06",
+      "title": "Associate Legal TrainerIII",
+      "automationRisk": 0.6328,
+      "augmentationLeverage": 0.508,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        80753, 83956, 87165, 90379, 93600, 96826, 100058, 103296, 106539, 109789, 113044
+      ]
+    },
+    {
+      "jobId": "job-legal-07",
+      "title": "Senior Legal Coordinator",
+      "automationRisk": 0.704,
+      "augmentationLeverage": 0.34,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-127", "skill-128", "skill-129"],
+      "wageForecasts": [52500, 54832, 57168, 59509, 61854, 64203, 66556, 68914, 71276, 73642, 76012]
+    },
+    {
+      "jobId": "job-legal-08",
+      "title": "Lead Legal EngineerII",
+      "automationRisk": 0.717,
+      "augmentationLeverage": 0.25,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [
+        78470, 83259, 88057, 92864, 97680, 102504, 107337, 112178, 117028, 121887, 126755
+      ]
+    },
+    {
+      "jobId": "job-legal-09",
+      "title": "Principal Legal AnalystIII",
+      "automationRisk": 0.5826,
+      "augmentationLeverage": 0.406,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [
+        57478, 62812, 68155, 73509, 78872, 84244, 89626, 95018, 100420, 105831, 111252
+      ]
+    },
+    {
+      "jobId": "job-legal-10",
+      "title": "Staff Legal Engineer",
+      "automationRisk": 0.4248,
+      "augmentationLeverage": 0.598,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [44090, 45922, 47757, 49595, 51437, 53282, 55130, 56982, 58836, 60695, 62556]
+    },
+    {
+      "jobId": "job-legal-11",
+      "title": "Associate Legal DesignerII",
+      "automationRisk": 0.3864,
+      "augmentationLeverage": 0.794,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [
+        82346, 86791, 91244, 95705, 100175, 104652, 109137, 113631, 118132, 122642, 127160
+      ]
+    },
+    {
+      "jobId": "job-legal-12",
+      "title": "Senior Legal CoordinatorIII",
+      "automationRisk": 0.2902,
+      "augmentationLeverage": 0.842,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [66259, 68411, 70567, 72727, 74890, 77058, 79229, 81405, 83584, 85767, 87954]
+    },
+    {
+      "jobId": "job-legal-13",
+      "title": "Lead Legal Planner",
+      "automationRisk": 0.4956,
+      "augmentationLeverage": 0.556,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [70844, 72951, 75062, 77176, 79295, 81417, 83543, 85673, 87806, 89944, 92085]
+    },
+    {
+      "jobId": "job-legal-14",
+      "title": "Principal Legal AnalystII",
+      "automationRisk": 0.4918,
+      "augmentationLeverage": 0.558,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        52716, 57477, 62247, 67026, 71813, 76609, 81414, 86227, 91049, 95879, 100718
+      ]
+    },
+    {
+      "jobId": "job-legal-15",
+      "title": "Staff Legal PlannerIII",
+      "automationRisk": 0.471,
+      "augmentationLeverage": 0.55,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-181", "skill-182", "skill-183"],
+      "wageForecasts": [
+        63868, 67495, 71129, 74770, 78417, 82070, 85731, 89397, 93071, 96751, 100437
+      ]
+    },
+    {
+      "jobId": "job-legal-16",
+      "title": "Associate Legal Trainer",
+      "automationRisk": 0.7034,
+      "augmentationLeverage": 0.414,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [
+        64400, 68514, 72635, 76764, 80900, 85043, 89195, 93353, 97519, 101693, 105874
+      ]
+    },
+    {
+      "jobId": "job-legal-17",
+      "title": "Senior Legal EngineerII",
+      "automationRisk": 0.5968,
+      "augmentationLeverage": 0.458,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [41641, 45514, 49393, 53280, 57173, 61074, 64982, 68896, 72818, 76747, 80683]
+    },
+    {
+      "jobId": "job-legal-18",
+      "title": "Lead Legal TechnicianIII",
+      "automationRisk": 0.6716,
+      "augmentationLeverage": 0.326,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [45219, 48555, 51897, 55245, 58599, 61960, 65326, 68698, 72077, 75461, 78852]
+    },
+    {
+      "jobId": "job-legal-19",
+      "title": "Principal Legal Designer",
+      "automationRisk": 0.3346,
+      "augmentationLeverage": 0.726,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-185", "skill-186", "skill-187"],
+      "wageForecasts": [67349, 69914, 72484, 75059, 77638, 80222, 82811, 85404, 88002, 90605, 93212]
+    },
+    {
+      "jobId": "job-legal-20",
+      "title": "Staff Legal TechnicianII",
+      "automationRisk": 0.564,
+      "augmentationLeverage": 0.43,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-186", "skill-187", "skill-188"],
+      "wageForecasts": [
+        80497, 83760, 87029, 90304, 93584, 96871, 100164, 103462, 106767, 110077, 113393
+      ]
+    },
+    {
+      "jobId": "job-legal-21",
+      "title": "Associate Legal TechnicianIII",
+      "automationRisk": 0.3016,
+      "augmentationLeverage": 0.886,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [38182, 39473, 40767, 42063, 43361, 44661, 45964, 47269, 48577, 49887, 51199]
+    },
+    {
+      "jobId": "job-legal-22",
+      "title": "Senior Legal Engineer",
+      "automationRisk": 0.3878,
+      "augmentationLeverage": 0.748,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        49733, 55015, 60306, 65607, 70918, 76238, 81568, 86907, 92256, 97615, 102983
+      ]
+    },
+    {
+      "jobId": "job-legal-23",
+      "title": "Lead Legal AnalystII",
+      "automationRisk": 0.5006,
+      "augmentationLeverage": 0.506,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [68385, 70910, 73440, 75975, 78514, 81057, 83606, 86158, 88716, 91278, 93844]
+    },
+    {
+      "jobId": "job-legal-24",
+      "title": "Principal Legal PlannerIII",
+      "automationRisk": 0.3574,
+      "augmentationLeverage": 0.714,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [
+        60542, 65015, 69496, 73986, 78483, 82989, 87502, 92024, 96554, 101092, 105638
+      ]
+    },
+    {
+      "jobId": "job-legal-25",
+      "title": "Staff Legal Planner",
+      "automationRisk": 0.3468,
+      "augmentationLeverage": 0.748,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [57162, 61283, 65411, 69547, 73690, 77841, 81999, 86164, 90338, 94518, 98706]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Manufacturing",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-manufacturing-01",
+      "title": "Associate Manufacturing Coordinator",
+      "automationRisk": 0.7568,
+      "augmentationLeverage": 0.348,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [36477, 41642, 46816, 51999, 57192, 62394, 67606, 72827, 78057, 83297, 88546]
+    },
+    {
+      "jobId": "job-manufacturing-02",
+      "title": "Senior Manufacturing DesignerII",
+      "automationRisk": 0.4142,
+      "augmentationLeverage": 0.682,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [82151, 83834, 85519, 87208, 88899, 90594, 92292, 93993, 95697, 97404, 99114]
+    },
+    {
+      "jobId": "job-manufacturing-03",
+      "title": "Lead Manufacturing CoordinatorIII",
+      "automationRisk": 0.3254,
+      "augmentationLeverage": 0.764,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [49048, 53230, 57419, 61616, 65821, 70033, 74253, 78480, 82715, 86958, 91208]
+    },
+    {
+      "jobId": "job-manufacturing-04",
+      "title": "Principal Manufacturing Trainer",
+      "automationRisk": 0.5178,
+      "augmentationLeverage": 0.478,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        74149, 79268, 84396, 89533, 94679, 99835, 105000, 110175, 115359, 120552, 125754
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-05",
+      "title": "Staff Manufacturing CoordinatorII",
+      "automationRisk": 0.5724,
+      "augmentationLeverage": 0.454,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-005", "skill-006", "skill-007"],
+      "wageForecasts": [
+        72923, 77979, 83043, 88117, 93200, 98293, 103394, 108505, 113625, 118754, 123892
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-06",
+      "title": "Associate Manufacturing TechnicianIII",
+      "automationRisk": 0.4504,
+      "augmentationLeverage": 0.694,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [42978, 44908, 46841, 48778, 50718, 52662, 54609, 56560, 58514, 60472, 62433]
+    },
+    {
+      "jobId": "job-manufacturing-07",
+      "title": "Senior Manufacturing Trainer",
+      "automationRisk": 0.4872,
+      "augmentationLeverage": 0.582,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [
+        78046, 82287, 86535, 90792, 95056, 99327, 103607, 107894, 112189, 116491, 120801
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-08",
+      "title": "Lead Manufacturing AuditorII",
+      "automationRisk": 0.6294,
+      "augmentationLeverage": 0.334,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [32421, 34967, 37518, 40074, 42634, 45199, 47768, 50342, 52921, 55504, 58092]
+    },
+    {
+      "jobId": "job-manufacturing-09",
+      "title": "Principal Manufacturing TechnicianIII",
+      "automationRisk": 0.431,
+      "augmentationLeverage": 0.59,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [46238, 48828, 51423, 54023, 56628, 59237, 61851, 64469, 67093, 69721, 72353]
+    },
+    {
+      "jobId": "job-manufacturing-10",
+      "title": "Staff Manufacturing Auditor",
+      "automationRisk": 0.2954,
+      "augmentationLeverage": 0.794,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [
+        69605, 74264, 78932, 83608, 88293, 92986, 97687, 102397, 107116, 111843, 116578
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-11",
+      "title": "Associate Manufacturing PlannerII",
+      "automationRisk": 0.6874,
+      "augmentationLeverage": 0.394,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        80732, 84502, 88280, 92064, 95855, 99653, 103457, 107269, 111087, 114912, 118744
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-12",
+      "title": "Senior Manufacturing AuditorIII",
+      "automationRisk": 0.7132,
+      "augmentationLeverage": 0.302,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-185", "skill-186", "skill-187"],
+      "wageForecasts": [
+        79610, 82100, 84595, 87094, 89598, 92107, 94619, 97137, 99659, 102185, 104716
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-13",
+      "title": "Lead Manufacturing Auditor",
+      "automationRisk": 0.367,
+      "augmentationLeverage": 0.69,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        79389, 82184, 84983, 87788, 90598, 93412, 96232, 99057, 101887, 104723, 107563
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-14",
+      "title": "Principal Manufacturing EngineerII",
+      "automationRisk": 0.3802,
+      "augmentationLeverage": 0.702,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [
+        56196, 61068, 65950, 70840, 75739, 80647, 85563, 90489, 95423, 100366, 105319
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-15",
+      "title": "Staff Manufacturing TrainerIII",
+      "automationRisk": 0.6196,
+      "augmentationLeverage": 0.396,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        78163, 81902, 85649, 89402, 93161, 96928, 100701, 104481, 108268, 112062, 115863
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-16",
+      "title": "Associate Manufacturing Auditor",
+      "automationRisk": 0.5586,
+      "augmentationLeverage": 0.566,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-182", "skill-183", "skill-184"],
+      "wageForecasts": [67571, 69225, 70881, 72541, 74203, 75869, 77537, 79209, 80883, 82561, 84241]
+    },
+    {
+      "jobId": "job-manufacturing-17",
+      "title": "Senior Manufacturing TrainerII",
+      "automationRisk": 0.7402,
+      "augmentationLeverage": 0.302,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [38271, 41142, 44017, 46898, 49785, 52676, 55573, 58475, 61382, 64294, 67212]
+    },
+    {
+      "jobId": "job-manufacturing-18",
+      "title": "Lead Manufacturing TrainerIII",
+      "automationRisk": 0.5144,
+      "augmentationLeverage": 0.494,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [
+        70917, 76065, 81222, 86388, 91564, 96749, 101943, 107147, 112360, 117583, 122815
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-19",
+      "title": "Principal Manufacturing Technician",
+      "automationRisk": 0.2278,
+      "augmentationLeverage": 0.858,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [46806, 48464, 50124, 51788, 53454, 55124, 56796, 58472, 60150, 61832, 63517]
+    },
+    {
+      "jobId": "job-manufacturing-20",
+      "title": "Staff Manufacturing AuditorII",
+      "automationRisk": 0.3876,
+      "augmentationLeverage": 0.646,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        59310, 63654, 68006, 72366, 76733, 81109, 85492, 89883, 94283, 98690, 103105
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-21",
+      "title": "Associate Manufacturing EngineerIII",
+      "automationRisk": 0.5584,
+      "augmentationLeverage": 0.604,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [
+        72945, 77810, 82685, 87568, 92460, 97360, 102270, 107189, 112116, 117052, 121997
+      ]
+    },
+    {
+      "jobId": "job-manufacturing-22",
+      "title": "Senior Manufacturing Auditor",
+      "automationRisk": 0.4514,
+      "augmentationLeverage": 0.634,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [44408, 49055, 53711, 58375, 63048, 67729, 72418, 77116, 81822, 86537, 91260]
+    },
+    {
+      "jobId": "job-manufacturing-23",
+      "title": "Lead Manufacturing TechnicianII",
+      "automationRisk": 0.5254,
+      "augmentationLeverage": 0.474,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [59253, 60739, 62228, 63720, 65215, 66712, 68212, 69714, 71219, 72727, 74238]
+    },
+    {
+      "jobId": "job-manufacturing-24",
+      "title": "Principal Manufacturing AnalystIII",
+      "automationRisk": 0.3146,
+      "augmentationLeverage": 0.746,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [42487, 45988, 49496, 53010, 56530, 60057, 63589, 67129, 70675, 74227, 77785]
+    },
+    {
+      "jobId": "job-manufacturing-25",
+      "title": "Staff Manufacturing Auditor",
+      "automationRisk": 0.5248,
+      "augmentationLeverage": 0.498,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [53994, 56472, 58955, 61442, 63934, 66430, 68931, 71436, 73946, 76460, 78979]
+    }
+  ]
+}

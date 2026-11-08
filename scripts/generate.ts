@@ -7,7 +7,7 @@
  *   bun run scripts/generate.ts all [--seed N]
  *
  * Families: routes, components, docs, adrs, i18n, worlds, stories, tests,
- *           wiki, catalog, packs, memos, snapshots
+ *           wiki, catalog, packs, memos, snapshots, deepdrills
  *
  * Seeded determinism: same seed => same repo. Seed recorded in packages/seed/seed.json.
  */
@@ -63,6 +63,9 @@ import("./generators/memos.mjs").then((m) => {
 });
 import("./generators/snapshots.mjs").then((m) => {
   if (family === "all" || family === "snapshots") m.generateSnapshots(rand, seed);
+});
+import("./generators/deepdrills.mjs").then((m) => {
+  if (family === "all" || family === "deepdrills") m.generateDeepDrills(rand, seed);
 });
 
 console.log("✅ Scale engine pass complete. Run `bun run scripts/loc-count.mjs` to measure.");

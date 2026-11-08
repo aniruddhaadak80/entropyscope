@@ -18,6 +18,13 @@ export { mulberry32 } from "./rng";
 export { createWorld, type World, type Worker, type Sector, type Job } from "./world";
 export { stepYear, type StepResult } from "./step";
 export {
+  createParityState,
+  parityStep,
+  runParity,
+  parityCheck,
+  type ParityState,
+} from "./parity";
+export {
   scenario,
   runScenario,
   forkScenario,

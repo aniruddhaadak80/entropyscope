@@ -1,0 +1,251 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Finance",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-finance-01",
+      "title": "Associate Finance Auditor",
+      "automationRisk": 0.7902,
+      "augmentationLeverage": 0.302,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [34081, 37602, 41130, 44664, 48204, 51751, 55304, 58864, 62430, 66002, 69581]
+    },
+    {
+      "jobId": "job-finance-02",
+      "title": "Senior Finance PlannerII",
+      "automationRisk": 0.3136,
+      "augmentationLeverage": 0.806,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [46135, 48488, 50846, 53207, 55573, 57943, 60318, 62697, 65080, 67467, 69859]
+    },
+    {
+      "jobId": "job-finance-03",
+      "title": "Lead Finance CoordinatorIII",
+      "automationRisk": 0.6912,
+      "augmentationLeverage": 0.292,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [
+        70269, 74513, 78764, 83024, 87291, 91565, 95848, 100138, 104436, 108741, 113054
+      ]
+    },
+    {
+      "jobId": "job-finance-04",
+      "title": "Principal Finance Designer",
+      "automationRisk": 0.4618,
+      "augmentationLeverage": 0.588,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-124", "skill-125", "skill-126"],
+      "wageForecasts": [56330, 58612, 60898, 63189, 65483, 67782, 70085, 72392, 74703, 77018, 79337]
+    },
+    {
+      "jobId": "job-finance-05",
+      "title": "Staff Finance EngineerII",
+      "automationRisk": 0.2326,
+      "augmentationLeverage": 0.846,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        73244, 76149, 79059, 81974, 84894, 87820, 90751, 93687, 96629, 99576, 102528
+      ]
+    },
+    {
+      "jobId": "job-finance-06",
+      "title": "Associate Finance CoordinatorIII",
+      "automationRisk": 0.509,
+      "augmentationLeverage": 0.63,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-186", "skill-187", "skill-188"],
+      "wageForecasts": [
+        60828, 66004, 71189, 76383, 81587, 86801, 92023, 97255, 102497, 107748, 113008
+      ]
+    },
+    {
+      "jobId": "job-finance-07",
+      "title": "Senior Finance Planner",
+      "automationRisk": 0.273,
+      "augmentationLeverage": 0.87,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [56522, 59388, 62258, 65134, 68016, 70902, 73794, 76691, 79593, 82500, 85412]
+    },
+    {
+      "jobId": "job-finance-08",
+      "title": "Lead Finance CoordinatorII",
+      "automationRisk": 0.5414,
+      "augmentationLeverage": 0.494,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [58125, 60337, 62553, 64773, 66997, 69225, 71457, 73693, 75934, 78178, 80426]
+    },
+    {
+      "jobId": "job-finance-09",
+      "title": "Principal Finance PlannerIII",
+      "automationRisk": 0.1968,
+      "augmentationLeverage": 0.898,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [53497, 54800, 56106, 57414, 58724, 60037, 61352, 62669, 63989, 65311, 66635]
+    },
+    {
+      "jobId": "job-finance-10",
+      "title": "Staff Finance Coordinator",
+      "automationRisk": 0.305,
+      "augmentationLeverage": 0.77,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-123", "skill-124", "skill-125"],
+      "wageForecasts": [
+        67193, 72182, 77179, 82186, 87201, 92226, 97260, 102303, 107355, 112416, 117486
+      ]
+    },
+    {
+      "jobId": "job-finance-11",
+      "title": "Associate Finance TechnicianII",
+      "automationRisk": 0.4146,
+      "augmentationLeverage": 0.746,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [44115, 47095, 50080, 53070, 56066, 59068, 62074, 65087, 68104, 71127, 74156]
+    },
+    {
+      "jobId": "job-finance-12",
+      "title": "Senior Finance CoordinatorIII",
+      "automationRisk": 0.6016,
+      "augmentationLeverage": 0.446,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-185", "skill-186", "skill-187"],
+      "wageForecasts": [58804, 60948, 63096, 65248, 67403, 69563, 71726, 73893, 76065, 78240, 80419]
+    },
+    {
+      "jobId": "job-finance-13",
+      "title": "Lead Finance Auditor",
+      "automationRisk": 0.5778,
+      "augmentationLeverage": 0.418,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-126", "skill-127", "skill-128"],
+      "wageForecasts": [
+        81804, 85215, 88632, 92056, 95486, 98921, 102364, 105812, 109266, 112727, 116194
+      ]
+    },
+    {
+      "jobId": "job-finance-14",
+      "title": "Principal Finance AnalystII",
+      "automationRisk": 0.7808,
+      "augmentationLeverage": 0.188,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [55044, 58254, 61470, 64691, 67919, 71152, 74391, 77636, 80887, 84143, 87406]
+    },
+    {
+      "jobId": "job-finance-15",
+      "title": "Staff Finance DesignerIII",
+      "automationRisk": 0.715,
+      "augmentationLeverage": 0.27,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [34437, 39392, 44355, 49328, 54309, 59300, 64299, 69308, 74325, 79352, 84387]
+    },
+    {
+      "jobId": "job-finance-16",
+      "title": "Associate Finance Technician",
+      "automationRisk": 0.8336,
+      "augmentationLeverage": 0.246,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [39429, 41858, 44292, 46730, 49172, 51619, 54070, 56526, 58986, 61451, 63920]
+    },
+    {
+      "jobId": "job-finance-17",
+      "title": "Senior Finance AnalystII",
+      "automationRisk": 0.4774,
+      "augmentationLeverage": 0.644,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [55474, 59629, 63791, 67961, 72138, 76323, 80516, 84716, 88924, 93139, 97361]
+    },
+    {
+      "jobId": "job-finance-18",
+      "title": "Lead Finance EngineerIII",
+      "automationRisk": 0.345,
+      "augmentationLeverage": 0.73,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-004", "skill-005", "skill-006"],
+      "wageForecasts": [34450, 38567, 42691, 46823, 50962, 55108, 59263, 63424, 67593, 71770, 75954]
+    },
+    {
+      "jobId": "job-finance-19",
+      "title": "Principal Finance Technician",
+      "automationRisk": 0.3316,
+      "augmentationLeverage": 0.756,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [
+        71559, 76716, 81882, 87057, 92242, 97436, 102640, 107852, 113075, 118306, 123547
+      ]
+    },
+    {
+      "jobId": "job-finance-20",
+      "title": "Staff Finance DesignerII",
+      "automationRisk": 0.3964,
+      "augmentationLeverage": 0.684,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        66977, 71936, 76903, 81880, 86865, 91860, 96863, 101876, 106897, 111928, 116967
+      ]
+    },
+    {
+      "jobId": "job-finance-21",
+      "title": "Associate Finance EngineerIII",
+      "automationRisk": 0.4368,
+      "augmentationLeverage": 0.758,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [36474, 39770, 43072, 46380, 49694, 53014, 56340, 59672, 63010, 66353, 69703]
+    },
+    {
+      "jobId": "job-finance-22",
+      "title": "Senior Finance Trainer",
+      "automationRisk": 0.7022,
+      "augmentationLeverage": 0.322,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [
+        77391, 82203, 87024, 91854, 96693, 101540, 106396, 111261, 116135, 121017, 125908
+      ]
+    },
+    {
+      "jobId": "job-finance-23",
+      "title": "Lead Finance PlannerII",
+      "automationRisk": 0.3626,
+      "augmentationLeverage": 0.716,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [45066, 48384, 51708, 55038, 58374, 61716, 65064, 68419, 71779, 75145, 78517]
+    },
+    {
+      "jobId": "job-finance-24",
+      "title": "Principal Finance AuditorIII",
+      "automationRisk": 0.6116,
+      "augmentationLeverage": 0.386,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-003", "skill-004", "skill-005"],
+      "wageForecasts": [46531, 50331, 54139, 57953, 61774, 65602, 69437, 73279, 77128, 80984, 84846]
+    },
+    {
+      "jobId": "job-finance-25",
+      "title": "Staff Finance Technician",
+      "automationRisk": 0.6294,
+      "augmentationLeverage": 0.334,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        74654, 79627, 84608, 89599, 94598, 99607, 104625, 109651, 114687, 119732, 124786
+      ]
+    }
+  ]
+}

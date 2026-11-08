@@ -50,7 +50,8 @@ pipeline. Every language also runs in CI — see `.github/workflows/ci.yml`.
 
 Deterministic, seeded repo-growth generator. Families: `routes`, `components`,
 `docs`, `adrs`, `i18n`, `worlds`, `tests`, `stories`, `wiki`, `catalog`,
-`packs`, `memos`, `snapshots` — same seed always yields the same repo.
+`packs`, `memos`, `snapshots`, `deepdrills` — same seed always yields the
+same repo.
 
 ```bash
 bun run scripts/generate.ts all --seed 7331

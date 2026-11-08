@@ -1,0 +1,255 @@
+{
+  "spec": "DEEPDRILLS v1",
+  "seed": 7331,
+  "sector": "Construction",
+  "count": 25,
+  "jobs": [
+    {
+      "jobId": "job-construction-01",
+      "title": "Associate Construction Analyst",
+      "automationRisk": 0.8212,
+      "augmentationLeverage": 0.262,
+      "fiveYearOutlook": "phase-out",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [43340, 46549, 49764, 52984, 56211, 59443, 62681, 65925, 69175, 72430, 75691]
+    },
+    {
+      "jobId": "job-construction-02",
+      "title": "Senior Construction PlannerII",
+      "automationRisk": 0.5704,
+      "augmentationLeverage": 0.524,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-062", "skill-063", "skill-064"],
+      "wageForecasts": [
+        69923, 74799, 79685, 84579, 89482, 94394, 99314, 104244, 109182, 114130, 119086
+      ]
+    },
+    {
+      "jobId": "job-construction-03",
+      "title": "Lead Construction CoordinatorIII",
+      "automationRisk": 0.2092,
+      "augmentationLeverage": 0.882,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [
+        74030, 78123, 82223, 86330, 90445, 94568, 98698, 102835, 106980, 111132, 115292
+      ]
+    },
+    {
+      "jobId": "job-construction-04",
+      "title": "Principal Construction Planner",
+      "automationRisk": 0.657,
+      "augmentationLeverage": 0.31,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [
+        79322, 82165, 85012, 87865, 90723, 93587, 96455, 99329, 102207, 105091, 107980
+      ]
+    },
+    {
+      "jobId": "job-construction-05",
+      "title": "Staff Construction TrainerII",
+      "automationRisk": 0.5488,
+      "augmentationLeverage": 0.438,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [56105, 57844, 59585, 61330, 63078, 64829, 66584, 68341, 70102, 71866, 73633]
+    },
+    {
+      "jobId": "job-construction-06",
+      "title": "Associate Construction TrainerIII",
+      "automationRisk": 0.6798,
+      "augmentationLeverage": 0.398,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        66305, 71701, 77107, 82522, 87947, 93383, 98827, 104282, 109747, 115221, 120705
+      ]
+    },
+    {
+      "jobId": "job-construction-07",
+      "title": "Senior Construction Coordinator",
+      "automationRisk": 0.5892,
+      "augmentationLeverage": 0.462,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-187", "skill-188", "skill-189"],
+      "wageForecasts": [74729, 76089, 77452, 78817, 80185, 81555, 82927, 84303, 85680, 87060, 88443]
+    },
+    {
+      "jobId": "job-construction-08",
+      "title": "Lead Construction AnalystII",
+      "automationRisk": 0.7718,
+      "augmentationLeverage": 0.188,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-121", "skill-122", "skill-123"],
+      "wageForecasts": [53618, 55450, 57285, 59123, 60965, 62810, 64658, 66510, 68364, 70223, 72084]
+    },
+    {
+      "jobId": "job-construction-09",
+      "title": "Principal Construction TechnicianIII",
+      "automationRisk": 0.5538,
+      "augmentationLeverage": 0.478,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [59587, 61542, 63500, 65462, 67427, 69396, 71369, 73345, 75325, 77308, 79295]
+    },
+    {
+      "jobId": "job-construction-10",
+      "title": "Staff Construction Designer",
+      "automationRisk": 0.431,
+      "augmentationLeverage": 0.59,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [45118, 48821, 52531, 56248, 59972, 63702, 67439, 71183, 74933, 78690, 82454]
+    },
+    {
+      "jobId": "job-construction-11",
+      "title": "Associate Construction PlannerII",
+      "automationRisk": 0.3974,
+      "augmentationLeverage": 0.774,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [
+        65523, 70913, 76313, 81722, 87141, 92570, 98009, 103458, 108916, 114385, 119863
+      ]
+    },
+    {
+      "jobId": "job-construction-12",
+      "title": "Senior Construction AnalystIII",
+      "automationRisk": 0.262,
+      "augmentationLeverage": 0.89,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-125", "skill-126", "skill-127"],
+      "wageForecasts": [61351, 64712, 68079, 71452, 74832, 78217, 81609, 85007, 88410, 91820, 95236]
+    },
+    {
+      "jobId": "job-construction-13",
+      "title": "Lead Construction Coordinator",
+      "automationRisk": 0.42,
+      "augmentationLeverage": 0.61,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [71213, 73664, 76120, 78580, 81045, 83514, 85987, 88465, 90947, 93434, 95926]
+    },
+    {
+      "jobId": "job-construction-14",
+      "title": "Principal Construction TrainerII",
+      "automationRisk": 0.3078,
+      "augmentationLeverage": 0.778,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-007", "skill-008", "skill-009"],
+      "wageForecasts": [61885, 64243, 66606, 68972, 71343, 73719, 76098, 78482, 80870, 83262, 85659]
+    },
+    {
+      "jobId": "job-construction-15",
+      "title": "Staff Construction CoordinatorIII",
+      "automationRisk": 0.4918,
+      "augmentationLeverage": 0.558,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-001", "skill-002", "skill-003"],
+      "wageForecasts": [60451, 62708, 64969, 67234, 69504, 71777, 74055, 76336, 78622, 80912, 83206]
+    },
+    {
+      "jobId": "job-construction-16",
+      "title": "Associate Construction Coordinator",
+      "automationRisk": 0.5786,
+      "augmentationLeverage": 0.546,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-122", "skill-123", "skill-124"],
+      "wageForecasts": [32610, 36452, 40302, 44158, 48022, 51892, 55770, 59654, 63545, 67444, 71349]
+    },
+    {
+      "jobId": "job-construction-17",
+      "title": "Senior Construction TrainerII",
+      "automationRisk": 0.6126,
+      "augmentationLeverage": 0.426,
+      "fiveYearOutlook": "automated-core",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [64021, 66744, 69473, 72206, 74945, 77688, 80436, 83189, 85947, 88710, 91478]
+    },
+    {
+      "jobId": "job-construction-18",
+      "title": "Lead Construction CoordinatorIII",
+      "automationRisk": 0.5798,
+      "augmentationLeverage": 0.398,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-064", "skill-065", "skill-066"],
+      "wageForecasts": [
+        63879, 67843, 71813, 75791, 79777, 83769, 87769, 91775, 95789, 99811, 103839
+      ]
+    },
+    {
+      "jobId": "job-construction-19",
+      "title": "Principal Construction Auditor",
+      "automationRisk": 0.2202,
+      "augmentationLeverage": 0.862,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-065", "skill-066", "skill-067"],
+      "wageForecasts": [
+        71481, 76521, 81569, 86627, 91694, 96770, 101856, 106950, 112054, 117167, 122289
+      ]
+    },
+    {
+      "jobId": "job-construction-20",
+      "title": "Staff Construction TechnicianII",
+      "automationRisk": 0.276,
+      "augmentationLeverage": 0.79,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-066", "skill-067", "skill-068"],
+      "wageForecasts": [
+        81113, 85676, 90248, 94827, 99415, 104012, 108616, 113229, 117850, 122480, 127117
+      ]
+    },
+    {
+      "jobId": "job-construction-21",
+      "title": "Associate Construction PlannerIII",
+      "automationRisk": 0.5076,
+      "augmentationLeverage": 0.626,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-067", "skill-068", "skill-069"],
+      "wageForecasts": [48291, 53278, 58273, 63278, 68291, 73314, 78346, 83387, 88437, 93496, 98564]
+    },
+    {
+      "jobId": "job-construction-22",
+      "title": "Senior Construction Technician",
+      "automationRisk": 0.4872,
+      "augmentationLeverage": 0.582,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-061", "skill-062", "skill-063"],
+      "wageForecasts": [
+        83201, 87100, 91005, 94918, 98838, 102765, 106698, 110640, 114588, 118543, 122505
+      ]
+    },
+    {
+      "jobId": "job-construction-23",
+      "title": "Lead Construction TechnicianII",
+      "automationRisk": 0.3636,
+      "augmentationLeverage": 0.706,
+      "fiveYearOutlook": "restructured",
+      "reskillingPaths": ["skill-002", "skill-003", "skill-004"],
+      "wageForecasts": [
+        77159, 79984, 82813, 85648, 88488, 91333, 94183, 97039, 99899, 102765, 105636
+      ]
+    },
+    {
+      "jobId": "job-construction-24",
+      "title": "Principal Construction TechnicianIII",
+      "automationRisk": 0.2016,
+      "augmentationLeverage": 0.886,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-063", "skill-064", "skill-065"],
+      "wageForecasts": [
+        72783, 78004, 83234, 88474, 93723, 98982, 104250, 109527, 114814, 120111, 125417
+      ]
+    },
+    {
+      "jobId": "job-construction-25",
+      "title": "Staff Construction Technician",
+      "automationRisk": 0.2168,
+      "augmentationLeverage": 0.878,
+      "fiveYearOutlook": "augmented",
+      "reskillingPaths": ["skill-184", "skill-185", "skill-186"],
+      "wageForecasts": [34007, 36120, 38237, 40357, 42482, 44610, 46742, 48878, 51018, 53161, 55309]
+    }
+  ]
+}
